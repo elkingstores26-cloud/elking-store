@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>تفاصيل المنتج — الكينج ستور</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: { gold: { DEFAULT: '#D4AF37', light: '#E8C766', dark: '#A8862B', soft: '#F4E4A6' }, ink: '#0A0A0A', cream: '#FAF8F3', wagreen: '#25D366' } } } }
+</script>
+<style>
+  html, body { font-family: 'Cairo', system-ui, sans-serif; background:#FAF8F3; color:#0A0A0A; }
+  .nav-link { position: relative; }
+  .nav-link::after { content:''; position:absolute; bottom:-6px; right:0; height:2px; width:0; background:#D4AF37; transition: width .3s ease; }
+  .nav-link:hover::after, .nav-link.active::after { width:100%; }
+  .product-card { transition: transform .35s cubic-bezier(.2,.8,.2,1), box-shadow .35s ease, border-color .3s ease; }
+  .product-card:hover { transform: translateY(-6px); box-shadow: 0 30px 60px -20px rgba(212,175,55,0.35); border-color: #D4AF37; }
+  .product-card:hover .product-img { transform: scale(1.06); }
+  .product-img { transition: transform .6s cubic-bezier(.2,.8,.2,1); }
+  .pulse-ring::before { content:''; position:absolute; inset:-6px; border-radius:9999px; border: 2px solid #25D366; opacity:.6; animation: pulseRing 1.8s cubic-bezier(0.4,0,0.6,1) infinite; }
+  .pulse-ring::after { content:''; position:absolute; inset:-12px; border-radius:9999px; border: 2px solid #25D366; opacity:.3; animation: pulseRing 1.8s cubic-bezier(0.4,0,0.6,1) infinite .4s; }
+  @keyframes pulseRing { 0%{transform:scale(.9);opacity:.7} 100%{transform:scale(1.5);opacity:0} }
+  .gold-glow { background: radial-gradient(circle at 50% 50%, rgba(212,175,55,0.20) 0%, transparent 60%); }
+</style>
+</head>
+<body class="bg-cream text-ink">
+
+<div id="layout-header"></div>
+
+<main class="max-w-7xl mx-auto px-6 py-10 md:py-16">
+
+  <nav class="text-[13px] text-black/55 flex items-center gap-2 mb-8">
+    <a href="index.html" class="hover:text-ink">الرئيسية</a>
+    <span>›</span>
+    <a id="catCrumb" href="new.html" class="hover:text-ink">جديد</a>
+    <span>›</span>
+    <span id="nameCrumb" class="text-ink font-semibold"></span>
+  </nav>
+
+  <div class="grid lg:grid-cols-12 gap-10">
+    <!-- IMAGE -->
+    <div class="lg:col-span-7">
+      <div class="relative aspect-square bg-white rounded-3xl border border-black/5 overflow-hidden">
+        <div class="absolute inset-0 gold-glow"></div>
+        <img id="hero" src="" alt="" class="absolute inset-0 w-full h-full object-cover" />
+        <span id="catBadge" class="absolute top-6 right-6 bg-gold text-ink text-[12px] font-extrabold px-4 py-1.5 rounded-full"></span>
+      </div>
+      <div class="grid grid-cols-4 gap-3 mt-3">
+        <div class="aspect-square bg-white rounded-xl border-2 border-gold overflow-hidden"><img id="thumb0" src="" class="w-full h-full object-cover"/></div>
+        <div class="aspect-square bg-white rounded-xl border border-black/5 overflow-hidden opacity-70"><div class="w-full h-full bg-cream"></div></div>
+        <div class="aspect-square bg-white rounded-xl border border-black/5 overflow-hidden opacity-70"><div class="w-full h-full bg-cream"></div></div>
+        <div class="aspect-square bg-white rounded-xl border border-black/5 overflow-hidden opacity-70"><div class="w-full h-full bg-cream"></div></div>
+      </div>
+    </div>
+
+    <!-- DETAILS -->
+    <div class="lg:col-span-5 lg:pt-2">
+      <div class="flex items-center gap-3 mb-3">
+        <span id="brand" class="text-[12px] font-extrabold text-gold-dark tracking-[0.2em] uppercase" style="font-family:Inter"></span>
+        <span class="text-black/20">·</span>
+        <div class="flex gap-0.5">
+          <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.39 4.84L20 7.84l-4 3.9.94 5.49L12 14.77l-4.94 2.46L8 11.74l-4-3.9 5.61-.99L12 2z"/></svg>
+          <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.39 4.84L20 7.84l-4 3.9.94 5.49L12 14.77l-4.94 2.46L8 11.74l-4-3.9 5.61-.99L12 2z"/></svg>
+          <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.39 4.84L20 7.84l-4 3.9.94 5.49L12 14.77l-4.94 2.46L8 11.74l-4-3.9 5.61-.99L12 2z"/></svg>
+          <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.39 4.84L20 7.84l-4 3.9.94 5.49L12 14.77l-4.94 2.46L8 11.74l-4-3.9 5.61-.99L12 2z"/></svg>
+          <svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.39 4.84L20 7.84l-4 3.9.94 5.49L12 14.77l-4.94 2.46L8 11.74l-4-3.9 5.61-.99L12 2z"/></svg>
+        </div>
+      </div>
+      <h1 id="name" class="text-4xl md:text-5xl font-black tracking-tight mb-3"></h1>
+      <p id="storage" class="text-black/60 text-lg mb-7"></p>
+
+      <div class="bg-white rounded-2xl border border-black/5 p-6 mb-6">
+        <div class="text-[12px] text-black/45 mb-1">السعر</div>
+        <div class="flex items-baseline gap-2 mb-3">
+          <span id="price" class="text-5xl font-black text-ink"></span>
+          <span class="text-lg font-bold text-black/55">ج.م</span>
+        </div>
+        <div class="text-[13px] text-black/55">السعر شامل الضمان · جملة وقطاعي</div>
+      </div>
+
+      <div id="usedSpecs" class="hidden bg-ink text-white rounded-2xl p-6 mb-6">
+        <div class="text-gold text-[12px] font-bold tracking-widest mb-4">معلومات المستعمل</div>
+        <div class="grid grid-cols-2 gap-4">
+          <div><div class="text-white/50 text-[12px] mb-1">نسبة البطارية</div><div id="batteryV" class="text-2xl font-black text-gold"></div></div>
+          <div><div class="text-white/50 text-[12px] mb-1">الحالة العامة</div><div id="conditionV" class="text-2xl font-black"></div></div>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-3 mb-8">
+        <a id="waBtn" href="#" class="flex-1 inline-flex items-center justify-center gap-2 bg-wagreen hover:bg-[#1ea855] text-white font-extrabold px-6 py-4 rounded-full text-[16px] transition" style="box-shadow:0 14px 30px -10px rgba(37,211,102,0.5)">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
+          اطلب من واتساب
+        </a>
+        <a href="tel:01069907573" class="inline-flex items-center justify-center gap-2 border-2 border-ink hover:bg-ink hover:text-gold font-extrabold px-6 py-4 rounded-full text-[16px] transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a2 2 0 011.94 1.515l.7 2.79a2 2 0 01-.45 1.95l-1.27 1.27a14 14 0 006.28 6.28l1.27-1.27a2 2 0 011.95-.45l2.79.7A2 2 0 0121 16.72V19a2 2 0 01-2 2A16 16 0 013 5z"/></svg>
+          اتصال
+        </a>
+      </div>
+
+      <ul class="space-y-3 text-[14px]">
+        <li class="flex items-center gap-3"><span class="w-9 h-9 rounded-full bg-gold/15 text-gold-dark flex items-center justify-center"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span><span>ضمان رسمي معتمد من المحل</span></li>
+        <li class="flex items-center gap-3"><span class="w-9 h-9 rounded-full bg-gold/15 text-gold-dark flex items-center justify-center"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 7h13l-1 10H4L3 7zm4 0V5a3 3 0 016 0v2"/></svg></span><span>أسعار جملة حصرية للتجار</span></li>
+        <li class="flex items-center gap-3"><span class="w-9 h-9 rounded-full bg-gold/15 text-gold-dark flex items-center justify-center"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 10h13l3 3v4h-2a2 2 0 11-4 0H9a2 2 0 11-4 0H3v-7z"/></svg></span><span>توصيل لكل المحافظات</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- RELATED -->
+  <section class="mt-24">
+    <div class="flex items-end justify-between mb-8">
+      <h2 class="text-3xl md:text-4xl font-black">منتجات مشابهة</h2>
+      <a id="moreLink" href="new.html" class="text-[14px] font-bold text-gold-dark hover:text-ink">عرض الكل ←</a>
+    </div>
+    <div id="related" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+  </section>
+
+</main>
+
+<div id="layout-footer"></div>
+
+<script src="products.js?v=2"></script>
+<script src="card.js?v=2"></script>
+<script src="layout.js?v=2"></script>
+<script>
+(function () {
+  const id = parseInt(new URLSearchParams(location.search).get('id') || '0', 10);
+  const p = window.ELKING_PRODUCTS.find(x => x.id === id) || window.ELKING_PRODUCTS[0];
+  const catLabel = { new:'جديد', used:'مستعمل', acc:'إكسسوارات' }[p.cat];
+  const catHref = { new:'new.html', used:'used.html', acc:'accessories.html' }[p.cat];
+
+  document.title = `${p.name} — الكينج ستور`;
+  document.getElementById('hero').src = p.img;
+  document.getElementById('hero').alt = p.name;
+  document.getElementById('thumb0').src = p.img;
+  document.getElementById('catBadge').textContent = catLabel;
+  document.getElementById('brand').textContent = p.brand;
+  document.getElementById('name').textContent = p.name;
+  document.getElementById('storage').textContent = p.storage;
+  document.getElementById('price').textContent = p.price;
+  document.getElementById('nameCrumb').textContent = p.name;
+  const cc = document.getElementById('catCrumb'); cc.href = catHref; cc.textContent = catLabel;
+  document.getElementById('moreLink').href = catHref;
+  document.getElementById('waBtn').href = 'https://wa.me/201069907573?text=' + encodeURIComponent('السلام عليكم، عايز ' + p.name + ' (' + p.storage + ')');
+
+  if (p.cat === 'used') {
+    document.getElementById('usedSpecs').classList.remove('hidden');
+    document.getElementById('batteryV').textContent = p.battery || '—';
+    document.getElementById('conditionV').textContent = p.condition || '—';
+  }
+
+  const related = window.ELKING_PRODUCTS.filter(x => x.cat === p.cat && x.id !== p.id).slice(0, 4);
+  document.getElementById('related').innerHTML = related.map(window.renderProductCard).join('');
+})();
+</script>
+
+</body>
+</html>

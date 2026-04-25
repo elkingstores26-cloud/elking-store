@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>إكسسوارات — الكينج ستور</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: { gold: { DEFAULT: '#D4AF37', light: '#E8C766', dark: '#A8862B', soft: '#F4E4A6' }, ink: '#0A0A0A', cream: '#FAF8F3', wagreen: '#25D366' } } } }
+</script>
+<style>
+  html, body { font-family: 'Cairo', system-ui, sans-serif; background:#FAF8F3; color:#0A0A0A; }
+  .nav-link { position: relative; }
+  .nav-link::after { content:''; position:absolute; bottom:-6px; right:0; height:2px; width:0; background:#D4AF37; transition: width .3s ease; }
+  .nav-link:hover::after, .nav-link.active::after { width:100%; }
+  .pulse-ring::before { content:''; position:absolute; inset:-6px; border-radius:9999px; border: 2px solid #25D366; opacity:.6; animation: pr 1.8s cubic-bezier(0.4,0,0.6,1) infinite; }
+  .pulse-ring::after { content:''; position:absolute; inset:-12px; border-radius:9999px; border: 2px solid #25D366; opacity:.3; animation: pr 1.8s cubic-bezier(0.4,0,0.6,1) infinite .4s; }
+  @keyframes pr { 0%{transform:scale(.9);opacity:.7} 100%{transform:scale(1.5);opacity:0} }
+  .row { transition: background .15s ease, border-color .15s ease; }
+  .row:hover { background: #FFFDF5; }
+  .row:hover .row-name { color: #A8862B; }
+  .row:hover .row-img { transform: scale(1.06); }
+  .row-img { transition: transform .35s ease; }
+  .filter-chip { transition: all .15s ease; }
+  .filter-chip.active { background:#0A0A0A; color:#D4AF37; border-color:#0A0A0A; }
+  .sale-strip { background-color:#0A0A0A; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'><g fill='none' stroke='%23D4AF37' stroke-opacity='0.10' stroke-width='1'><path d='M0 30 L30 0 L60 30 L30 60 Z'/></g></svg>"); }
+  .num-en { font-family: 'Inter', system-ui; font-feature-settings: 'tnum'; }
+</style>
+</head>
+<body class="bg-cream text-ink">
+
+<div id="layout-header"></div>
+
+<!-- PAGE HERO (compact) -->
+<section class="sale-strip text-white py-10 md:py-12 border-b-4 border-gold">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
+    <div>
+      <div class="inline-flex items-center gap-2 bg-gold/15 border border-gold/40 text-gold text-[12px] font-bold px-3 py-1 rounded-full mb-3">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>
+        <span data-update-pill>تحديث الليستة · اليوم</span>
+      </div>
+      <h1 class="text-3xl md:text-5xl font-black leading-[1.1] mb-1.5" data-page-title>إكسسوارات</h1>
+      <p class="text-white/60 text-sm md:text-base" data-page-sub>شواحن، سماعات، كفرات وسكرينات أصلية.</p>
+    </div>
+    <nav class="text-[13px] text-white/55 flex items-center gap-2">
+      <a href="index.html" class="hover:text-gold">الرئيسية</a>
+      <span>›</span>
+      <span class="text-gold" data-crumb>إكسسوارات</span>
+    </nav>
+  </div>
+</section>
+
+<!-- TOOLBAR (sticky) -->
+<section class="bg-white border-b border-black/5 sticky top-[78px] z-30">
+  <div class="max-w-6xl mx-auto px-6 py-3.5 flex flex-wrap items-center gap-3">
+    <div class="relative flex-1 min-w-[200px] max-w-md">
+      <svg class="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-black/40" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+      <input id="search" placeholder="ابحث عن موديل…" class="w-full bg-cream border border-black/10 rounded-full pe-10 ps-4 py-2.5 text-[14px] focus:outline-none focus:border-gold focus:bg-white" />
+    </div>
+    <div id="brandFilters" class="flex items-center gap-2 overflow-x-auto"></div>
+    <div class="ms-auto flex items-center gap-2 text-[13px]">
+      <select id="sortBy" class="bg-cream border border-black/10 rounded-full px-3 py-2 font-semibold focus:outline-none focus:border-gold">
+        <option value="default">الترتيب: الأحدث</option>
+        <option value="low">السعر: من الأقل</option>
+        <option value="high">السعر: من الأعلى</option>
+        <option value="az">الاسم: أ — ي</option>
+      </select>
+      <span class="text-black/45 hidden md:inline">·</span>
+      <span class="text-black/55"><span id="count" class="num-en font-bold text-ink">0</span> منتج</span>
+    </div>
+  </div>
+</section>
+
+<!-- LIST -->
+<main class="max-w-6xl mx-auto px-4 md:px-6 py-8">
+
+  <!-- Header strip (desktop only) -->
+  <div class="hidden md:grid grid-cols-12 gap-4 px-5 py-3 text-[12px] font-bold text-black/45 tracking-wider uppercase">
+    <div class="col-span-1"></div>
+    <div class="col-span-5">المنتج</div>
+    <div class="col-span-2 text-center">الماركة</div>
+    <div class="col-span-2 text-center" data-extra-col-h>الحالة</div>
+    <div class="col-span-2 text-end">السعر · الطلب</div>
+  </div>
+
+  <div id="list" class="bg-white rounded-2xl border border-black/5 overflow-hidden divide-y divide-black/5"></div>
+
+  <div id="empty" class="hidden text-center py-20 bg-white rounded-2xl border border-black/5 mt-2">
+    <div class="text-5xl mb-3">📦</div>
+    <div class="text-lg font-bold mb-1">مفيش نتايج</div>
+    <div class="text-black/50 text-sm">جرب فلتر/كلمة بحث تانية</div>
+  </div>
+
+  <!-- Footer note -->
+  <div class="mt-6 flex flex-wrap items-center justify-between gap-3 text-[13px] text-black/55">
+    <div class="flex items-center gap-2">
+      <span class="w-2 h-2 rounded-full bg-wagreen animate-pulse"></span>
+      الأسعار محدّثة <span data-update-time class="font-bold text-ink num-en">اليوم</span>
+    </div>
+    <a href="https://wa.me/201069907573" class="inline-flex items-center gap-2 text-wagreen hover:underline font-bold">
+      <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
+      مش لاقي اللي بدور عليه؟ كلمنا
+    </a>
+  </div>
+</main>
+
+<div id="layout-footer"></div>
+
+<script src="products.js?v=2"></script>
+<script src="layout.js?v=2" data-active="acc"></script>
+<script>
+(function () {
+  const CATEGORY = 'acc';
+  const items = window.ELKING_PRODUCTS.filter(p => p.cat === CATEGORY);
+  const wa = (p) => 'https://wa.me/201069907573?text=' + encodeURIComponent('السلام عليكم، عايز ' + p.name + ' (' + p.storage + ') — ' + p.price + ' ج.م');
+
+  let activeBrand = 'all';
+  let q = '';
+  let sort = 'default';
+
+  // Today's date in Arabic
+  const today = new Intl.DateTimeFormat('ar-EG-u-nu-arab', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date());
+  document.querySelectorAll('[data-update-pill]').forEach(e => e.textContent = 'تحديث الليستة · ' + today);
+  document.querySelectorAll('[data-update-time]').forEach(e => e.textContent = today);
+
+  // Brand filters
+  const brands = ['الكل', ...new Set(items.map(p => p.brand))];
+  const fb = document.getElementById('brandFilters');
+  fb.innerHTML = brands.map((b,i) => `<button data-b="${i===0?'all':b}" class="filter-chip ${i===0?'active':''} border border-black/10 bg-cream rounded-full px-3.5 py-1.5 text-[13px] font-semibold whitespace-nowrap hover:border-gold">${b}</button>`).join('');
+  fb.addEventListener('click', e => {
+    const btn = e.target.closest('button'); if(!btn) return;
+    fb.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    activeBrand = btn.dataset.b;
+    render();
+  });
+  document.getElementById('search').addEventListener('input', e => { q = e.target.value.trim().toLowerCase(); render(); });
+  document.getElementById('sortBy').addEventListener('change', e => { sort = e.target.value; render(); });
+
+  function row(p) {
+    const extraCell = CATEGORY === 'used'
+      ? `<div class="md:col-span-2 md:text-center text-[13px] flex md:block items-center gap-2">
+           <div class="md:hidden text-black/40 text-[11px]">الحالة:</div>
+           <div><span class="inline-flex items-center gap-1 bg-gold/10 text-gold-dark font-bold px-2.5 py-1 rounded-full text-[12px]"><svg class="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M11 7h2v6h-2zM12 17a1 1 0 110-2 1 1 0 010 2zm0-15A10 10 0 102 12 10 10 0 0012 2z"/></svg>${p.battery || '—'}</span></div>
+           <div class="md:mt-1 text-[11px] text-black/55">${p.condition || ''}</div>
+         </div>`
+      : `<div class="md:col-span-2 md:text-center text-[13px] flex md:block items-center gap-2">
+           <div class="md:hidden text-black/40 text-[11px]">الحالة:</div>
+           <div class="inline-flex items-center gap-1 text-gold-dark font-bold text-[12px]"><span class="w-1.5 h-1.5 rounded-full bg-gold"></span>متوفر · جديد</div>
+         </div>`;
+
+    return `
+      <a href="product.html?id=${p.id}" class="row block px-3 md:px-5 py-3.5 md:py-4">
+        <div class="grid grid-cols-12 md:grid-cols-12 gap-3 md:gap-4 items-center">
+          <!-- thumb -->
+          <div class="col-span-2 md:col-span-1">
+            <div class="w-14 h-14 md:w-12 md:h-12 rounded-xl bg-cream border border-black/5 overflow-hidden">
+              <img class="row-img w-full h-full object-cover" src="${p.img}" alt="${p.name}" loading="lazy" />
+            </div>
+          </div>
+          <!-- name + storage -->
+          <div class="col-span-7 md:col-span-5 min-w-0">
+            <div class="row-name font-extrabold text-[15px] md:text-[16px] tracking-tight truncate">${p.name}</div>
+            <div class="text-black/55 text-[12.5px] truncate">${p.storage}</div>
+          </div>
+          <!-- brand (desktop) -->
+          <div class="hidden md:block md:col-span-2 md:text-center">
+            <span class="text-[12px] font-extrabold text-gold-dark tracking-[0.18em] uppercase num-en">${p.brand}</span>
+          </div>
+          <!-- extra (status / battery) -->
+          ${extraCell}
+          <!-- price + WA -->
+          <div class="col-span-3 md:col-span-2 md:text-end">
+            <div class="flex md:flex-col items-baseline md:items-end gap-1 md:gap-0">
+              <span class="text-[18px] md:text-[20px] font-black text-ink num-en leading-none">${p.price}</span>
+              <span class="text-[11px] font-bold text-black/55">ج.م</span>
+            </div>
+            <span role="button" onclick="event.preventDefault();event.stopPropagation();window.open('${wa(p)}','_blank')" class="cursor-pointer mt-2 md:mt-2 inline-flex items-center gap-1 bg-wagreen hover:bg-[#1ea855] text-white font-bold px-3 py-1.5 rounded-full text-[12px] transition">
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
+              اطلب
+            </span>
+          </div>
+        </div>
+      </a>`;
+  }
+
+  function render(){
+    let list = items.slice();
+    if (activeBrand !== 'all') list = list.filter(p => p.brand === activeBrand);
+    if (q) list = list.filter(p => (p.name + ' ' + p.storage + ' ' + p.brand).toLowerCase().includes(q));
+    const num = p => parseFloat(String(p.price).replace(/,/g,''));
+    if (sort === 'low') list.sort((a,b) => num(a) - num(b));
+    if (sort === 'high') list.sort((a,b) => num(b) - num(a));
+    if (sort === 'az') list.sort((a,b) => a.name.localeCompare(b.name, 'ar'));
+    document.getElementById('count').textContent = list.length;
+    const lst = document.getElementById('list');
+    const empty = document.getElementById('empty');
+    if (list.length === 0) { lst.innerHTML = ''; empty.classList.remove('hidden'); return; }
+    empty.classList.add('hidden');
+    lst.innerHTML = list.map(row).join('');
+  }
+
+  // Update the extra column header for used pages
+  if (CATEGORY === 'used') {
+    document.querySelector('[data-extra-col-h]').textContent = 'البطارية';
+  }
+
+  render();
+})();
+</script>
+
+</body>
+</html>
