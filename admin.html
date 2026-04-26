@@ -194,9 +194,18 @@
     nextId = rows.reduce((m,r) => Math.max(m, r.id||0), 0) + 1;
   }
 
-  function save() {
+  // persist() = write to localStorage only (keeps focus)
+  // save()    = persist + re-render the whole table (use only for structural changes)
+  function persist() {
     rows.forEach(r => { if (r.imgs && r.imgs.length) r.img = r.imgs[0]; else r.img = ''; });
     localStorage.setItem(STORAGE_KEY, JSON.stringify(rows));
+    const filteredCount = rows.filter(r => activeCat === 'all' || r.cat === activeCat).length;
+    const cnt = document.getElementById('rowCount');
+    if (cnt) cnt.textContent = filteredCount;
+  }
+
+  function save() {
+    persist();
     renderTable();
   }
 
@@ -302,21 +311,24 @@
     });
 
     // Field listeners (skip the file input — handled above)
+    // Text/textarea/most fields use persist() only — never re-render while typing,
+    // because re-rendering destroys the active <textarea>/<input> and steals focus.
+    // Category changes do trigger save() because the row may filter out of the current view.
     tr.querySelectorAll('[data-f]').forEach(el => {
       if (el.dataset.f === 'files') return;
-      const ev = el.tagName === 'TEXTAREA' ? 'input' : 'change';
-      el.addEventListener(ev, () => {
+      const onChange = () => {
         const realIdx = rows.indexOf(r);
         if (realIdx < 0) return;
         rows[realIdx][el.dataset.f] = el.value;
-        if (ev === 'input') {
-          // debounce save for textareas
-          clearTimeout(el._t);
-          el._t = setTimeout(() => save(), 400);
-        } else {
+        if (el.dataset.f === 'cat') {
           save();
+        } else {
+          clearTimeout(el._t);
+          el._t = setTimeout(persist, 250);
         }
-      });
+      };
+      el.addEventListener('input', onChange);
+      el.addEventListener('change', onChange);
       el.addEventListener('blur', () => {
         if (el.dataset.f === 'price') {
           el.value = String(el.value).replace(/[^\d,]/g,'');
