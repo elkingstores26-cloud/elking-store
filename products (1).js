@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٦‏/٤‏/٢٠٢٦
+// آخر تحديث: ٢٦‏/٤‏/٢٠٢٦ ٣:٣٨:٣٨ ص
 window.ELKING_PRODUCTS = [
   {
     "id": 0,
@@ -7,14 +7,16 @@ window.ELKING_PRODUCTS = [
     "name": "ايفون 20 برو ماكس",
     "storage": "256GB · Natural Titanium",
     "brand": "Apple",
-    "price": "100,000",
-    "description": "أحدث ايفون من Apple بشاشة ProMotion 120Hz وكاميرا تيليفوتو 5x. أداء صاروخي مع شريحة A20 Bionic.",
+    "price": "5000",
+    "description": "الموبايل ده طرش الطرش مفبيعطلش ",
     "img": "https://images.unsplash.com/photo-1592286927505-1def25115558?w=900&q=80&auto=format&fit=crop",
     "imgs": [
       "https://images.unsplash.com/photo-1592286927505-1def25115558?w=900&q=80&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=900&q=80&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=900&q=80&auto=format&fit=crop"
-    ]
+    ],
+    "battery": "0%",
+    "condition": "BAD"
   },
   {
     "id": 1,
