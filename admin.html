@@ -800,7 +800,8 @@
     const orig = btn.innerHTML;
     btn.innerHTML = '⏳ بنحمّل…';
     try {
-      const url = 'https://el-kingstores.netlify.app/products.js?t=' + Date.now();
+      // Same-origin first (works on whatever host serves admin.html — GitHub Pages, Netlify, or anywhere)
+      const url = 'products.js?t=' + Date.now();
       const r = await fetch(url, { cache: 'no-store' });
       if (!r.ok) throw new Error(r.status);
       const txt = await r.text();
