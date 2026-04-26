@@ -109,8 +109,8 @@
 
 <div id="layout-footer"></div>
 
-<script src="products.js?v=2"></script>
-<script src="layout.js?v=2" data-active="acc"></script>
+<script src="products.js?v=3"></script>
+<script src="layout.js?v=3" data-active="acc"></script>
 <script>
 (function () {
   const CATEGORY = 'acc';
@@ -161,10 +161,11 @@
               <img class="row-img w-full h-full object-cover" src="${p.img}" alt="${p.name}" loading="lazy" />
             </div>
           </div>
-          <!-- name + storage -->
+          <!-- name + storage + description -->
           <div class="col-span-7 md:col-span-5 min-w-0">
             <div class="row-name font-extrabold text-[15px] md:text-[16px] tracking-tight truncate">${p.name}</div>
             <div class="text-black/55 text-[12.5px] truncate">${p.storage}</div>
+            ${p.description ? `<div class="text-black/45 text-[11.5px] truncate mt-0.5 leading-snug">${p.description}</div>` : ''}
           </div>
           <!-- brand (desktop) -->
           <div class="hidden md:block md:col-span-2 md:text-center">
