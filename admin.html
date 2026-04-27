@@ -372,13 +372,44 @@
     return r;
   }
 
-  function loadInitial() {
+  // Fetch the current live products.js from the same origin and parse out the array.
+  async function fetchServerRows() {
+    try {
+      const r = await fetch('products.js?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) return null;
+      const txt = await r.text();
+      const m = txt.match(/window\.ELKING_PRODUCTS\s*=\s*(\[[\s\S]*?\])\s*;/);
+      if (!m) return null;
+      return JSON.parse(m[1]);
+    } catch (e) { return null; }
+  }
+
+  // SAFETY: hydrate from the live site first so a fresh browser/origin doesn't start empty
+  // and accidentally wipe the live catalogue on the next "نشر".
+  async function loadInitial() {
+    const serverRows = await fetchServerRows();
+
+    let localRows = [];
     let saved = localStorage.getItem(STORAGE_KEY);
     if (!saved) saved = localStorage.getItem(STORAGE_KEY_OLD);
-    if (saved) { try { rows = JSON.parse(saved); } catch(e){} }
-    if (!rows.length && window.ELKING_PRODUCTS) rows = JSON.parse(JSON.stringify(window.ELKING_PRODUCTS));
+    if (saved) { try { localRows = JSON.parse(saved); } catch(e){} }
+
+    if (serverRows && serverRows.length > 0) {
+      // Local has more rows → likely unpublished work. Otherwise prefer server (source of truth).
+      if (localRows.length > serverRows.length + 1) {
+        rows = localRows;
+      } else {
+        rows = serverRows;
+      }
+    } else if (localRows.length) {
+      rows = localRows;
+    } else if (window.ELKING_PRODUCTS) {
+      rows = JSON.parse(JSON.stringify(window.ELKING_PRODUCTS));
+    }
+
     rows = rows.map(normalize);
     nextId = rows.reduce((m,r) => Math.max(m, r.id||0), 0) + 1;
+    persist();
   }
 
   function persist() {
@@ -771,6 +802,30 @@
       openSettings();
       return;
     }
+
+    // SAFETY GUARD: never silently shrink the live catalogue.
+    // If the admin currently holds far fewer products than what's live, the user is most likely
+    // about to wipe data they didn't intend to (this happened twice already). Force confirmation.
+    const liveRows = await fetchServerRows();
+    if (liveRows && liveRows.length > rows.length + 3) {
+      const diff = liveRows.length - rows.length;
+      const ok = confirm(
+        '⚠️ تحذير مهم!\n\n' +
+        'على الموقع لايف فيه: ' + liveRows.length + ' منتج\n' +
+        'اللي عندك دلوقتي: ' + rows.length + ' منتج\n\n' +
+        'لو نشرت دلوقتي هتمسح ' + diff + ' منتج من الموقع.\n\n' +
+        'متأكد إنك عايز تكمل؟ (اضغط OK لو متأكد، أو Cancel لو عايز تستوقف)'
+      );
+      if (!ok) {
+        toast('❌ اتلغى النشر');
+        return;
+      }
+    }
+    if (rows.length === 0) {
+      toast('⚠️ مفيش منتجات للنشر');
+      return;
+    }
+
     const btn = document.getElementById('publishBtn');
     const orig = btn.innerHTML;
     btn.disabled = true;
@@ -886,8 +941,13 @@
     }
   });
 
-  loadInitial();
-  renderTable();
+  // Show a loading state while we hydrate from the live site, then render.
+  const status = document.getElementById('saveStatus');
+  if (status) status.innerHTML = '<span class="w-2 h-2 rounded-full bg-gold animate-pulse"></span><span class="text-black/55">بنحمّل آخر نسخة من الموقع…</span>';
+  loadInitial().then(() => {
+    renderTable();
+    if (status) status.innerHTML = '<span class="w-2 h-2 rounded-full bg-wagreen animate-pulse"></span>دوس على أي منتج عشان تعدّله · التعديلات بتتحفظ في المتصفح ومتزامنة مع الموقع';
+  });
 })();
 </script>
 
