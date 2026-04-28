@@ -224,9 +224,16 @@
         <div class="text-[11px] text-black/40 mt-1">دوس على لون من الليستة، أو اكتب اسمه واختار اللون من الزرار اللي على الشمال.</div>
       </div>
 
-      <div class="field">
-        <label>السعر (ج.م)</label>
-        <input id="m_price" class="num-en font-bold" type="text" placeholder="0"/>
+      <div class="field-row">
+        <div class="field">
+          <label>السعر بعد الخصم (ج.م)</label>
+          <input id="m_price" class="num-en font-bold" type="text" placeholder="مثال: 18995"/>
+        </div>
+        <div class="field">
+          <label>السعر قبل الخصم <span class="text-black/40 text-[11px] font-normal">(اختياري)</span></label>
+          <input id="m_originalPrice" class="num-en" type="text" placeholder="مثال: 23299"/>
+          <div class="text-[11px] text-black/40 mt-1">سيبه فاضي لو مفيش خصم. لما تملاه، شارة "خصم ٪" بتظهر تلقائياً.</div>
+        </div>
       </div>
 
       <div class="field-row" id="m_used_wrap">
@@ -260,6 +267,16 @@
           <span class="text-black/40 text-[11px] font-normal">اسحب لتغيير الترتيب</span>
         </label>
         <div id="m_imgs" class="img-grid"></div>
+      </div>
+
+      <!-- COLOR VARIANTS — same model, different colors with their own price -->
+      <div class="field">
+        <label class="flex items-center justify-between">
+          <span>ألوان متعددة بأسعار مختلفة <span class="text-black/40 text-[11px] font-normal">(اختياري)</span></span>
+          <button type="button" id="m_addVariant" class="text-[12px] font-extrabold bg-gold/15 hover:bg-gold/25 text-gold-dark px-3 py-1.5 rounded-full">+ ضيف لون</button>
+        </label>
+        <div class="text-[11px] text-black/45 mb-2">لو نفس الموبايل بألوان مختلفة وكل لون له سعر — ضيفهم هنا. العميل يقدر يختار اللون من صفحة المنتج ويشوف السعر بيتغيّر.</div>
+        <div id="m_variants" class="space-y-2"></div>
       </div>
     </div>
 
@@ -334,7 +351,7 @@
 
 <div id="toast" class="toast">تم الحفظ ✓</div>
 
-<script src="products.js?v=4"></script>
+<script src="products.js?v=6"></script>
 <script>
 (function () {
   const STORAGE_KEY = 'elking_admin_products_v2';
@@ -368,6 +385,8 @@
     if (typeof r.color !== 'string') r.color = '';
     if (typeof r.colorHex !== 'string') r.colorHex = '';
     if (typeof r.featured !== 'boolean') r.featured = false;
+    if (typeof r.originalPrice !== 'string') r.originalPrice = r.originalPrice ? String(r.originalPrice) : '';
+    if (!Array.isArray(r.variants)) r.variants = [];
     if (r.imgs.length && !r.img) r.img = r.imgs[0];
     return r;
   }
@@ -495,7 +514,18 @@
         ${r.description ? `<div class="text-[11.5px] text-black/40 truncate mt-0.5">${escHtml(r.description)}</div>` : ''}
       </td>
       <td class="px-3 py-3 text-[12px] font-bold text-gold-dark uppercase tracking-wider num-en">${escHtml(r.brand)}</td>
-      <td class="px-3 py-3 num-en font-extrabold">${escHtml(r.price)} <span class="text-[11px] text-black/45 font-normal">ج.م</span></td>
+      <td class="px-3 py-3 num-en font-extrabold">
+        ${(() => {
+          const a = parseFloat(String(r.originalPrice||'').replace(/[^\d.]/g,'')) || 0;
+          const b = parseFloat(String(r.price||'').replace(/[^\d.]/g,'')) || 0;
+          if (a > b && a && b) {
+            const pct = Math.round(((a-b)/a)*100);
+            return `<div class="text-red-600">${escHtml(r.price)} <span class="text-[11px] text-black/45 font-normal">ج.م</span></div><div class="text-[10.5px] mt-0.5"><span class="line-through text-black/35 num-en">${escHtml(r.originalPrice)}</span> <span class="bg-red-100 text-red-700 px-1 rounded font-bold">−${pct}٪</span></div>`;
+          }
+          return `${escHtml(r.price)} <span class="text-[11px] text-black/45 font-normal">ج.م</span>`;
+        })()}
+        ${(r.variants && r.variants.length) ? `<div class="text-[10.5px] mt-0.5 text-gold-dark font-bold">+${r.variants.length} لون</div>` : ''}
+      </td>
       <td class="px-3 py-3 used-col text-[12px]">${r.battery ? `<span class="num-en">${escHtml(r.battery)}</span>` : '<span class="text-black/30">—</span>'}</td>
       <td class="px-3 py-3 text-center">
         <button class="edit-btn w-8 h-8 rounded-lg text-gold-dark hover:bg-gold/15 flex items-center justify-center" title="تحرير">
@@ -542,6 +572,42 @@
   // ===== Edit Modal (no live re-render — typing is uninterrupted) =====
   let editing = null;          // the row we are editing (live ref into `rows`)
   let draftImgs = [];          // working copy of imgs (saved on click of حفظ)
+  let draftVariants = [];      // working copy of color variants (saved on click of حفظ)
+
+  // Render the variants list into the modal. Each entry has its own color + price; users can
+  // delete any row. Re-rendered on every change so indexes stay in sync.
+  function renderVariantList() {
+    const box = document.getElementById('m_variants');
+    if (!box) return;
+    box.innerHTML = draftVariants.map((v, i) => `
+      <div class="flex items-stretch gap-2 p-2 rounded-xl border border-black/8 bg-cream/50">
+        <input type="color" data-vk="colorHex" data-vi="${i}" value="${v.colorHex || '#0A0A0A'}" class="w-12 shrink-0 cursor-pointer" style="border:1px solid rgba(0,0,0,0.1);border-radius:8px;background:transparent;padding:2px;"/>
+        <input type="text" data-vk="color" data-vi="${i}" value="${(v.color||'').replace(/"/g,'&quot;')}" placeholder="اسم اللون" class="flex-1 min-w-0 bg-white border border-black/10 rounded-lg px-2.5 py-1.5 text-[13px]"/>
+        <input type="text" data-vk="price" data-vi="${i}" value="${(v.price||'').replace(/"/g,'&quot;')}" placeholder="السعر" class="w-24 num-en bg-white border border-black/10 rounded-lg px-2.5 py-1.5 text-[13px] font-bold"/>
+        <button type="button" data-vd="${i}" class="shrink-0 w-9 text-red-500 hover:bg-red-50 rounded-lg" title="حذف">×</button>
+      </div>
+    `).join('');
+    // Wire up inputs (uncontrolled — we read on save, but also keep draftVariants in sync for re-renders)
+    box.querySelectorAll('[data-vk]').forEach(el => {
+      el.addEventListener('input', () => {
+        const i = parseInt(el.dataset.vi, 10);
+        const k = el.dataset.vk;
+        if (!draftVariants[i]) return;
+        draftVariants[i][k] = el.value;
+      });
+    });
+    box.querySelectorAll('[data-vd]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const i = parseInt(btn.dataset.vd, 10);
+        draftVariants.splice(i, 1);
+        renderVariantList();
+      });
+    });
+  }
+  document.getElementById('m_addVariant')?.addEventListener('click', () => {
+    draftVariants.push({ color: '', colorHex: '#0A0A0A', price: '' });
+    renderVariantList();
+  });
 
   function openModal(r) {
     editing = r;
@@ -554,6 +620,9 @@
     document.getElementById('m_colorHex').value = r.colorHex || '#0A0A0A';
     document.getElementById('m_brand').value = r.brand || '';
     document.getElementById('m_price').value = r.price || '';
+    document.getElementById('m_originalPrice').value = r.originalPrice || '';
+    draftVariants = Array.isArray(r.variants) ? JSON.parse(JSON.stringify(r.variants)) : [];
+    renderVariantList();
     document.getElementById('m_description').value = r.description || '';
     document.getElementById('m_battery').value = r.battery || '';
     document.getElementById('m_condition').value = r.condition || '';
@@ -686,6 +755,16 @@
     editing.colorHex = document.getElementById('m_colorHex').value;
     editing.brand = document.getElementById('m_brand').value.trim();
     editing.price = document.getElementById('m_price').value.trim().replace(/[^\d,]/g,'');
+    editing.originalPrice = document.getElementById('m_originalPrice').value.trim().replace(/[^\d,]/g,'');
+    // Persist variants — only those that have at least a color name or a hex set.
+    editing.variants = draftVariants
+      .map(v => ({
+        color: (v.color || '').trim(),
+        colorHex: v.colorHex || '',
+        price: (v.price || '').trim().replace(/[^\d,]/g,''),
+        originalPrice: (v.originalPrice || '').trim().replace(/[^\d,]/g,''),
+      }))
+      .filter(v => v.color || v.colorHex);
     editing.description = document.getElementById('m_description').value.trim();
     editing.battery = document.getElementById('m_battery').value.trim();
     editing.condition = document.getElementById('m_condition').value.trim();
@@ -712,7 +791,7 @@
   // ===== Toolbar / global actions =====
   document.getElementById('addRow').addEventListener('click', () => {
     const cat = activeCat === 'all' ? 'new' : activeCat;
-    const r = { id: nextId++, cat, name: '', storage: '', color: '', colorHex: '', brand: '', price: '', description: '', img: '', imgs: [], featured: false };
+    const r = { id: nextId++, cat, name: '', storage: '', color: '', colorHex: '', brand: '', price: '', originalPrice: '', description: '', img: '', imgs: [], featured: false, variants: [] };
     rows.unshift(r);
     persist();
     renderTable();
@@ -734,7 +813,7 @@
   // ===== Build products.js content =====
   function buildProductsJs() {
     rows.forEach(r => { if (r.imgs && r.imgs.length) r.img = r.imgs[0]; });
-    return `// El King Store — shared product catalog\n// آخر تحديث: ${new Date().toLocaleString('ar-EG')}\nwindow.ELKING_PRODUCTS = ${JSON.stringify(rows, null, 2)};\n\nwindow.ELKING_BRAND = {\n  whatsapp: "201069907573",\n  phones: ["01061851012","01111328433","01017955559"],\n};\n`;
+    return `// El King Store — shared product catalog\n// آخر تحديث: ${new Date().toLocaleString('ar-EG')}\nwindow.ELKING_PRODUCTS = ${JSON.stringify(rows, null, 2)};\n\nwindow.ELKING_BRAND = {\n  whatsapp: "201017955559",\n  phones: ["01017955559","01017955559","01017955559"],\n};\n`;
   }
 
   document.getElementById('exportBtn').addEventListener('click', () => {

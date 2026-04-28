@@ -100,7 +100,7 @@
       <span class="w-2 h-2 rounded-full bg-wagreen animate-pulse"></span>
       الأسعار محدّثة <span data-update-time class="font-bold text-ink num-en">اليوم</span>
     </div>
-    <a href="https://wa.me/201069907573" class="inline-flex items-center gap-2 text-wagreen hover:underline font-bold">
+    <a href="https://wa.me/201017955559" class="inline-flex items-center gap-2 text-wagreen hover:underline font-bold">
       <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
       مش لاقي اللي بدور عليه؟ كلمنا
     </a>
@@ -109,13 +109,13 @@
 
 <div id="layout-footer"></div>
 
-<script src="products.js?v=3"></script>
-<script src="layout.js?v=3" data-active="acc"></script>
+<script src="products.js?v=6"></script>
+<script src="layout.js?v=6" data-active="acc"></script>
 <script>
 (function () {
   const CATEGORY = 'acc';
   const items = window.ELKING_PRODUCTS.filter(p => p.cat === CATEGORY);
-  const wa = (p) => 'https://wa.me/201069907573?text=' + encodeURIComponent('السلام عليكم، عايز ' + p.name + ' (' + p.storage + ') — ' + p.price + ' ج.م');
+  const wa = (p) => 'https://wa.me/201017955559?text=' + encodeURIComponent('السلام عليكم، عايز ' + p.name + ' (' + p.storage + ') — ' + p.price + ' ج.م');
 
   let activeBrand = 'all';
   let q = '';
@@ -140,6 +140,12 @@
   document.getElementById('search').addEventListener('input', e => { q = e.target.value.trim().toLowerCase(); render(); });
   document.getElementById('sortBy').addEventListener('change', e => { sort = e.target.value; render(); });
 
+  function pct(p) {
+    const a = parseFloat(String(p.originalPrice||'').replace(/[^\d.]/g,'')) || 0;
+    const b = parseFloat(String(p.price||'').replace(/[^\d.]/g,'')) || 0;
+    return (a > b && a && b) ? Math.round(((a-b)/a)*100) : 0;
+  }
+
   function row(p) {
     const extraCell = CATEGORY === 'used'
       ? `<div class="md:col-span-2 md:text-center text-[13px] flex md:block items-center gap-2">
@@ -151,6 +157,7 @@
            <div class="md:hidden text-black/40 text-[11px]">الحالة:</div>
            <div class="inline-flex items-center gap-1 text-gold-dark font-bold text-[12px]"><span class="w-1.5 h-1.5 rounded-full bg-gold"></span>متوفر · جديد</div>
          </div>`;
+    const dpct = pct(p);
 
     return `
       <a href="product.html?id=${p.id}" class="row block px-3 md:px-5 py-3.5 md:py-4">
@@ -161,10 +168,13 @@
               <img class="row-img w-full h-full object-cover" src="${p.img}" alt="${p.name}" loading="lazy" />
             </div>
           </div>
-          <!-- name + storage + description -->
+          <!-- name + storage + color + description -->
           <div class="col-span-7 md:col-span-5 min-w-0">
             <div class="row-name font-extrabold text-[15px] md:text-[16px] tracking-tight truncate">${p.name}</div>
-            <div class="text-black/55 text-[12.5px] truncate">${p.storage}</div>
+            <div class="text-black/55 text-[12.5px] truncate flex items-center gap-1.5">
+              ${p.colorHex ? `<span class="inline-block w-3 h-3 rounded-full border border-black/15 shrink-0" style="background:${p.colorHex}"></span>` : ''}
+              <span class="truncate">${[p.storage, p.color].filter(Boolean).join(' · ')}</span>
+            </div>
             ${p.description ? `<div class="text-black/45 text-[11.5px] truncate mt-0.5 leading-snug">${p.description}</div>` : ''}
           </div>
           <!-- brand (desktop) -->
@@ -175,10 +185,21 @@
           ${extraCell}
           <!-- price + WA -->
           <div class="col-span-3 md:col-span-2 md:text-end">
-            <div class="flex md:flex-col items-baseline md:items-end gap-1 md:gap-0">
-              <span class="text-[18px] md:text-[20px] font-black text-ink num-en leading-none">${p.price}</span>
-              <span class="text-[11px] font-bold text-black/55">ج.م</span>
-            </div>
+            ${dpct > 0 ? `
+              <div class="md:text-end">
+                <div class="flex md:justify-end items-baseline gap-1.5">
+                  <span class="text-[12px] text-black/35 line-through num-en">${p.originalPrice}</span>
+                  <span class="inline-block bg-red-600 text-white text-[10px] font-extrabold px-1.5 py-0.5 rounded">${dpct}٪</span>
+                </div>
+                <div class="flex md:justify-end items-baseline gap-1">
+                  <span class="text-[18px] md:text-[20px] font-black text-red-600 num-en leading-none">${p.price}</span>
+                  <span class="text-[11px] font-bold text-black/55">ج.م</span>
+                </div>
+              </div>` : `
+              <div class="flex md:flex-col items-baseline md:items-end gap-1 md:gap-0">
+                <span class="text-[18px] md:text-[20px] font-black text-ink num-en leading-none">${p.price}</span>
+                <span class="text-[11px] font-bold text-black/55">ج.م</span>
+              </div>`}
             <span role="button" onclick="event.preventDefault();event.stopPropagation();window.open('${wa(p)}','_blank')" class="cursor-pointer mt-2 md:mt-2 inline-flex items-center gap-1 bg-wagreen hover:bg-[#1ea855] text-white font-bold px-3 py-1.5 rounded-full text-[12px] transition">
               <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
               اطلب

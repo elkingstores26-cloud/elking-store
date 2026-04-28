@@ -12,7 +12,7 @@
     { href: 'index.html#brands', label: 'الماركات', key: 'brands' },
     { href: 'index.html#contact', label: 'تواصل', key: 'contact' },
   ];
-  const wa = 'https://wa.me/201069907573';
+  const wa = 'https://wa.me/201017955559';
   const waSvg = '<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>';
 
   const headerHtml = `
@@ -22,7 +22,7 @@
       <span class="hidden sm:inline-flex items-center gap-2"><svg class="w-3.5 h-3.5 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.39 4.84L20 7.84l-4 3.9.94 5.49L12 14.77l-4.94 2.46L8 11.74l-4-3.9 5.61-.99L12 2z"/></svg> تحديث أسعار يومي · الجملة والقطاعي</span>
     </div>
     <div class="flex items-center gap-4">
-      <a href="tel:01061851012" class="hidden sm:inline-flex items-center gap-1.5 hover:text-gold transition"><svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24 11.36 11.36 0 003.55.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.25 1.05z"/></svg><span style="font-family:Inter" dir="ltr">010 6185 1012</span></a>
+      <a href="tel:01017955559" class="hidden sm:inline-flex items-center gap-1.5 hover:text-gold transition"><svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24 11.36 11.36 0 003.55.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.25 1.05z"/></svg><span style="font-family:Inter" dir="ltr">010 1795 5559</span></a>
       <span class="text-white/30">|</span><span class="text-white/60">EG</span><span class="text-white/60">·</span><span class="text-gold font-semibold">AR</span>
     </div>
   </div>
@@ -44,9 +44,9 @@
       ${links.map(l => `<a href="${l.href}" class="nav-link ${l.key === cur ? 'active text-ink' : ''}">${l.label}</a>`).join('')}
     </nav>
     <div class="flex items-center gap-3">
-      <a href="tel:01061851012" class="hidden md:flex items-center gap-2 text-[14px] font-semibold text-black/80 hover:text-ink transition">
+      <a href="tel:01017955559" class="hidden md:flex items-center gap-2 text-[14px] font-semibold text-black/80 hover:text-ink transition">
         <span class="w-9 h-9 rounded-full bg-cream border border-black/5 flex items-center justify-center"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a2 2 0 011.94 1.515l.7 2.79a2 2 0 01-.45 1.95l-1.27 1.27a14 14 0 006.28 6.28l1.27-1.27a2 2 0 011.95-.45l2.79.7A2 2 0 0121 16.72V19a2 2 0 01-2 2A16 16 0 013 5z"/></svg></span>
-        <span style="font-family:Inter" dir="ltr">010 6185 1012</span>
+        <span style="font-family:Inter" dir="ltr">010 1795 5559</span>
       </a>
       <a href="${wa}" class="inline-flex items-center gap-2 bg-gold hover:bg-gold-dark transition px-5 py-2.5 rounded-full font-bold text-ink" style="box-shadow:0 10px 30px -10px rgba(212,175,55,0.55)">${waSvg} اطلب الآن</a>
     </div>
@@ -81,11 +81,10 @@
       <div class="lg:col-span-3">
         <div class="text-white text-[14px] font-extrabold mb-5">للتواصل</div>
         <ul class="space-y-2.5 text-[14px]">
-          <li><a href="tel:01061851012" class="hover:text-gold transition flex gap-2"><span class="text-white/40 text-[12px]">مبيعات ١</span><span style="font-family:Inter;font-weight:700" dir="ltr">010 6185 1012</span></a></li>
-          <li><a href="tel:01111328433" class="hover:text-gold transition flex gap-2"><span class="text-white/40 text-[12px]">مبيعات ٢</span><span style="font-family:Inter;font-weight:700" dir="ltr">011 1132 8433</span></a></li>
-          <li><a href="tel:01017955559" class="hover:text-gold transition flex gap-2"><span class="text-white/40 text-[12px]">مبيعات ٣</span><span style="font-family:Inter;font-weight:700" dir="ltr">010 1795 5559</span></a></li>
-          <li><a href="${wa}" class="text-wagreen hover:brightness-125 flex gap-2"><span class="text-[12px]">واتساب</span><span style="font-family:Inter;font-weight:700" dir="ltr">010 6990 7573</span></a></li>
+          <li><a href="tel:01017955559" class="hover:text-gold transition flex items-center gap-2"><svg class="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24 11.36 11.36 0 003.55.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.25 1.05z"/></svg><span class="text-white/40 text-[12px]">اتصال</span><span style="font-family:Inter;font-weight:700" dir="ltr">010 1795 5559</span></a></li>
+          <li><a href="${wa}" class="text-wagreen hover:brightness-125 flex items-center gap-2"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg><span class="text-[12px]">واتساب</span><span style="font-family:Inter;font-weight:700" dir="ltr">010 1795 5559</span></a></li>
         </ul>
+        <div class="mt-3 text-[12px] text-white/35 leading-relaxed">رقم واحد لكل اتصالاتك واستفساراتك — متاح يومياً</div>
       </div>
     </div>
     <div style="height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.5),transparent)" class="w-full mb-8"></div>
