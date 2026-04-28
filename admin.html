@@ -842,9 +842,12 @@
   }
 
   async function ghGetSha(s) {
-    const url = `https://api.github.com/repos/${s.repo}/contents/products.js?ref=${encodeURIComponent(s.branch)}`;
+    // Cache-bust the GET so we always read the latest SHA — otherwise the browser
+    // can serve a stale cached response and PUT will fail with 409 conflict.
+    const url = `https://api.github.com/repos/${s.repo}/contents/products.js?ref=${encodeURIComponent(s.branch)}&t=${Date.now()}`;
     const r = await fetch(url, {
-      headers: { 'Authorization': 'Bearer ' + s.token, 'Accept': 'application/vnd.github+json' }
+      headers: { 'Authorization': 'Bearer ' + s.token, 'Accept': 'application/vnd.github+json' },
+      cache: 'no-store'
     });
     if (r.status === 404) return null;
     if (!r.ok) throw new Error('GET fail: ' + r.status + ' — ' + (await r.text()));
@@ -853,23 +856,34 @@
   }
 
   async function ghPutFile(s, content, message) {
-    const sha = await ghGetSha(s);
     const url = `https://api.github.com/repos/${s.repo}/contents/products.js`;
-    const body = {
-      message: message || ('تحديث الليستة - ' + new Date().toLocaleString('ar-EG')),
-      content: utf8ToBase64(content),
-      branch: s.branch,
+    const doPut = async (sha) => {
+      const body = {
+        message: message || ('تحديث الليستة - ' + new Date().toLocaleString('ar-EG')),
+        content: utf8ToBase64(content),
+        branch: s.branch,
+      };
+      if (sha) body.sha = sha;
+      return fetch(url, {
+        method: 'PUT',
+        headers: {
+          'Authorization': 'Bearer ' + s.token,
+          'Accept': 'application/vnd.github+json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body),
+      });
     };
-    if (sha) body.sha = sha;
-    const r = await fetch(url, {
-      method: 'PUT',
-      headers: {
-        'Authorization': 'Bearer ' + s.token,
-        'Accept': 'application/vnd.github+json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(body),
-    });
+
+    let sha = await ghGetSha(s);
+    let r = await doPut(sha);
+    // If GitHub says the SHA is stale (409), the file was edited between our GET and PUT.
+    // Re-fetch the latest SHA once and retry — covers the case where the user just uploaded
+    // products.js manually or another tab published.
+    if (r.status === 409) {
+      sha = await ghGetSha(s);
+      r = await doPut(sha);
+    }
     if (!r.ok) throw new Error('PUT fail: ' + r.status + ' — ' + (await r.text()));
     return r.json();
   }
