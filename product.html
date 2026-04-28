@@ -90,6 +90,9 @@
       <h1 id="name" class="text-4xl md:text-5xl font-black tracking-tight mb-3"></h1>
       <p id="storage" class="text-black/60 text-lg mb-7 flex items-center gap-2"></p>
 
+      <!-- Stock status banner — toggled at runtime by id="stockBanner" -->
+      <div id="stockBanner" class="hidden mb-6"></div>
+
       <div class="bg-white rounded-2xl border border-black/5 p-6 mb-6">
         <div class="flex items-center justify-between mb-1">
           <div class="text-[12px] text-black/45">السعر</div>
@@ -137,7 +140,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col sm:flex-row gap-3 mb-8">
+      <div id="actionsRow" class="flex flex-col sm:flex-row gap-3 mb-8">
         <a id="waBtn" href="#" class="flex-1 inline-flex items-center justify-center gap-2 bg-wagreen hover:bg-[#1ea855] text-white font-extrabold px-6 py-4 rounded-full text-[16px] transition" style="box-shadow:0 14px 30px -10px rgba(37,211,102,0.5)">
           <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487 2.981 1.286 2.981.857 3.518.803.538-.054 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/></svg>
           اطلب من واتساب
@@ -191,6 +194,39 @@
   const cc = document.getElementById('catCrumb'); cc.href = catHref; cc.textContent = catLabel;
   document.getElementById('moreLink').href = catHref;
 
+  // Stock status — render banner + disable order button when out of stock
+  const outOfStock = p.inStock === false;
+  if (outOfStock) {
+    const banner = document.getElementById('stockBanner');
+    banner.classList.remove('hidden');
+    banner.innerHTML = `
+      <div class="flex items-start gap-3 bg-red-50 border border-red-200 text-red-800 rounded-2xl p-4">
+        <span class="w-9 h-9 rounded-full bg-red-100 flex items-center justify-center shrink-0">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/></svg>
+        </span>
+        <div>
+          <div class="font-extrabold text-[15px] mb-0.5">المنتج ده غير متوفر حالياً</div>
+          <div class="text-[13px] text-red-700/80 leading-relaxed">كلّمنا على واتساب وهنبلّغك أول ما يتوفر، أو نقترح عليك بديل مناسب.</div>
+        </div>
+      </div>`;
+    // Disable the order button + repurpose CTA
+    const actions = document.getElementById('actionsRow');
+    if (actions) {
+      actions.innerHTML = `
+        <a href="https://wa.me/201017955559?text=${encodeURIComponent('السلام عليكم، عاوز أعرف لما يتوفر ' + p.name)}" class="flex-1 inline-flex items-center justify-center gap-2 bg-ink hover:bg-black text-gold font-extrabold px-6 py-4 rounded-full text-[16px] transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"/></svg>
+          بلّغني لما يتوفر
+        </a>
+        <a href="tel:01017955559" class="inline-flex items-center justify-center gap-2 border-2 border-ink hover:bg-ink hover:text-gold font-extrabold px-6 py-4 rounded-full text-[16px] transition">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a2 2 0 011.94 1.515l.7 2.79a2 2 0 01-.45 1.95l-1.27 1.27a14 14 0 006.28 6.28l1.27-1.27a2 2 0 011.95-.45l2.79.7A2 2 0 0121 16.72V19a2 2 0 01-2 2A16 16 0 013 5z"/></svg>
+          اتصل
+        </a>`;
+    }
+    // Add subtle desaturation on the gallery
+    const hero = document.getElementById('hero');
+    if (hero) hero.style.filter = 'grayscale(0.5) opacity(0.85)';
+  }
+
   // SEO: dynamic meta description + JSON-LD product schema
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.content = `${p.name} - ${p.storage || ''} - السعر ${p.price} ج.م. ${p.description ? p.description.slice(0, 120) : 'بضمان معتمد من الكينج ستور.'}`;
@@ -223,6 +259,25 @@
   const priceNum = v => parseFloat(String(v||'').replace(/[^\d.]/g,'')) || 0;
   const fmt = n => n.toLocaleString('en-US');
 
+  // If the main product has no price but variants do, fall back to the first variant
+  // with a price — so the price block never shows just "ج.م" alone.
+  function effectivePrice(view) {
+    if (view.price && String(view.price).trim()) return view.price;
+    if (Array.isArray(p.variants)) {
+      const v = p.variants.find(v => v && v.price && String(v.price).trim());
+      if (v) return v.price;
+    }
+    return '';
+  }
+  function effectiveOriginal(view) {
+    if (view.originalPrice && String(view.originalPrice).trim()) return view.originalPrice;
+    if (Array.isArray(p.variants)) {
+      const v = p.variants.find(v => v && v.originalPrice && String(v.originalPrice).trim());
+      if (v) return v.originalPrice;
+    }
+    return '';
+  }
+
   // Apply a "view" — could be the product itself or a color variant — to the page.
   // Updates: hero/storage line, price block (with discount), images, and the WhatsApp deep-link.
   function applyView(view) {
@@ -231,10 +286,23 @@
     storageEl.innerHTML = (view.colorHex ? `<span class="inline-block w-4 h-4 rounded-full border border-black/15" style="background:${view.colorHex}"></span>` : '')
       + `<span>${[view.storage || p.storage, view.color].filter(Boolean).join(' · ')}</span>`;
 
-    // Price + optional discount block
-    document.getElementById('price').textContent = view.price;
-    const orig = priceNum(view.originalPrice);
-    const cur = priceNum(view.price);
+    // Price + optional discount block. If still no price anywhere, fall back to a
+    // friendly "السعر بالاتصال" so we never show a lonely "ج.م" suffix.
+    const shownPrice = effectivePrice(view);
+    const shownOriginal = effectiveOriginal(view);
+    const priceEl = document.getElementById('price');
+    const currencyEl = priceEl.nextElementSibling;
+    if (shownPrice) {
+      priceEl.textContent = shownPrice;
+      if (currencyEl) currencyEl.textContent = 'ج.م';
+    } else {
+      priceEl.textContent = 'السعر بالاتصال';
+      priceEl.classList.remove('text-5xl');
+      priceEl.classList.add('text-3xl');
+      if (currencyEl) currencyEl.textContent = '';
+    }
+    const orig = priceNum(shownOriginal);
+    const cur = priceNum(shownPrice);
     if (orig > cur && orig && cur) {
       const pct = Math.round(((orig - cur) / orig) * 100);
       document.getElementById('discountBadge').textContent = `خصم ${pct}٪`;
@@ -253,8 +321,10 @@
       document.getElementById('price').classList.add('text-ink');
     }
 
-    // WhatsApp text
-    const waText = 'السلام عليكم، عايز ' + p.name + (view.color ? ' (' + view.color + ')' : '') + ' — ' + view.price + ' ج.م';
+    // WhatsApp text — include the price line only when we actually have one.
+    const waText = 'السلام عليكم، عايز ' + p.name
+      + (view.color ? ' (' + view.color + ')' : '')
+      + (shownPrice ? ' — ' + shownPrice + ' ج.م' : '');
     document.getElementById('waBtn').href = 'https://wa.me/201017955559?text=' + encodeURIComponent(waText);
 
     // Swap gallery images if the variant carries its own

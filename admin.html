@@ -70,6 +70,15 @@
   .img-cell .first { position: absolute; bottom: 6px; right: 6px; background: #D4AF37; color: #0A0A0A; font-size: 10px; font-weight: 800; padding: 2px 7px; border-radius: 999px; }
   .img-add { display: flex; align-items: center; justify-content: center; aspect-ratio: 1; border-radius: 12px; border: 2px dashed rgba(0,0,0,0.18); color: rgba(0,0,0,0.4); cursor: pointer; transition: all .15s; flex-direction: column; gap: 4px; font-size: 12px; font-weight: 700; }
   .img-add:hover { border-color: #D4AF37; color: #A8862B; background: rgba(212,175,55,0.05); }
+
+  /* Stock toggle */
+  .stock-opt { border-color: rgba(0,0,0,0.1); background: #fff; }
+  .stock-opt .stock-radio { border-color: rgba(0,0,0,0.25); }
+  .stock-opt[data-stock="1"].active { border-color: #16A34A; background: rgba(22,163,74,0.08); color: #15803D; }
+  .stock-opt[data-stock="1"].active .stock-radio { border-color: #16A34A; color: #16A34A; }
+  .stock-opt[data-stock="0"].active { border-color: #DC2626; background: rgba(220,38,38,0.08); color: #B91C1C; }
+  .stock-opt[data-stock="0"].active .stock-radio { border-color: #DC2626; color: #DC2626; }
+  .stock-opt.active .stock-dot { opacity: 1 !important; }
 </style>
 </head>
 <body class="bg-cream text-ink">
@@ -259,6 +268,27 @@
           <span class="flex-1 font-extrabold text-[14px] text-gold-dark">⭐ إظهار في "عروض اليوم" بالصفحة الرئيسية</span>
         </label>
         <div class="text-[11px] text-black/40 mt-1">المنتجات المختارة بتظهر في قسم "عروض اليوم" أول ما حد يفتح الموقع.</div>
+      </div>
+
+      <!-- STOCK STATUS -->
+      <div class="field">
+        <label class="text-[12px] font-bold text-black/65 mb-2 block">📦 حالة التوفر</label>
+        <div class="grid grid-cols-2 gap-2" id="m_stockToggle">
+          <label class="cursor-pointer p-3 rounded-xl border-2 transition flex items-center gap-2 stock-opt" data-stock="1">
+            <span class="w-5 h-5 rounded-full border-2 flex items-center justify-center stock-radio">
+              <span class="w-2.5 h-2.5 rounded-full bg-current opacity-0 stock-dot"></span>
+            </span>
+            <span class="flex-1 font-extrabold text-[13.5px]">✅ متوفر</span>
+          </label>
+          <label class="cursor-pointer p-3 rounded-xl border-2 transition flex items-center gap-2 stock-opt" data-stock="0">
+            <span class="w-5 h-5 rounded-full border-2 flex items-center justify-center stock-radio">
+              <span class="w-2.5 h-2.5 rounded-full bg-current opacity-0 stock-dot"></span>
+            </span>
+            <span class="flex-1 font-extrabold text-[13.5px]">❌ غير متوفر</span>
+          </label>
+        </div>
+        <input id="m_inStock" type="hidden" value="1"/>
+        <div class="text-[11px] text-black/40 mt-1">المنتجات الغير متوفرة بتظهر باهتة على الموقع وزرار الطلب بيتعطّل.</div>
       </div>
 
       <div class="field">
@@ -675,6 +705,8 @@
     document.getElementById('m_battery').value = r.battery || '';
     document.getElementById('m_condition').value = r.condition || '';
     document.getElementById('m_featured').checked = !!r.featured;
+    // inStock defaults to true for legacy products that don't have the field set yet.
+    syncStockToggle(r.inStock === false ? '0' : '1');
     renderSwatches();
     syncCatBadge();
     syncUsedFields();
@@ -813,6 +845,18 @@
   document.getElementById('m_color').addEventListener('input', renderSwatches);
   document.getElementById('m_colorHex').addEventListener('input', renderSwatches);
 
+  // Stock status toggle — pure visual toggle, real value goes into hidden #m_inStock
+  function syncStockToggle(val) {
+    const v = (val == null || val === '' || val === 1 || val === '1' || val === true) ? '1' : '0';
+    document.getElementById('m_inStock').value = v;
+    document.querySelectorAll('#m_stockToggle .stock-opt').forEach(el => {
+      el.classList.toggle('active', el.dataset.stock === v);
+    });
+  }
+  document.querySelectorAll('#m_stockToggle .stock-opt').forEach(el => {
+    el.addEventListener('click', () => syncStockToggle(el.dataset.stock));
+  });
+
   // Modal events
   document.getElementById('m_cat').addEventListener('change', () => { syncCatBadge(); syncUsedFields(); });
   document.getElementById('modalClose').addEventListener('click', closeModal);
@@ -847,6 +891,7 @@
     editing.battery = document.getElementById('m_battery').value.trim();
     editing.condition = document.getElementById('m_condition').value.trim();
     editing.featured = document.getElementById('m_featured').checked;
+    editing.inStock = document.getElementById('m_inStock').value !== '0';
     editing.imgs = draftImgs.slice();
     editing.img = editing.imgs[0] || '';
     persist();
@@ -869,7 +914,7 @@
   // ===== Toolbar / global actions =====
   document.getElementById('addRow').addEventListener('click', () => {
     const cat = activeCat === 'all' ? 'new' : activeCat;
-    const r = { id: nextId++, cat, name: '', storage: '', color: '', colorHex: '', brand: '', price: '', originalPrice: '', description: '', img: '', imgs: [], featured: false, variants: [] };
+    const r = { id: nextId++, cat, name: '', storage: '', color: '', colorHex: '', brand: '', price: '', originalPrice: '', description: '', img: '', imgs: [], featured: false, variants: [], inStock: true };
     rows.unshift(r);
     persist();
     renderTable();
