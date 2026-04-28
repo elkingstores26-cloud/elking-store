@@ -4,6 +4,20 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>تفاصيل المنتج — الكينج ستور</title>
+<meta name="description" content="تفاصيل المنتج بالكامل: الموديل، السعر، الألوان المتاحة، والضمان. اطلب على واتساب من الكينج ستور في ٦ أكتوبر." />
+<meta name="theme-color" content="#0A0A0A" />
+<meta name="robots" content="index, follow" />
+<meta property="og:type" content="product" />
+<meta property="og:locale" content="ar_EG" />
+<meta property="og:site_name" content="الكينج ستور" />
+<meta property="og:title" content="تفاصيل المنتج — الكينج ستور" />
+<meta property="og:description" content="موبايلات بأسعار الجملة والقطاعي بضمان معتمد." />
+<meta property="og:image" content="https://elking-store.com/elking-logo.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="تفاصيل المنتج — الكينج ستور" />
+<meta name="twitter:image" content="https://elking-store.com/elking-logo.png" />
+<link rel="icon" type="image/png" href="elking-logo.png" />
+<link rel="apple-touch-icon" href="elking-logo.png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -176,6 +190,35 @@
   document.getElementById('nameCrumb').textContent = p.name;
   const cc = document.getElementById('catCrumb'); cc.href = catHref; cc.textContent = catLabel;
   document.getElementById('moreLink').href = catHref;
+
+  // SEO: dynamic meta description + JSON-LD product schema
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.content = `${p.name} - ${p.storage || ''} - السعر ${p.price} ج.م. ${p.description ? p.description.slice(0, 120) : 'بضمان معتمد من الكينج ستور.'}`;
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.content = `${p.name} — الكينج ستور`;
+  const ogImg = document.querySelector('meta[property="og:image"]');
+  if (ogImg && p.img) ogImg.content = p.img;
+  const ldScript = document.createElement('script');
+  ldScript.type = 'application/ld+json';
+  ldScript.textContent = JSON.stringify({
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": p.name,
+    "description": p.description || `${p.name} - ${p.storage || ''} - بضمان معتمد من الكينج ستور.`,
+    "image": Array.isArray(p.imgs) && p.imgs.length ? p.imgs : [p.img].filter(Boolean),
+    "brand": { "@type": "Brand", "name": p.brand },
+    "sku": String(p.id),
+    "category": catLabel,
+    "offers": {
+      "@type": "Offer",
+      "url": location.href,
+      "priceCurrency": "EGP",
+      "price": String(priceNum(p.price)),
+      "availability": "https://schema.org/InStock",
+      "seller": { "@type": "Store", "name": "الكينج ستور" }
+    }
+  });
+  document.head.appendChild(ldScript);
 
   const priceNum = v => parseFloat(String(v||'').replace(/[^\d.]/g,'')) || 0;
   const fmt = n => n.toLocaleString('en-US');

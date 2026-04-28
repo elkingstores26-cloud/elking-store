@@ -9,7 +9,7 @@
     { href: 'new.html', label: 'جديد', key: 'new' },
     { href: 'used.html', label: 'مستعمل', key: 'used' },
     { href: 'accessories.html', label: 'إكسسوارات', key: 'acc' },
-    { href: 'index.html#brands', label: 'الماركات', key: 'brands' },
+    { href: 'about.html', label: 'من نحن', key: 'about' },
     { href: 'index.html#contact', label: 'تواصل', key: 'contact' },
   ];
   const wa = 'https://wa.me/201017955559';
@@ -90,7 +90,7 @@
     <div style="height:1px;background:linear-gradient(90deg,transparent,rgba(212,175,55,0.5),transparent)" class="w-full mb-8"></div>
     <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-[13px] text-white/40">
       <div>© ٢٠٢٦ الكينج ستور — جميع الحقوق محفوظة</div>
-      <div class="flex items-center gap-6"><a href="#" class="hover:text-gold">سياسة الخصوصية</a><a href="#" class="hover:text-gold">الشروط والأحكام</a><span class="text-white/30 tracking-widest" style="font-family:Inter">EL KING · 6 OCTOBER · EGYPT</span></div>
+      <div class="flex flex-wrap items-center justify-center gap-3 md:gap-6"><a href="about.html" class="hover:text-gold">من نحن</a><a href="privacy.html" class="hover:text-gold">سياسة الخصوصية</a><a href="terms.html" class="hover:text-gold">الشروط والأحكام</a><span class="text-white/30 tracking-widest hidden md:inline" style="font-family:Inter">EL KING · 6 OCTOBER · EGYPT</span></div>
     </div>
   </div>
 </footer>

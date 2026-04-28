@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>سياسة الخصوصية — الكينج ستور</title>
+<meta name="description" content="سياسة الخصوصية للكينج ستور — كيف نتعامل مع بياناتك ونحميها." />
+<meta name="theme-color" content="#0A0A0A" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://elking-store.com/privacy.html" />
+<link rel="icon" type="image/png" href="elking-logo.png" />
+<link rel="apple-touch-icon" href="elking-logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: { gold: { DEFAULT: '#D4AF37', light: '#E8C766', dark: '#A8862B' }, ink: '#0A0A0A', cream: '#FAF8F3', wagreen: '#25D366' } } } }
+</script>
+<style>
+  html, body { font-family: 'Cairo', system-ui, sans-serif; background:#FAF8F3; color:#0A0A0A; }
+  .nav-link { position: relative; }
+  .nav-link::after { content:''; position:absolute; bottom:-6px; right:0; height:2px; width:0; background:#D4AF37; transition: width .3s ease; }
+  .nav-link:hover::after, .nav-link.active::after { width:100%; }
+  .pulse-ring::before { content:''; position:absolute; inset:-6px; border-radius:9999px; border: 2px solid #25D366; opacity:.6; animation: pr 1.8s cubic-bezier(0.4,0,0.6,1) infinite; }
+  .pulse-ring::after { content:''; position:absolute; inset:-12px; border-radius:9999px; border: 2px solid #25D366; opacity:.3; animation: pr 1.8s cubic-bezier(0.4,0,0.6,1) infinite .4s; }
+  @keyframes pr { 0%{transform:scale(.9);opacity:.7} 100%{transform:scale(1.5);opacity:0} }
+  .prose h2 { color:#0A0A0A; font-weight:800; font-size:1.5rem; margin-top:2rem; margin-bottom:.75rem; }
+  .prose p, .prose li { color:rgba(10,10,10,.75); line-height:1.9; font-size:15px; }
+  .prose ul { padding-inline-start: 1.5rem; list-style: disc; margin-bottom: 1rem; }
+</style>
+</head>
+<body class="bg-cream text-ink">
+
+<div id="layout-header"></div>
+
+<main class="max-w-3xl mx-auto px-5 md:px-6 py-10 md:py-16">
+  <div class="text-center mb-8 md:mb-12">
+    <div class="text-gold font-bold text-[12px] md:text-[13px] tracking-[0.25em] uppercase mb-2 md:mb-3" style="font-family:Inter">PRIVACY</div>
+    <h1 class="text-3xl md:text-5xl font-black tracking-tight">سياسة الخصوصية</h1>
+    <p class="mt-3 text-black/55 text-[14px]">آخر تحديث: ٢٠٢٦</p>
+  </div>
+
+  <div class="prose bg-white rounded-3xl border border-black/5 p-6 md:p-10">
+    <p>أهلاً بيك في الكينج ستور. خصوصيتك مهمة عندنا، وهنوضحلك في الصفحة دي إزاي بنتعامل مع بياناتك.</p>
+
+    <h2>البيانات اللي بنجمعها</h2>
+    <ul>
+      <li>الاسم ورقم الموبايل (لما تطلب أو تتواصل معانا).</li>
+      <li>عنوان التوصيل (لو طلبت توصيل).</li>
+      <li>تفاصيل الطلب: الموديل، السعر، طريقة الدفع.</li>
+    </ul>
+
+    <h2>إزاي بنستخدم البيانات</h2>
+    <ul>
+      <li>تنفيذ طلباتك وتوصيل المنتجات.</li>
+      <li>التواصل معاك بخصوص الطلب أو استفسارات.</li>
+      <li>إعلامك بعروض جديدة (لو وافقت).</li>
+    </ul>
+
+    <h2>حماية البيانات</h2>
+    <p>بياناتك عندنا محفوظة بشكل آمن، وما بنشاركهاش مع أي طرف تالت إلا في حالة التوصيل (شركات الشحن).</p>
+
+    <h2>حقوقك</h2>
+    <ul>
+      <li>تطلب نسخة من بياناتك.</li>
+      <li>تطلب حذف بياناتك في أي وقت.</li>
+      <li>توقف استلام رسائل العروض.</li>
+    </ul>
+
+    <h2>التواصل</h2>
+    <p>لو عندك أي سؤال عن السياسة دي، كلمنا على <a href="tel:01017955559" class="text-gold-dark font-bold underline" dir="ltr">010 1795 5559</a> أو راسلنا على <a href="https://wa.me/201017955559" class="text-wagreen font-bold underline">واتساب</a>.</p>
+  </div>
+</main>
+
+<div id="layout-footer"></div>
+
+<script src="layout.js?v=6"></script>
+</body>
+</html>
