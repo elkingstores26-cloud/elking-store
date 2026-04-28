@@ -445,19 +445,27 @@
 
   function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
+  // Compresses an image file aggressively so the resulting data URL stays small.
+  // Why: products.js with embedded base64 images grows fast — pushing it via the GitHub
+  // Contents API gets slow/unreliable past a few MB. We cap at ~700px and 0.72 quality
+  // which keeps each image under ~60 KB while still looking sharp on product pages.
   function fileToCompressedDataURL(file) {
     return new Promise((resolve, reject) => {
       const r = new FileReader();
       r.onload = e => {
         const im = new Image();
         im.onload = () => {
-          const max = 900;
+          const max = 700;
           const s = Math.min(1, max / Math.max(im.width, im.height));
           const w = Math.round(im.width * s), h = Math.round(im.height * s);
           const c = document.createElement('canvas');
           c.width = w; c.height = h;
-          c.getContext('2d').drawImage(im, 0, 0, w, h);
-          resolve(c.toDataURL('image/jpeg', 0.85));
+          const ctx = c.getContext('2d');
+          // White background so transparent PNGs don't end up dark when re-encoded as JPEG.
+          ctx.fillStyle = '#ffffff';
+          ctx.fillRect(0, 0, w, h);
+          ctx.drawImage(im, 0, 0, w, h);
+          resolve(c.toDataURL('image/jpeg', 0.72));
         };
         im.onerror = reject;
         im.src = e.target.result;
@@ -465,6 +473,16 @@
       r.onerror = reject;
       r.readAsDataURL(file);
     });
+  }
+
+  // Rough size of all current images plus what we are about to add — so we can warn the
+  // user if a publish is likely to choke. Data URLs are ~33% bigger than the raw bytes.
+  function approxImagesPayloadKB() {
+    let total = 0;
+    rows.forEach(r => {
+      (r.imgs || []).forEach(s => { if (typeof s === 'string') total += s.length; });
+    });
+    return Math.round(total / 1024);
   }
 
   // ===== Table rendering =====
@@ -574,17 +592,47 @@
   let draftImgs = [];          // working copy of imgs (saved on click of حفظ)
   let draftVariants = [];      // working copy of color variants (saved on click of حفظ)
 
-  // Render the variants list into the modal. Each entry has its own color + price; users can
-  // delete any row. Re-rendered on every change so indexes stay in sync.
+  // Render the variants list into the modal. Each entry is its own card with clear labels
+  // for color, name, price (optional — falls back to main price), and original price (for discount).
   function renderVariantList() {
     const box = document.getElementById('m_variants');
     if (!box) return;
     box.innerHTML = draftVariants.map((v, i) => `
-      <div class="flex items-stretch gap-2 p-2 rounded-xl border border-black/8 bg-cream/50">
-        <input type="color" data-vk="colorHex" data-vi="${i}" value="${v.colorHex || '#0A0A0A'}" class="w-12 shrink-0 cursor-pointer" style="border:1px solid rgba(0,0,0,0.1);border-radius:8px;background:transparent;padding:2px;"/>
-        <input type="text" data-vk="color" data-vi="${i}" value="${(v.color||'').replace(/"/g,'&quot;')}" placeholder="اسم اللون" class="flex-1 min-w-0 bg-white border border-black/10 rounded-lg px-2.5 py-1.5 text-[13px]"/>
-        <input type="text" data-vk="price" data-vi="${i}" value="${(v.price||'').replace(/"/g,'&quot;')}" placeholder="السعر" class="w-24 num-en bg-white border border-black/10 rounded-lg px-2.5 py-1.5 text-[13px] font-bold"/>
-        <button type="button" data-vd="${i}" class="shrink-0 w-9 text-red-500 hover:bg-red-50 rounded-lg" title="حذف">×</button>
+      <div class="p-3.5 rounded-2xl border border-black/10 bg-cream/40 space-y-2.5" data-variant-card="${i}">
+        <div class="flex items-center justify-between gap-2">
+          <div class="flex items-center gap-2 text-[12px] font-extrabold text-black/55">
+            <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-gold/20 text-gold-dark num-en">${i+1}</span>
+            <span>اللون رقم ${i+1}</span>
+          </div>
+          <button type="button" data-vd="${i}" class="text-red-500 hover:bg-red-50 rounded-lg w-8 h-8 flex items-center justify-center font-extrabold text-lg" title="حذف اللون">×</button>
+        </div>
+
+        <!-- Color row -->
+        <div class="grid grid-cols-[auto_1fr] gap-2 items-center">
+          <label class="text-[11px] font-bold text-black/55">🎨 اللون</label>
+          <div class="flex items-center gap-2">
+            <input type="color" data-vk="colorHex" data-vi="${i}" value="${v.colorHex || '#0A0A0A'}" class="w-11 h-10 shrink-0 cursor-pointer" style="border:1px solid rgba(0,0,0,0.1);border-radius:8px;background:transparent;padding:2px;"/>
+            <input type="text" data-vk="color" data-vi="${i}" value="${(v.color||'').replace(/"/g,'&quot;')}" placeholder="اسم اللون مثلاً: أسود / Natural Titanium" class="flex-1 min-w-0 bg-white border border-black/10 rounded-lg px-3 py-2 text-[13px]"/>
+          </div>
+        </div>
+
+        <!-- Price row -->
+        <div class="grid grid-cols-[auto_1fr] gap-2 items-center">
+          <label class="text-[11px] font-bold text-black/55">💰 السعر</label>
+          <div class="flex items-center gap-2">
+            <input type="text" inputmode="numeric" data-vk="price" data-vi="${i}" value="${(v.price||'').replace(/"/g,'&quot;')}" placeholder="مثلاً: 100,000 (لو فاضي يستخدم سعر المنتج الرئيسي)" class="flex-1 min-w-0 num-en bg-white border-2 border-gold/30 focus:border-gold rounded-lg px-3 py-2 text-[14px] font-bold"/>
+            <span class="text-[12px] font-bold text-black/40 shrink-0">ج.م</span>
+          </div>
+        </div>
+
+        <!-- Original price row (optional) -->
+        <div class="grid grid-cols-[auto_1fr] gap-2 items-center">
+          <label class="text-[11px] font-bold text-black/55">🏷️ قبل الخصم</label>
+          <div class="flex items-center gap-2">
+            <input type="text" inputmode="numeric" data-vk="originalPrice" data-vi="${i}" value="${(v.originalPrice||'').replace(/"/g,'&quot;')}" placeholder="اختياري — لإظهار شارة خصم" class="flex-1 min-w-0 num-en bg-white border border-black/10 rounded-lg px-3 py-2 text-[13px]"/>
+            <span class="text-[12px] font-bold text-black/40 shrink-0">ج.م</span>
+          </div>
+        </div>
       </div>
     `).join('');
     // Wire up inputs (uncontrolled — we read on save, but also keep draftVariants in sync for re-renders)
@@ -605,7 +653,7 @@
     });
   }
   document.getElementById('m_addVariant')?.addEventListener('click', () => {
-    draftVariants.push({ color: '', colorHex: '#0A0A0A', price: '' });
+    draftVariants.push({ color: '', colorHex: '#0A0A0A', price: '', originalPrice: '' });
     renderVariantList();
   });
 
@@ -657,19 +705,29 @@
   function renderImgGrid() {
     const grid = document.getElementById('m_imgs');
     document.getElementById('m_imgCount').textContent = draftImgs.length;
-    grid.innerHTML = draftImgs.map((src, i) => `
-      <div class="img-cell" draggable="true" data-i="${i}">
-        <img src="${src}" alt=""/>
-        ${i === 0 ? '<span class="first">رئيسية</span>' : ''}
-        <span class="x" data-del="${i}" title="حذف">×</span>
-      </div>
-    `).join('') + `
+    const addLabel = draftImgs.length === 0
+      ? `
+      <label class="img-add" title="إضافة صور" style="grid-column: 1 / -1; min-height: 140px; border-style: dashed; border-width: 2.5px;">
+        <svg class="w-9 h-9 mb-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4-4a3 3 0 014.24 0L16 16m-2-2l1.5-1.5a3 3 0 014.24 0L21 14M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+        <span class="font-extrabold text-[14px]">اضغط هنا لرفع الصور</span>
+        <span class="text-[11px] text-black/45 mt-1">JPG / PNG · أكتر من صورة في نفس الوقت</span>
+        <input type="file" accept="image/*" multiple class="hidden" id="imgAddInput"/>
+      </label>
+    `
+      : `
       <label class="img-add" title="إضافة صور">
         <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
         <span>أضف صور</span>
         <input type="file" accept="image/*" multiple class="hidden" id="imgAddInput"/>
       </label>
     `;
+    grid.innerHTML = draftImgs.map((src, i) => `
+      <div class="img-cell" draggable="true" data-i="${i}">
+        <img src="${src}" alt=""/>
+        ${i === 0 ? '<span class="first">رئيسية</span>' : ''}
+        <span class="x" data-del="${i}" title="حذف">×</span>
+      </div>
+    `).join('') + addLabel;
     grid.querySelectorAll('[data-del]').forEach(el => {
       el.addEventListener('click', e => {
         e.stopPropagation();
@@ -698,12 +756,32 @@
       addInput.addEventListener('change', async () => {
         const files = Array.from(addInput.files || []);
         if (!files.length) return;
+        // Visual feedback while compression runs (large originals take 1-2s on a slow CPU).
+        toast(`جاري ضغط ${files.length} صورة…`);
         try {
-          const urls = await Promise.all(files.map(fileToCompressedDataURL));
-          draftImgs = draftImgs.concat(urls);
-          renderImgGrid();
-          toast(`تم رفع ${files.length} صورة`);
-        } catch (e) { toast('فشل رفع الصور'); }
+          const urls = [];
+          for (let i = 0; i < files.length; i++) {
+            try {
+              const u = await fileToCompressedDataURL(files[i]);
+              urls.push(u);
+            } catch (err) {
+              console.error('image compress failed for file', files[i].name, err);
+            }
+          }
+          if (urls.length === 0) {
+            toast('❌ فشل قراءة الصور — تأكد إنها JPG أو PNG');
+          } else {
+            draftImgs = draftImgs.concat(urls);
+            renderImgGrid();
+            const skipped = files.length - urls.length;
+            toast(skipped > 0
+              ? `✅ ${urls.length} صورة (${skipped} فشلت)`
+              : `✅ تم رفع ${urls.length} صورة`);
+          }
+        } catch (e) {
+          console.error(e);
+          toast('❌ فشل رفع الصور');
+        }
         addInput.value = '';
       });
     }
@@ -917,6 +995,24 @@
     if (rows.length === 0) {
       toast('⚠️ مفيش منتجات للنشر');
       return;
+    }
+
+    // Size guard: warn if the products.js payload is approaching the practical limit
+    // for GitHub Contents API uploads. Past ~3 MB the request gets slow and unreliable.
+    const payloadKB = approxImagesPayloadKB();
+    if (payloadKB > 3000) {
+      const ok = confirm(
+        '⚠️ حجم الصور كبير جداً!\n\n' +
+        'حجم تقريبي: ' + payloadKB + ' KB (~' + (payloadKB/1024).toFixed(1) + ' MB)\n\n' +
+        'النشر ممكن ياخد وقت طويل أو يفشل. ينصح:\n' +
+        '- احذف منتجات قديمة مش محتاجها\n' +
+        '- استبدل صور كبيرة بصور أصغر\n\n' +
+        'تحب تكمل برضو؟'
+      );
+      if (!ok) {
+        toast('❌ اتلغى النشر');
+        return;
+      }
     }
 
     const btn = document.getElementById('publishBtn');
