@@ -343,12 +343,49 @@
   }
 
   // Color variants: each variant carries its own price/images. Active variant is highlighted.
+  // The default product images/price are shown as the "base" view (e.g. iPhone 15 in Pink),
+  // which can be re-selected at any time via toggle-click on the active variant or via
+  // the "إزالة الاختيار" reset link that appears when something is selected.
   const variants = Array.isArray(p.variants) ? p.variants.filter(v => v && (v.color || v.colorHex)) : [];
   let activeVariantIdx = -1;
   if (variants.length > 0) {
     document.getElementById('variantsBox').classList.remove('hidden');
     const list = document.getElementById('variantList');
+
+    // Build (or reuse) the "إزالة الاختيار" reset row so we don't append duplicates on re-render.
+    const variantsBox = document.getElementById('variantsBox');
+    let resetRow = variantsBox.querySelector('[data-variant-reset]');
+    if (!resetRow) {
+      resetRow = document.createElement('div');
+      resetRow.dataset.variantReset = '1';
+      resetRow.className = 'mt-3 hidden';
+      resetRow.innerHTML = `
+        <button type="button" class="inline-flex items-center gap-1.5 text-[12px] font-bold text-black/55 hover:text-red-600 transition">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          إزالة الاختيار — رجوع للصور الأساسية
+        </button>`;
+      variantsBox.appendChild(resetRow);
+    }
+
+    // Reset = go back to the base product (its original price/images/colors).
+    function resetVariant() {
+      activeVariantIdx = -1;
+      applyView({
+        color: p.color,
+        colorHex: p.colorHex,
+        price: p.price,
+        originalPrice: p.originalPrice,
+        storage: p.storage,
+        imgs: (Array.isArray(p.imgs) && p.imgs.length) ? p.imgs : (p.img ? [p.img] : null),
+      });
+      renderVariants();
+    }
+    resetRow.querySelector('button').addEventListener('click', resetVariant);
+
     function renderVariants() {
+      // Toggle the reset link's visibility based on whether a variant is selected.
+      resetRow.classList.toggle('hidden', activeVariantIdx < 0);
+
       list.innerHTML = variants.map((v, i) => {
         const isActive = i === activeVariantIdx;
         const vPrice = v.price || p.price;
@@ -358,26 +395,38 @@
           ? `<span class="w-12 h-12 rounded-lg border border-black/10 overflow-hidden shrink-0 bg-white"><img src="${v.imgs[0]}" class="w-full h-full object-cover" alt=""/></span>`
           : `<span class="w-10 h-10 rounded-full border border-black/15 shrink-0" style="background:${v.colorHex || '#ddd'}"></span>`;
         return `
-          <button data-i="${i}" class="text-right p-2.5 rounded-xl border-2 transition flex items-center gap-2.5 ${isActive ? 'border-gold bg-gold/10' : 'border-black/10 hover:border-gold/50 bg-white'}">
+          <button data-i="${i}" class="text-right p-2.5 rounded-xl border-2 transition flex items-center gap-2.5 ${isActive ? 'border-gold bg-gold/10' : 'border-black/10 hover:border-gold/50 bg-white'}" title="${isActive ? 'اضغط مرة تانية لإلغاء الاختيار' : ''}">
             ${thumb}
             <span class="flex-1 min-w-0">
               <span class="block text-[13px] font-bold truncate">${v.color || ''}</span>
               <span class="block text-[12px] text-gold-dark font-extrabold num-en">${vPrice ? vPrice + ' ج.م' : 'بنفس السعر'}</span>
             </span>
+            ${isActive ? `<svg class="w-4 h-4 text-gold-dark shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>` : ''}
           </button>
         `;
       }).join('');
+
       list.querySelectorAll('button').forEach(btn => {
         btn.addEventListener('click', () => {
-          activeVariantIdx = parseInt(btn.dataset.i, 10);
-          const v = variants[activeVariantIdx];
+          const i = parseInt(btn.dataset.i, 10);
+          // Toggle: clicking the already-active variant resets to the base product.
+          if (i === activeVariantIdx) {
+            resetVariant();
+            return;
+          }
+          activeVariantIdx = i;
+          const v = variants[i];
+          // If the variant has no own images, fall back to the main product gallery —
+          // that way switching to a "color-only" variant doesn't keep showing the
+          // previous variant's images by mistake.
+          const baseImgs = (Array.isArray(p.imgs) && p.imgs.length) ? p.imgs : (p.img ? [p.img] : null);
           applyView({
             color: v.color,
             colorHex: v.colorHex,
             price: v.price || p.price,
             originalPrice: v.originalPrice || p.originalPrice,
             storage: v.storage || p.storage,
-            imgs: (v.imgs && v.imgs.length) ? v.imgs : null,
+            imgs: (v.imgs && v.imgs.length) ? v.imgs : baseImgs,
           });
           renderVariants();
         });
