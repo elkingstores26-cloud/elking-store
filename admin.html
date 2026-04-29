@@ -651,11 +651,21 @@
   let draftVariants = [];      // working copy of color variants (saved on click of حفظ)
 
   // Render the variants list into the modal. Each entry is its own card with clear labels
-  // for color, name, price (optional — falls back to main price), and original price (for discount).
+  // for color, name, price (optional — falls back to main price), original price (for discount),
+  // AND its own image gallery (so each color shows its own images on the product page —
+  // matching the Dubai Phone style where clicking a color swaps the gallery).
   function renderVariantList() {
     const box = document.getElementById('m_variants');
     if (!box) return;
-    box.innerHTML = draftVariants.map((v, i) => `
+    box.innerHTML = draftVariants.map((v, i) => {
+      const vImgs = Array.isArray(v.imgs) ? v.imgs : [];
+      const imgsHtml = vImgs.map((src, j) => `
+        <div class="relative w-16 h-16 rounded-lg border border-black/10 overflow-hidden bg-white shrink-0" data-variant-img-cell="${i}-${j}">
+          <img src="${src}" class="w-full h-full object-cover" alt=""/>
+          <button type="button" data-vimg-del="${i}-${j}" class="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-black/70 text-white text-[12px] leading-none font-extrabold flex items-center justify-center hover:bg-red-600">×</button>
+        </div>
+      `).join('');
+      return `
       <div class="p-3.5 rounded-2xl border border-black/10 bg-cream/40 space-y-2.5" data-variant-card="${i}">
         <div class="flex items-center justify-between gap-2">
           <div class="flex items-center gap-2 text-[12px] font-extrabold text-black/55">
@@ -691,9 +701,24 @@
             <span class="text-[12px] font-bold text-black/40 shrink-0">ج.م</span>
           </div>
         </div>
+
+        <!-- Per-variant images: optional gallery shown when this color is selected on the product page -->
+        <div>
+          <label class="text-[11px] font-bold text-black/55 mb-1.5 block">🖼️ صور خاصة باللون ده <span class="text-black/35 font-normal">(اختياري — لو فاضي يستخدم صور المنتج الرئيسي)</span></label>
+          <div class="flex items-center gap-2 flex-wrap">
+            ${imgsHtml}
+            <label class="w-16 h-16 rounded-lg border-2 border-dashed border-black/15 hover:border-gold hover:bg-gold/5 flex flex-col items-center justify-center cursor-pointer text-black/40 text-[10px] font-bold transition shrink-0" title="ضيف صور للون ده">
+              <svg class="w-5 h-5 mb-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+              <span>صور</span>
+              <input type="file" accept="image/*" multiple class="hidden" data-vimg-add="${i}"/>
+            </label>
+          </div>
+        </div>
       </div>
-    `).join('');
-    // Wire up inputs (uncontrolled — we read on save, but also keep draftVariants in sync for re-renders)
+    `;
+    }).join('');
+
+    // Wire up text/color inputs (uncontrolled — we read on save, but also keep draftVariants in sync for re-renders)
     box.querySelectorAll('[data-vk]').forEach(el => {
       el.addEventListener('input', () => {
         const i = parseInt(el.dataset.vi, 10);
@@ -702,6 +727,7 @@
         draftVariants[i][k] = el.value;
       });
     });
+    // Wire up delete-variant buttons
     box.querySelectorAll('[data-vd]').forEach(btn => {
       btn.addEventListener('click', () => {
         const i = parseInt(btn.dataset.vd, 10);
@@ -709,9 +735,37 @@
         renderVariantList();
       });
     });
+    // Wire up per-variant image add
+    box.querySelectorAll('[data-vimg-add]').forEach(input => {
+      input.addEventListener('change', async () => {
+        const i = parseInt(input.dataset.vimgAdd, 10);
+        const files = Array.from(input.files || []);
+        if (!files.length) return;
+        if (!draftVariants[i]) return;
+        if (!Array.isArray(draftVariants[i].imgs)) draftVariants[i].imgs = [];
+        toast(`جاري ضغط ${files.length} صورة…`);
+        const urls = [];
+        for (const f of files) {
+          try { urls.push(await fileToCompressedDataURL(f)); } catch(e) {}
+        }
+        draftVariants[i].imgs = draftVariants[i].imgs.concat(urls);
+        toast(urls.length ? `✅ تم رفع ${urls.length} صورة للون` : '❌ فشل رفع الصور');
+        input.value = '';
+        renderVariantList();
+      });
+    });
+    // Wire up per-variant image delete
+    box.querySelectorAll('[data-vimg-del]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const [vi, ji] = btn.dataset.vimgDel.split('-').map(n => parseInt(n, 10));
+        if (!draftVariants[vi] || !Array.isArray(draftVariants[vi].imgs)) return;
+        draftVariants[vi].imgs.splice(ji, 1);
+        renderVariantList();
+      });
+    });
   }
   document.getElementById('m_addVariant')?.addEventListener('click', () => {
-    draftVariants.push({ color: '', colorHex: '#0A0A0A', price: '', originalPrice: '' });
+    draftVariants.push({ color: '', colorHex: '#0A0A0A', price: '', originalPrice: '', imgs: [] });
     renderVariantList();
   });
 
@@ -907,12 +961,15 @@
     editing.price = document.getElementById('m_price').value.trim().replace(/[^\d,]/g,'');
     editing.originalPrice = document.getElementById('m_originalPrice').value.trim().replace(/[^\d,]/g,'');
     // Persist variants — only those that have at least a color name or a hex set.
+    // Each variant keeps its own optional `imgs` so the product page can swap the gallery
+    // when the user picks that color (matches the Dubai Phone style).
     editing.variants = draftVariants
       .map(v => ({
         color: (v.color || '').trim(),
         colorHex: v.colorHex || '',
         price: (v.price || '').trim().replace(/[^\d,]/g,''),
         originalPrice: (v.originalPrice || '').trim().replace(/[^\d,]/g,''),
+        imgs: Array.isArray(v.imgs) ? v.imgs.slice() : [],
       }))
       .filter(v => v.color || v.colorHex);
     editing.description = document.getElementById('m_description').value.trim();

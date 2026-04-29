@@ -349,12 +349,17 @@
       list.innerHTML = variants.map((v, i) => {
         const isActive = i === activeVariantIdx;
         const vPrice = v.price || p.price;
+        // Prefer the variant's own first image as a thumbnail when present (Dubai Phone-style),
+        // otherwise fall back to the colored circle so we still show a meaningful swatch.
+        const thumb = (Array.isArray(v.imgs) && v.imgs.length)
+          ? `<span class="w-12 h-12 rounded-lg border border-black/10 overflow-hidden shrink-0 bg-white"><img src="${v.imgs[0]}" class="w-full h-full object-cover" alt=""/></span>`
+          : `<span class="w-10 h-10 rounded-full border border-black/15 shrink-0" style="background:${v.colorHex || '#ddd'}"></span>`;
         return `
-          <button data-i="${i}" class="text-right p-3 rounded-xl border-2 transition flex items-center gap-2.5 ${isActive ? 'border-gold bg-gold/10' : 'border-black/10 hover:border-gold/50 bg-white'}">
-            <span class="w-6 h-6 rounded-full border border-black/15 shrink-0" style="background:${v.colorHex || '#ddd'}"></span>
+          <button data-i="${i}" class="text-right p-2.5 rounded-xl border-2 transition flex items-center gap-2.5 ${isActive ? 'border-gold bg-gold/10' : 'border-black/10 hover:border-gold/50 bg-white'}">
+            ${thumb}
             <span class="flex-1 min-w-0">
               <span class="block text-[13px] font-bold truncate">${v.color || ''}</span>
-              <span class="block text-[12px] text-gold-dark font-extrabold num-en">${vPrice} ج.م</span>
+              <span class="block text-[12px] text-gold-dark font-extrabold num-en">${vPrice ? vPrice + ' ج.م' : 'بنفس السعر'}</span>
             </span>
           </button>
         `;
@@ -386,10 +391,42 @@
 
   // Gallery
   const hero = document.getElementById('hero');
+  const heroParent = hero ? hero.parentElement : null;
   const thumbsBox = document.getElementById('thumbs');
   const prevBtn = document.getElementById('prevImg');
   const nextBtn = document.getElementById('nextImg');
   let active = 0;
+
+  // SVG placeholder injected when a product has no images yet — so the page never
+  // looks broken to a visitor (and the admin can publish a draft without embarrassment).
+  function showImagePlaceholder() {
+    if (!heroParent) return;
+    hero.style.display = 'none';
+    let ph = heroParent.querySelector('.no-img-placeholder');
+    if (!ph) {
+      ph = document.createElement('div');
+      ph.className = 'no-img-placeholder absolute inset-0 flex flex-col items-center justify-center text-black/30';
+      ph.innerHTML = `
+        <svg class="w-24 h-24 md:w-32 md:h-32 mb-3" fill="none" stroke="currentColor" stroke-width="1.2" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="3"/>
+          <circle cx="8.5" cy="9" r="1.5" fill="currentColor"/>
+          <path d="M21 16l-5-5-9 9"/>
+        </svg>
+        <div class="text-[14px] font-bold">الصور قريباً</div>
+        <div class="text-[12px] text-black/40 mt-1">كلّمنا على واتساب لشوف الجهاز</div>`;
+      heroParent.appendChild(ph);
+    }
+    if (prevBtn) prevBtn.classList.add('hidden');
+    if (nextBtn) nextBtn.classList.add('hidden');
+    if (thumbsBox) thumbsBox.style.display = 'none';
+  }
+  function hideImagePlaceholder() {
+    if (!heroParent) return;
+    const ph = heroParent.querySelector('.no-img-placeholder');
+    if (ph) ph.remove();
+    hero.style.display = '';
+    if (thumbsBox) thumbsBox.style.display = '';
+  }
 
   function setActive(i) {
     if (!currentImgs.length) return;
@@ -404,11 +441,14 @@
       thumbsBox.innerHTML = '';
       prevBtn.classList.add('hidden'); prevBtn.classList.remove('flex');
       nextBtn.classList.add('hidden'); nextBtn.classList.remove('flex');
+      showImagePlaceholder();
       return;
     }
+    hideImagePlaceholder();
     active = 0;
     hero.src = currentImgs[0];
     hero.alt = p.name;
+    hero.style.opacity = '1';
     thumbsBox.innerHTML = currentImgs.map((src, i) => `
       <button class="thumb-btn aspect-square bg-white rounded-xl border border-black/10 overflow-hidden ${i===0?'active':''}" data-i="${i}">
         <img src="${src}" class="w-full h-full object-cover" alt=""/>
