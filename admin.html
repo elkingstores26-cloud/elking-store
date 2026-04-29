@@ -93,6 +93,7 @@
       </a>
       <span class="text-white/20">·</span>
       <h1 class="font-extrabold text-[18px]">إدارة الليستة</h1>
+      <span id="loadStatus" class="hidden md:inline-flex"></span>
     </div>
     <div class="flex items-center gap-2">
       <button id="addRow" class="bg-white/10 hover:bg-white/15 text-white font-bold px-4 py-2 rounded-full text-[13px] flex items-center gap-1.5">
@@ -435,6 +436,8 @@
 
   // SAFETY: hydrate from the live site first so a fresh browser/origin doesn't start empty
   // and accidentally wipe the live catalogue on the next "نشر".
+  // Strategy: server is the source of truth. Local is preferred only when it has clearly
+  // more rows (≥ 2 extra) — meaning the user has unpublished edits we shouldn't lose.
   async function loadInitial() {
     const serverRows = await fetchServerRows();
 
@@ -443,22 +446,47 @@
     if (!saved) saved = localStorage.getItem(STORAGE_KEY_OLD);
     if (saved) { try { localRows = JSON.parse(saved); } catch(e){} }
 
+    let usedSource = 'none';
     if (serverRows && serverRows.length > 0) {
-      // Local has more rows → likely unpublished work. Otherwise prefer server (source of truth).
+      // Trust local only if it clearly has MORE products than the server (unpublished work).
+      // Equal counts → trust the server (it has the latest published prices/details).
       if (localRows.length > serverRows.length + 1) {
         rows = localRows;
+        usedSource = 'local-larger';
       } else {
         rows = serverRows;
+        usedSource = 'server';
       }
     } else if (localRows.length) {
       rows = localRows;
-    } else if (window.ELKING_PRODUCTS) {
+      usedSource = 'local-fallback';
+    } else if (window.ELKING_PRODUCTS && window.ELKING_PRODUCTS.length) {
       rows = JSON.parse(JSON.stringify(window.ELKING_PRODUCTS));
+      usedSource = 'script-tag';
+    } else {
+      rows = [];
+      usedSource = 'empty';
     }
 
     rows = rows.map(normalize);
     nextId = rows.reduce((m,r) => Math.max(m, r.id||0), 0) + 1;
     persist();
+
+    // Visible status pill so the user can SEE what loaded — no more silent "I see 0 products"
+    // moments where they might publish without realising.
+    setTimeout(() => {
+      const banner = document.getElementById('loadStatus');
+      if (!banner) return;
+      if (usedSource === 'server') {
+        banner.innerHTML = `<span class="text-[12px] text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full font-bold">✅ ${rows.length} منتج تم تحميلهم من الموقع لايف</span>`;
+      } else if (usedSource === 'local-larger') {
+        banner.innerHTML = `<span class="text-[12px] text-yellow-800 bg-yellow-50 border border-yellow-200 px-2.5 py-1 rounded-full font-bold">⚠️ ${rows.length} منتج (نسخة محلية فيها تعديلات لسه ما اتنشرتش)</span>`;
+      } else if (usedSource === 'local-fallback' || usedSource === 'script-tag') {
+        banner.innerHTML = `<span class="text-[12px] text-red-700 bg-red-50 border border-red-200 px-2.5 py-1 rounded-full font-bold">⚠️ ${rows.length} منتج محلي — مفيش اتصال بالموقع لايف. تأكد قبل النشر</span>`;
+      } else {
+        banner.innerHTML = `<span class="text-[12px] text-red-700 bg-red-50 border border-red-200 px-2.5 py-1 rounded-full font-bold">🚨 مفيش منتجات! اضغط 🔄 "تحميل من اللايف"</span>`;
+      }
+    }, 100);
   }
 
   function persist() {
@@ -1019,27 +1047,56 @@
       return;
     }
 
-    // SAFETY GUARD: never silently shrink the live catalogue.
-    // If the admin currently holds far fewer products than what's live, the user is most likely
-    // about to wipe data they didn't intend to (this happened twice already). Force confirmation.
-    const liveRows = await fetchServerRows();
-    if (liveRows && liveRows.length > rows.length + 3) {
-      const diff = liveRows.length - rows.length;
-      const ok = confirm(
-        '⚠️ تحذير مهم!\n\n' +
-        'على الموقع لايف فيه: ' + liveRows.length + ' منتج\n' +
-        'اللي عندك دلوقتي: ' + rows.length + ' منتج\n\n' +
-        'لو نشرت دلوقتي هتمسح ' + diff + ' منتج من الموقع.\n\n' +
-        'متأكد إنك عايز تكمل؟ (اضغط OK لو متأكد، أو Cancel لو عايز تستوقف)'
-      );
-      if (!ok) {
-        toast('❌ اتلغى النشر');
-        return;
-      }
-    }
     if (rows.length === 0) {
       toast('⚠️ مفيش منتجات للنشر');
       return;
+    }
+
+    // ===== SAFETY GUARD =====
+    // The catastrophic case we are guarding against: an admin session loads with very few
+    // products (fresh browser, cleared cache, accidental clear) and the user clicks "نشر",
+    // wiping the entire live catalogue. We use a tiered defence:
+    //   1. small diff (≤ 3 fewer): silent — normal edit
+    //   2. medium diff (4 to 9 fewer): clear OK/Cancel confirmation
+    //   3. dangerous diff (10+ fewer OR < 5 rows while live has ≥ 10): block + require
+    //      typing the literal phrase "نعم متاكد" before we will publish.
+    const liveRows = await fetchServerRows();
+    if (liveRows && liveRows.length > rows.length + 3) {
+      const diff = liveRows.length - rows.length;
+      const dangerous = (diff >= 10) || (rows.length < 5 && liveRows.length >= 10);
+      if (dangerous) {
+        const phrase = 'نعم متاكد';
+        const typed = prompt(
+          '🚨 خطر! توقّف!\n\n' +
+          'الموقع لايف فيه ' + liveRows.length + ' منتج.\n' +
+          'اللي عندك دلوقتي ' + rows.length + ' منتج فقط.\n\n' +
+          'النشر دلوقتي = مسح ' + diff + ' منتج من الموقع.\n\n' +
+          'لو ده مش قصدك:\n' +
+          '   • اقفل الرسالة دي (Cancel)\n' +
+          '   • اضغط زرار "🔄 تحميل من اللايف" عشان ترجع الـ' + liveRows.length + ' منتج\n\n' +
+          'لو متأكد فعلاً عايز تمسح ' + diff + ' منتج، اكتب الجملة دي بالظبط:\n\n' +
+          '   ' + phrase
+        );
+        if (typed === null) {
+          toast('❌ اتلغى النشر — استخدم زرار التحميل');
+          return;
+        }
+        if ((typed || '').trim() !== phrase) {
+          alert('❌ الجملة مش مطابقة. اتلغى النشر للسلامة.\n\nلو عاوز ترجع المنتجات اللي على الموقع، اضغط زرار "🔄 تحميل من اللايف".');
+          return;
+        }
+      } else {
+        const ok = confirm(
+          '⚠️ تحذير!\n\n' +
+          'على الموقع: ' + liveRows.length + ' منتج\n' +
+          'عندك: ' + rows.length + ' منتج\n\n' +
+          'لو نشرت هتمسح ' + diff + ' منتج. متأكد؟'
+        );
+        if (!ok) {
+          toast('❌ اتلغى النشر');
+          return;
+        }
+      }
     }
 
     // Size guard: warn if the products.js payload is approaching the practical limit
