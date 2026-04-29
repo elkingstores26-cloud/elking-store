@@ -227,6 +227,12 @@
     if (hero) hero.style.filter = 'grayscale(0.5) opacity(0.85)';
   }
 
+  // Helpers must be defined BEFORE use — `const` doesn't hoist, so referencing them
+  // earlier (e.g. inside the JSON-LD block) throws a TDZ ReferenceError that halts
+  // the rest of the script and leaves price/description/gallery blank.
+  const priceNum = v => parseFloat(String(v||'').replace(/[^\d.]/g,'')) || 0;
+  const fmt = n => n.toLocaleString('en-US');
+
   // SEO: dynamic meta description + JSON-LD product schema
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.content = `${p.name} - ${p.storage || ''} - السعر ${p.price} ج.م. ${p.description ? p.description.slice(0, 120) : 'بضمان معتمد من الكينج ستور.'}`;
@@ -250,14 +256,11 @@
       "url": location.href,
       "priceCurrency": "EGP",
       "price": String(priceNum(p.price)),
-      "availability": "https://schema.org/InStock",
+      "availability": p.inStock === false ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
       "seller": { "@type": "Store", "name": "الكينج ستور" }
     }
   });
   document.head.appendChild(ldScript);
-
-  const priceNum = v => parseFloat(String(v||'').replace(/[^\d.]/g,'')) || 0;
-  const fmt = n => n.toLocaleString('en-US');
 
   // If the main product has no price but variants do, fall back to the first variant
   // with a price — so the price block never shows just "ج.م" alone.
