@@ -131,7 +131,7 @@
       <button data-c="acc" class="cat-tab px-4 py-1.5 rounded-full text-[13px] font-bold text-black/65">إكسسوارات</button>
     </div>
     <div class="ms-auto flex items-center gap-2">
-      <input id="searchBox" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="elking-admin-search" placeholder="ابحث…" class="bg-white border border-black/10 rounded-full px-4 py-2 text-[13px] focus:outline-none focus:border-gold w-48"/>
+      <input id="searchBox" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="elking-admin-search" placeholder="ابحث…" class="bg-white border border-black/10 rounded-full px-4 py-2 text-[13px] focus:outline-none focus:border-gold w-48" style="display:none !important;visibility:hidden !important;"/>
       <select id="sortPick" class="bg-white border border-black/10 rounded-full px-3 py-2 text-[12px] font-bold focus:outline-none focus:border-gold">
         <option value="">ترتيب…</option>
         <option value="name-az">الاسم (أ — ي)</option>
@@ -1017,7 +1017,14 @@
   document.querySelector('.cat-tab.active').classList.add('bg-ink','text-gold');
 
   document.getElementById('sortPick').addEventListener('change', e => { activeSort = e.target.value; renderTable(); });
-  document.getElementById('searchBox').addEventListener('input', e => { searchQ = e.target.value.trim(); renderTable(); });
+  // Search box is hidden — Chrome autofill kept injecting "main" and breaking the table.
+  // We force-ignore any value the browser autofills: the listener clears the field rather
+  // than filtering. To re-enable search later, remove the display:none on the input above.
+  document.getElementById('searchBox').addEventListener('input', e => {
+    e.target.value = '';
+    searchQ = '';
+    renderTable();
+  });
 
   // ===== Build products.js content =====
   function buildProductsJs() {
