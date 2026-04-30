@@ -1,6 +1,37 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٢٧:٤٢ ص
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٢٩:٥٠ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 218,
+    "cat": "used",
+    "name": "vivo 1010",
+    "storage": "128GB · Pink",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "realme",
+    "price": "200000",
+    "originalPrice": "10000",
+    "description": "aaaaaaaa",
+    "img": "images/products/p218_0_ppqo5m.jpg",
+    "imgs": [
+      "images/products/p218_0_ppqo5m.jpg"
+    ],
+    "featured": false,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "10",
+        "originalPrice": "20",
+        "imgs": [
+          "images/products/p218_v0_0_6ttj23.jpg"
+        ]
+      }
+    ],
+    "inStock": true,
+    "battery": "90",
+    "condition": "جيد جداً"
+  },
   {
     "id": 217,
     "cat": "used",
