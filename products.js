@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٥٧:١٤ ص
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١:٠٤:١١ ص
 window.ELKING_PRODUCTS = [
   {
     "id": 215,
@@ -653,6 +653,26 @@ window.ELKING_PRODUCTS = [
     "variants": []
   },
   {
+    "id": 115,
+    "cat": "used",
+    "name": "Tecno Camon 20",
+    "storage": "128GB · Predawn Black",
+    "brand": "Tecno",
+    "price": "3,800",
+    "battery": "88%",
+    "condition": "جيد",
+    "description": "Tecno Camon 20 بكاميرا 64 ميجابكسل وتصميم نحيف. سعر اقتصادي مع أداء جيد للاستخدام اليومي.",
+    "img": "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=900&q=80&auto=format&fit=crop",
+    "imgs": [
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=900&q=80&auto=format&fit=crop"
+    ],
+    "color": "",
+    "colorHex": "",
+    "featured": false,
+    "originalPrice": "",
+    "variants": []
+  },
+  {
     "id": 112,
     "cat": "used",
     "name": "Huawei Nova 11",
@@ -705,26 +725,6 @@ window.ELKING_PRODUCTS = [
     "img": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=900&q=80&auto=format&fit=crop",
     "imgs": [
       "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=900&q=80&auto=format&fit=crop"
-    ],
-    "color": "",
-    "colorHex": "",
-    "featured": false,
-    "originalPrice": "",
-    "variants": []
-  },
-  {
-    "id": 115,
-    "cat": "used",
-    "name": "Tecno Camon 20",
-    "storage": "128GB · Predawn Black",
-    "brand": "Tecno",
-    "price": "3,800",
-    "battery": "88%",
-    "condition": "جيد",
-    "description": "Tecno Camon 20 بكاميرا 64 ميجابكسل وتصميم نحيف. سعر اقتصادي مع أداء جيد للاستخدام اليومي.",
-    "img": "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=900&q=80&auto=format&fit=crop",
-    "imgs": [
-      "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=900&q=80&auto=format&fit=crop"
     ],
     "color": "",
     "colorHex": "",
