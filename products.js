@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٢٩:٥٠ ص
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٤٤:٠١ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 219,
+    "cat": "used",
+    "name": "ip17promax500 123",
+    "storage": "128GB · Pink",
+    "color": "أحمر",
+    "colorHex": "#dc2626",
+    "brand": "realme",
+    "price": "42,000",
+    "originalPrice": "100500",
+    "description": "s",
+    "img": "images/products/p219_0_ppqo5m.jpg",
+    "imgs": [
+      "images/products/p219_0_ppqo5m.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "95%",
+    "condition": "جيد"
+  },
   {
     "id": 218,
     "cat": "used",
