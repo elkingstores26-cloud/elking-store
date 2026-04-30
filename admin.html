@@ -131,7 +131,7 @@
       <button data-c="acc" class="cat-tab px-4 py-1.5 rounded-full text-[13px] font-bold text-black/65">إكسسوارات</button>
     </div>
     <div class="ms-auto flex items-center gap-2">
-      <input id="searchBox" placeholder="ابحث…" class="bg-white border border-black/10 rounded-full px-4 py-2 text-[13px] focus:outline-none focus:border-gold w-48"/>
+      <input id="searchBox" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="elking-admin-search" placeholder="ابحث…" class="bg-white border border-black/10 rounded-full px-4 py-2 text-[13px] focus:outline-none focus:border-gold w-48"/>
       <select id="sortPick" class="bg-white border border-black/10 rounded-full px-3 py-2 text-[12px] font-bold focus:outline-none focus:border-gold">
         <option value="">ترتيب…</option>
         <option value="name-az">الاسم (أ — ي)</option>
@@ -177,9 +177,10 @@
     <summary class="font-extrabold cursor-pointer text-[15px]">إزاي ترفع التعديلات على الموقع؟</summary>
     <ol class="mt-4 space-y-2 text-[13.5px] text-black/70 list-decimal list-inside leading-relaxed">
       <li>عدّل أو ضيف منتجات + ارفع صور.</li>
-      <li>اضغط <span class="bg-gold/15 text-gold-dark font-bold px-2 py-0.5 rounded">نزّل products.js</span>.</li>
-      <li>ادخل GitHub → استبدل ملف <code class="bg-cream px-1.5 py-0.5 rounded text-[12px] num-en">products.js</code> بالنسخة الجديدة.</li>
-      <li>Netlify بيعمل deploy تلقائي خلال دقيقة.</li>
+      <li>اضغط <span class="bg-gold text-ink font-bold px-2 py-0.5 rounded">نشر على الموقع</span> فوق على اليسار.</li>
+      <li>الصور بترفع كملفات منفصلة على GitHub، وملف <code class="bg-cream px-1.5 py-0.5 rounded text-[12px] num-en">products.js</code> بيتحدّث تلقائي.</li>
+      <li>الموقع بيتحدّث على <span class="num-en">elking-store.com</span> خلال دقيقة.</li>
+      <li class="text-black/45">للنسخ الاحتياطي بس: زرار <span class="bg-cream px-2 py-0.5 rounded font-bold">نزّل</span> بينزّل ملف products.js على جهازك.</li>
     </ol>
   </details>
 
@@ -1049,6 +1050,123 @@
     return btoa(unescape(encodeURIComponent(str)));
   }
 
+  // ----- Image-as-files: keep products.js tiny by uploading images as separate files -----
+  // Why: storing base64 images inline in products.js bloats the file (~30 KB per image),
+  // making every publish slow and every site visitor download huge JS just to see thumbnails.
+  // Strategy: on publish, any image still in `data:image/...` form gets PUT to
+  // /images/products/<filename> as its own file, and the row's img URL becomes the path.
+  function isDataURL(s) {
+    return typeof s === 'string' && s.startsWith('data:image/');
+  }
+
+  // Stable filename based on content fingerprint — same image content → same filename,
+  // so re-publishing without changes is a no-op upload-wise.
+  function imageFilenameFor(dataUrl, productId, slot) {
+    const sample = dataUrl.length > 800
+      ? dataUrl.slice(0, 400) + dataUrl.slice(-400)
+      : dataUrl;
+    let hash = 0;
+    for (let i = 0; i < sample.length; i++) {
+      hash = ((hash << 5) - hash) + sample.charCodeAt(i);
+      hash |= 0;
+    }
+    const tag = (Math.abs(hash) >>> 0).toString(36);
+    const m = dataUrl.match(/^data:image\/([a-zA-Z0-9+]+)/);
+    let ext = (m ? m[1] : 'jpg').toLowerCase();
+    if (ext === 'jpeg') ext = 'jpg';
+    if (ext === 'svg+xml') ext = 'svg';
+    if (!/^[a-z0-9]+$/.test(ext)) ext = 'jpg';
+    return `p${productId || 0}_${slot}_${tag}.${ext}`;
+  }
+
+  // PUT a single image file. Returns the relative path (e.g. "images/products/p215_0_xxx.jpg").
+  // Uses GET-then-PUT so we update an existing file gracefully (idempotent re-publishes).
+  async function ghUploadImage(s, dataUrl, filename) {
+    const path = `images/products/${filename}`;
+    const url = `https://api.github.com/repos/${s.repo}/contents/${encodeURI(path)}`;
+    const base64Content = dataUrl.split(',')[1] || '';
+    if (!base64Content) throw new Error('صورة فاضية: ' + filename);
+
+    let sha = null;
+    try {
+      const checkUrl = `${url}?ref=${encodeURIComponent(s.branch)}&t=${Date.now()}`;
+      const r = await fetch(checkUrl, {
+        headers: { 'Authorization': 'Bearer ' + s.token, 'Accept': 'application/vnd.github+json' },
+        cache: 'no-store'
+      });
+      if (r.ok) { const j = await r.json(); sha = j.sha; }
+    } catch (e) { /* file doesn't exist — that's fine, we'll create it */ }
+
+    const body = {
+      message: `صورة منتج: ${filename}`,
+      content: base64Content,
+      branch: s.branch,
+    };
+    if (sha) body.sha = sha;
+
+    const r = await fetch(url, {
+      method: 'PUT',
+      headers: {
+        'Authorization': 'Bearer ' + s.token,
+        'Accept': 'application/vnd.github+json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body),
+    });
+    if (!r.ok) throw new Error(`فشل رفع ${filename}: ${r.status}`);
+    return path;
+  }
+
+  // Walk all rows + variants, count base64 images that need uploading.
+  function countInlineImages() {
+    let n = 0;
+    rows.forEach(r => {
+      (r.imgs || []).forEach(s => { if (isDataURL(s)) n++; });
+      (r.variants || []).forEach(v => { (v.imgs || []).forEach(s => { if (isDataURL(s)) n++; }); });
+    });
+    return n;
+  }
+
+  // Upload every inline base64 image to GitHub as its own file, replacing the data URL
+  // in-place with the new path. `onProgress(done, total)` is called after each upload
+  // so the publish button can show "بنرفع 3/12 صورة".
+  async function uploadInlineImages(s, onProgress) {
+    const total = countInlineImages();
+    if (total === 0) return 0;
+    let done = 0;
+    for (const r of rows) {
+      if (Array.isArray(r.imgs)) {
+        for (let i = 0; i < r.imgs.length; i++) {
+          if (isDataURL(r.imgs[i])) {
+            const fname = imageFilenameFor(r.imgs[i], r.id, i);
+            const path = await ghUploadImage(s, r.imgs[i], fname);
+            r.imgs[i] = path;
+            done++;
+            if (onProgress) onProgress(done, total);
+          }
+        }
+        if (r.imgs.length) r.img = r.imgs[0];
+      }
+      if (Array.isArray(r.variants)) {
+        for (let vi = 0; vi < r.variants.length; vi++) {
+          const v = r.variants[vi];
+          if (!Array.isArray(v.imgs)) continue;
+          for (let i = 0; i < v.imgs.length; i++) {
+            if (isDataURL(v.imgs[i])) {
+              const fname = imageFilenameFor(v.imgs[i], r.id, `v${vi}_${i}`);
+              const path = await ghUploadImage(s, v.imgs[i], fname);
+              v.imgs[i] = path;
+              done++;
+              if (onProgress) onProgress(done, total);
+            }
+          }
+        }
+      }
+    }
+    persist();
+    return total;
+  }
+
   async function ghGetSha(s) {
     // Cache-bust the GET so we always read the latest SHA — otherwise the browser
     // can serve a stale cached response and PUT will fail with 409 conflict.
@@ -1176,9 +1294,21 @@
 
     const btn = document.getElementById('publishBtn');
     const orig = btn.innerHTML;
+    const spinner = `<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12a8 8 0 018-8v0"/></svg>`;
     btn.disabled = true;
-    btn.innerHTML = `<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 12a8 8 0 018-8v0"/></svg> بنشر…`;
+    btn.innerHTML = `${spinner} بنشر…`;
     try {
+      // Upload any inline base64 images as their own files first. After this step,
+      // products.js will only contain URL paths (small + fast to publish + fast to load).
+      const totalImgs = countInlineImages();
+      if (totalImgs > 0) {
+        btn.innerHTML = `${spinner} بنرفع 0/${totalImgs} صورة…`;
+        await uploadInlineImages(s, (done, total) => {
+          btn.innerHTML = `${spinner} بنرفع ${done}/${total} صورة…`;
+        });
+        renderTable();
+      }
+      btn.innerHTML = `${spinner} بننشر الليستة…`;
       await ghPutFile(s, buildProductsJs());
       toast('✅ اتنشر! الموقع هيتحدّث خلال دقيقة');
     } catch (e) {
