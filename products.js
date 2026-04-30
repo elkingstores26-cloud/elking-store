@@ -1,6 +1,58 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٤٤:٠١ ص
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٢:٥٧:١٤ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 215,
+    "cat": "used",
+    "name": "Samsung A55",
+    "storage": "128GB · Pink",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "apple",
+    "price": "22,500",
+    "originalPrice": "25000",
+    "description": "حلو",
+    "img": "images/products/p215_0_ppqo5m.jpg",
+    "imgs": [
+      "images/products/p215_0_ppqo5m.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "90",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 213,
+    "cat": "used",
+    "name": "ip17promax5001",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "apple",
+    "price": "6000",
+    "originalPrice": "100500",
+    "description": "ااراتتالا",
+    "img": "images/products/p213_0_62rfcn.jpg",
+    "imgs": [
+      "images/products/p213_0_62rfcn.jpg"
+    ],
+    "featured": false,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "100",
+        "originalPrice": "200",
+        "imgs": [
+          "images/products/p213_v0_0_ppqo5m.jpg"
+        ]
+      }
+    ],
+    "inStock": true,
+    "battery": "91",
+    "condition": "ممتاز"
+  },
   {
     "id": 219,
     "cat": "used",
@@ -106,27 +158,6 @@ window.ELKING_PRODUCTS = [
     "condition": "ممتاز"
   },
   {
-    "id": 215,
-    "cat": "used",
-    "name": "Samsung A55",
-    "storage": "128GB · Pink",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "apple",
-    "price": "22,500",
-    "originalPrice": "25000",
-    "description": "حلو",
-    "img": "images/products/p215_0_ppqo5m.jpg",
-    "imgs": [
-      "images/products/p215_0_ppqo5m.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "90",
-    "condition": "ممتاز"
-  },
-  {
     "id": 214,
     "cat": "new",
     "name": "iphone 11",
@@ -167,54 +198,6 @@ window.ELKING_PRODUCTS = [
     "condition": ""
   },
   {
-    "id": 213,
-    "cat": "used",
-    "name": "ip17promax5001",
-    "storage": "256",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "apple",
-    "price": "6000",
-    "originalPrice": "100500",
-    "description": "ااراتتالا",
-    "img": "images/products/p213_0_62rfcn.jpg",
-    "imgs": [
-      "images/products/p213_0_62rfcn.jpg"
-    ],
-    "featured": false,
-    "variants": [
-      {
-        "color": "",
-        "colorHex": "#0A0A0A",
-        "price": "100",
-        "originalPrice": "200",
-        "imgs": [
-          "images/products/p213_v0_0_ppqo5m.jpg"
-        ]
-      }
-    ],
-    "inStock": true,
-    "battery": "91",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 212,
-    "cat": "used",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
-  },
-  {
     "id": 211,
     "cat": "new",
     "name": "ip17promax500",
@@ -248,40 +231,6 @@ window.ELKING_PRODUCTS = [
     "inStock": false,
     "battery": "",
     "condition": ""
-  },
-  {
-    "id": 210,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
-  },
-  {
-    "id": 209,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
   },
   {
     "id": 208,
@@ -323,22 +272,6 @@ window.ELKING_PRODUCTS = [
     ],
     "battery": "",
     "condition": ""
-  },
-  {
-    "id": 207,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": []
   },
   {
     "id": 206,
@@ -402,42 +335,6 @@ window.ELKING_PRODUCTS = [
     "imgs": [
       "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=900&q=80&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?w=900&q=80&auto=format&fit=crop"
-    ],
-    "color": "",
-    "colorHex": "",
-    "featured": false,
-    "originalPrice": "",
-    "variants": []
-  },
-  {
-    "id": 2,
-    "cat": "new",
-    "name": "iPhone 15",
-    "storage": "128GB · Pink",
-    "brand": "Apple",
-    "price": "42,000",
-    "description": "ايفون 15 بشاشة Super Retina XDR ومنفذ USB-C. كاميرا 48 ميجابكسل بأداء ممتاز في الإضاءة المنخفضة.",
-    "img": "https://images.unsplash.com/photo-1696446702183-be9605d12d8d?w=900&q=80&auto=format&fit=crop",
-    "imgs": [
-      "https://images.unsplash.com/photo-1696446702183-be9605d12d8d?w=900&q=80&auto=format&fit=crop"
-    ],
-    "color": "",
-    "colorHex": "",
-    "featured": false,
-    "originalPrice": "",
-    "variants": []
-  },
-  {
-    "id": 3,
-    "cat": "new",
-    "name": "Samsung A55",
-    "storage": "256GB · Awesome Iceblue",
-    "brand": "Samsung",
-    "price": "22,500",
-    "description": "Galaxy A55 بمعالج Exynos 1480 وشاشة Super AMOLED 6.6 بوصة بمعدل تحديث 120Hz. بطارية 5000 mAh.",
-    "img": "https://images.unsplash.com/photo-1644662097073-3aef449b1d65?w=900&q=80&auto=format&fit=crop",
-    "imgs": [
-      "https://images.unsplash.com/photo-1644662097073-3aef449b1d65?w=900&q=80&auto=format&fit=crop"
     ],
     "color": "",
     "colorHex": "",
@@ -608,26 +505,6 @@ window.ELKING_PRODUCTS = [
     "img": "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?w=900&q=80&auto=format&fit=crop",
     "imgs": [
       "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b00?w=900&q=80&auto=format&fit=crop"
-    ],
-    "color": "",
-    "colorHex": "",
-    "featured": false,
-    "originalPrice": "",
-    "variants": []
-  },
-  {
-    "id": 104,
-    "cat": "used",
-    "name": "Samsung S22",
-    "storage": "128GB · Green",
-    "brand": "Samsung",
-    "price": "15,000",
-    "battery": "88%",
-    "condition": "جيد جداً",
-    "description": "Galaxy S22 بلون Green المميز. حالة جيدة جداً مع كل الإكسسوارات. كاميرا ممتازة وأداء سلس.",
-    "img": "https://images.unsplash.com/photo-1644669244691-5e0d1cfa1781?w=900&q=80&auto=format&fit=crop",
-    "imgs": [
-      "https://images.unsplash.com/photo-1644669244691-5e0d1cfa1781?w=900&q=80&auto=format&fit=crop"
     ],
     "color": "",
     "colorHex": "",
