@@ -1419,10 +1419,31 @@
     }
   });
 
+  // Anti-autofill: Chrome aggressively autofills text fields with previously-typed values
+  // (e.g. "main" from the settings branch field). autocomplete="off" alone is unreliable —
+  // we also force-clear the search box on load AND after any autofill event, then re-render
+  // so the table doesn't mysteriously go empty just because Chrome decided to "help".
+  function forceClearSearch() {
+    const sb = document.getElementById('searchBox');
+    if (sb && sb.value) {
+      sb.value = '';
+      searchQ = '';
+    }
+  }
+  forceClearSearch();
+  // Run multiple times because Chrome autofill timing varies (some on load, some on focus).
+  setTimeout(() => { forceClearSearch(); renderTable(); }, 100);
+  setTimeout(() => { forceClearSearch(); renderTable(); }, 500);
+  setTimeout(() => { forceClearSearch(); renderTable(); }, 1500);
+  // Also intercept autofill — if Chrome programmatically sets a value, our `input` listener
+  // would fire with that value as searchQ. We override it here to clear instead.
+  document.getElementById('searchBox')?.addEventListener('animationstart', forceClearSearch);
+
   // Show a loading state while we hydrate from the live site, then render.
   const status = document.getElementById('saveStatus');
   if (status) status.innerHTML = '<span class="w-2 h-2 rounded-full bg-gold animate-pulse"></span><span class="text-black/55">بنحمّل آخر نسخة من الموقع…</span>';
   loadInitial().then(() => {
+    forceClearSearch();
     renderTable();
     if (status) status.innerHTML = '<span class="w-2 h-2 rounded-full bg-wagreen animate-pulse"></span>دوس على أي منتج عشان تعدّله · التعديلات بتتحفظ في المتصفح ومتزامنة مع الموقع';
   });
