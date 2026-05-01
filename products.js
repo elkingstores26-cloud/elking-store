@@ -1,6 +1,128 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٨:١٤:٢٢ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٨:٣٥:١١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 235,
+    "cat": "new",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
+  {
+    "id": 234,
+    "cat": "new",
+    "name": "ipad a16 128 wifi blue",
+    "storage": "128GB · blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "apple",
+    "price": "21000",
+    "originalPrice": "22500",
+    "description": "يتميز جهاز آيباد الجيل الحادي عشر (موديل 2025) بشريحة A16 Bionic القوية (4 نانومتر)، وشاشة Liquid Retina مقاس 10.9 أو 11 بوصة، وذاكرة رام 6 جيجابايت، مع كاميرات 12MP تدعم Center Stage، وبطارية تدوم لـ 10 ساعات، ويعد خياراً مثالياً للأداء السريع والسلس بأسعار معقولة",
+    "img": "images/products/p234_0_dqy3hn.jpg",
+    "imgs": [
+      "images/products/p234_0_dqy3hn.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 233,
+    "cat": "new",
+    "name": "ipad a16 128 wifi silver",
+    "storage": "128GB · silver",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "apple",
+    "price": "21500",
+    "originalPrice": "22500",
+    "description": "يتميز جهاز آيباد الجيل الحادي عشر (موديل 2025) بشريحة A16 Bionic القوية (4 نانومتر)، وشاشة Liquid Retina مقاس 10.9 أو 11 بوصة، وذاكرة رام 6 جيجابايت، مع كاميرات 12MP تدعم Center Stage، وبطارية تدوم لـ 10 ساعات، ويعد خياراً مثالياً للأداء السريع والسلس بأسعار معقولة",
+    "img": "images/products/p233_0_8qhjyl.jpg",
+    "imgs": [
+      "images/products/p233_0_8qhjyl.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 232,
+    "cat": "new",
+    "name": "iphone 16 bible",
+    "storage": "128GB ·bible",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "apple",
+    "price": "53800",
+    "originalPrice": "60000",
+    "description": "بشاشة 6.1 بوصة، ومعالج A18 القوي (3 نانومتر)، ونظام كاميرا مزدوج 48MP، مع ذاكرة رام 8GB، وهيكل ألومنيوم مقاوم للماء (IP68) وزجاج خلفي ملون، بالإضافة إلى زر التحكم بالكاميرا الجديد",
+    "img": "images/products/p232_0_ye2y16.jpg",
+    "imgs": [
+      "images/products/p232_0_ye2y16.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 231,
+    "cat": "new",
+    "name": "iPhone 16 green",
+    "storage": "128GB · Green",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "apple",
+    "price": "53800",
+    "originalPrice": "60000",
+    "description": "بشاشة OLED مقاس 6.1 بوصة، ومعالج A18 الجديد بتقنية 3 نانومتر، وذاكرة وصول عشوائي 8 جيجابايت لدعم الذكاء الاصطناعي. يأتي الهاتف بكاميرا أساسية 48 ميجابكسل، وزر \"التحكم في الكاميرا\" الجديد، وهيكل مقاوم للماء والغبار. كما يدعم شبكات 5G وبطارية محسّنة تدوم طوال اليوم",
+    "img": "images/products/p231_0_lhoabn.jpg",
+    "imgs": [
+      "images/products/p231_0_lhoabn.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 230,
+    "cat": "new",
+    "name": "iPhone 16",
+    "storage": "128GB · black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "apple",
+    "price": "53800",
+    "originalPrice": "55000",
+    "description": "بشاشة OLED مقاس 6.1 بوصة، ومعالج A18 الجديد بتقنية 3 نانومتر، وذاكرة وصول عشوائي 8 جيجابايت لدعم الذكاء الاصطناعي. يأتي الهاتف بكاميرا أساسية 48 ميجابكسل، وزر \"التحكم في الكاميرا\" الجديد، وهيكل مقاوم للماء والغبار. كما يدعم شبكات 5G وبطارية محسّنة تدوم طوال اليوم",
+    "img": "images/products/p230_0_mt9upw.jpg",
+    "imgs": [
+      "images/products/p230_0_mt9upw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 229,
     "cat": "new",
