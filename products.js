@@ -1,22 +1,89 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٨:٤٦:٢٤ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٠٦:٣٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 238,
+    "cat": "new",
+    "name": "samsung s26ultra 256 violet",
+    "storage": "256 violet",
+    "color": "Deep Purple",
+    "colorHex": "#5e548e",
+    "brand": "Samsung",
+    "price": "",
+    "originalPrice": "",
+    "description": "يتميز هاتف سامسونج جالاكسي S26 الترا (Samsung Galaxy S26 Ultra) باللون الأزرق السماوي (Sky Blue) بشاشة 6.9 بوصة Dynamic AMOLED 2X، ومعالج Snapdragon 8 Elite Gen 5، وكاميرا رئيسية بدقة 200 ميجابكسل. يأتي الهاتف بذاكرة عشوائية (رام) 12 جيجابايت، وبطارية 5000 مللي أمبير",
+    "img": "images/products/p238_0_km09ra.jpg",
+    "imgs": [
+      "images/products/p238_0_km09ra.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 237,
+    "cat": "new",
+    "name": "Samsung s26 ultra 256 blue",
+    "storage": "256 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Samsung",
+    "price": "74000",
+    "originalPrice": "75000",
+    "description": "يتميز هاتف سامسونج جالاكسي S26 الترا (Samsung Galaxy S26 Ultra) باللون الأزرق السماوي (Sky Blue) بشاشة 6.9 بوصة Dynamic AMOLED 2X، ومعالج Snapdragon 8 Elite Gen 5، وكاميرا رئيسية بدقة 200 ميجابكسل. يأتي الهاتف بذاكرة عشوائية (رام) 12 جيجابايت، وبطارية 5000 مللي أمبير",
+    "img": "images/products/p237_0_47n7em.jpg",
+    "imgs": [
+      "images/products/p237_0_47n7em.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 236,
+    "cat": "new",
+    "name": "samsung s26 ultra 256 black",
+    "storage": "256GB ·black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "74000",
+    "originalPrice": "75000",
+    "description": "يُعد Samsung Galaxy S26 Ultra (المتوقع لعام 2026) هاتفاً رائداً بشاشة 6.9 بوصة Dynamic AMOLED 2X بتردد 120Hz، ومعالج Snapdragon 8 Elite Gen 5 (3 نانو)، وكاميرا خلفية رباعية بدقة 200MP. يتميز الهاتف بذاكرة عشوائية تصل إلى 16GB، وبطارية 5000-5500 مللي أمبير مع شحن سريع 60 واط، ونظام أندرويد 16، مع تركيز مكثف على ميزات Galaxy AI",
+    "img": "images/products/p236_0_hxyfsr.jpg",
+    "imgs": [
+      "images/products/p236_0_hxyfsr.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 235,
     "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
+    "name": "samsung s26 ultra 256 whait",
+    "storage": "256GB · whait",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "74000",
+    "originalPrice": "75000",
+    "description": "يُعد Samsung Galaxy S26 Ultra (المتوقع لعام 2026) هاتفاً رائداً بشاشة 6.9 بوصة Dynamic AMOLED 2X بتردد 120Hz، ومعالج Snapdragon 8 Elite Gen 5 (3 نانو)، وكاميرا خلفية رباعية بدقة 200MP. يتميز الهاتف بذاكرة عشوائية تصل إلى 16GB، وبطارية 5000-5500 مللي أمبير مع شحن سريع 60 واط، ونظام أندرويد 16، مع تركيز مكثف على ميزات Galaxy AI",
+    "img": "images/products/p235_0_84w26o.jpg",
+    "imgs": [
+      "images/products/p235_0_84w26o.jpg"
+    ],
     "featured": false,
     "variants": [],
-    "inStock": true
+    "inStock": true,
+    "battery": "",
+    "condition": ""
   },
   {
     "id": 234,
