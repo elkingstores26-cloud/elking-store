@@ -1,22 +1,68 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:٣٨:٢٣ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:٥٢:٠٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 268,
+    "cat": "new",
+    "name": "oppo reno15f 12/256 iceblue",
+    "storage": "12/256 iceblue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "oppo",
+    "price": "22800",
+    "originalPrice": "23500",
+    "description": "يأتي هاتف Oppo Reno 15 F 5G (إصدار 2026) بتصميم عصري وألوان جذابة (أزرق غامق، أزرق فاتح، وأبيض)، مع التركيز على بطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع 80 واط. يتميز بشاشة AMOLED 120Hz، معالج Snapdragon 6 Gen 1، وكاميرا سيلفي 50 ميجابكسل، مما يجعله خياراً ممتازاً للفئة المتوسطة",
+    "img": "images/products/p268_0_lmi44n.jpg",
+    "imgs": [
+      "images/products/p268_0_lmi44n.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 267,
+    "cat": "new",
+    "name": "oppo reno15f 12/256 blue",
+    "storage": "12/256 blue",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "oppo",
+    "price": "22800",
+    "originalPrice": "23500",
+    "description": "يأتي هاتف Oppo Reno 15 F 5G (إصدار 2026) بتصميم عصري وألوان جذابة (أزرق غامق، أزرق فاتح، وأبيض)، مع التركيز على بطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع 80 واط. يتميز بشاشة AMOLED 120Hz، معالج Snapdragon 6 Gen 1، وكاميرا سيلفي 50 ميجابكسل، مما يجعله خياراً ممتازاً للفئة المتوسطة",
+    "img": "images/products/p267_0_hu54z3.jpg",
+    "imgs": [
+      "images/products/p267_0_hu54z3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 266,
     "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
+    "name": "oppo reno15f 12/256 white",
+    "storage": "12/256 white",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "22800",
+    "originalPrice": "23500",
+    "description": "يأتي هاتف Oppo Reno 15 F 5G (إصدار 2026) بتصميم عصري وألوان جذابة (أزرق غامق، أزرق فاتح، وأبيض)، مع التركيز على بطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع 80 واط. يتميز بشاشة AMOLED 120Hz، معالج Snapdragon 6 Gen 1، وكاميرا سيلفي 50 ميجابكسل، مما يجعله خياراً ممتازاً للفئة المتوسطة",
+    "img": "images/products/p266_0_rs3f6k.jpg",
+    "imgs": [
+      "images/products/p266_0_rs3f6k.jpg"
+    ],
     "featured": false,
     "variants": [],
-    "inStock": true
+    "inStock": true,
+    "battery": "",
+    "condition": ""
   },
   {
     "id": 265,
