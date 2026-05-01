@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٢٩:٤٩ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٣٤:٣٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 244,
+    "cat": "new",
+    "name": "samsung a36 8/256 white",
+    "storage": "256 white",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "17650",
+    "originalPrice": "18500",
+    "description": "يأتي سامسونج جالكسي A36 5G (إصدار 2025) بتصميم أنيق ونحيف، متوفراً بأربعة ألوان جذابة (\"رائعة\" - Awesome) وهي: اللافندر (البنفسجي)، الليموني (الأخضر الفاتح)، الأبيض، والأسود. يتميز الهاتف بظهر زجاجي مقاوم للخدش (Gorilla Glass Victus+) وإطار بلاستيكي، مع مقاومة للماء والغبار بمعيار IP67",
+    "img": "images/products/p244_0_bl3g51.jpg",
+    "imgs": [
+      "images/products/p244_0_bl3g51.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 243,
     "cat": "new",
