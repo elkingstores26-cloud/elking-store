@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٣٤:٣٨ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٤٣:٢١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 246,
+    "cat": "new",
+    "name": "samsung a17 8/256 blue",
+    "storage": "256 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "11000",
+    "originalPrice": "11500",
+    "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
+    "img": "images/products/p246_0_v12nyp.jpg",
+    "imgs": [
+      "images/products/p246_0_v12nyp.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 245,
+    "cat": "new",
+    "name": "samsung a17 8/256 black",
+    "storage": "256 blacl",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "11000",
+    "originalPrice": "11500",
+    "description": "يتميز سامسونج جالاكسي A17 (إصدار 2026) بشاشة Super AMOLED مقاس 6.7 بوصة (90Hz) وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري OIS، ويأتي بألوان جذابة تشمل الأسود (Black)، الرمادي (Gray)، الأزرق الفاتح/العميق (Blue)، مع تصميم نحيف 7.5 ملم ومعالج MediaTek Helio G99",
+    "img": "images/products/p245_0_2wo9kq.jpg",
+    "imgs": [
+      "images/products/p245_0_2wo9kq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 244,
     "cat": "new",
