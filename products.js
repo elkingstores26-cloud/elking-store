@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٨:٣٥:١١ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٨:٤٦:٢٤ م
 window.ELKING_PRODUCTS = [
   {
     "id": 235,
@@ -63,8 +63,8 @@ window.ELKING_PRODUCTS = [
   {
     "id": 232,
     "cat": "new",
-    "name": "iphone 16 bible",
-    "storage": "128GB ·bible",
+    "name": "iPhone 16 (128) purple",
+    "storage": "128GB purple",
     "color": "وردي",
     "colorHex": "#f9a8d4",
     "brand": "apple",
@@ -84,7 +84,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 231,
     "cat": "new",
-    "name": "iPhone 16 green",
+    "name": "iPhone 16 (128) green",
     "storage": "128GB · Green",
     "color": "أخضر",
     "colorHex": "#16a34a",
@@ -105,7 +105,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 230,
     "cat": "new",
-    "name": "iPhone 16",
+    "name": "iPhone 16 128Gb  black",
     "storage": "128GB · black",
     "color": "أسود",
     "colorHex": "#0a0a0a",
@@ -126,7 +126,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 229,
     "cat": "new",
-    "name": "iPhone 17 (256GB)",
+    "name": "iPhone 17 (256GB) blue",
     "storage": "256GB",
     "color": "أزرق",
     "colorHex": "#1e40af",
@@ -147,7 +147,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 228,
     "cat": "new",
-    "name": "iPhone 17 (256GB)",
+    "name": "iPhone 17 (256GB) green",
     "storage": "256GB",
     "color": "أخضر",
     "colorHex": "#16a34a",
@@ -168,7 +168,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 227,
     "cat": "new",
-    "name": "iPhone 17 (256GB)",
+    "name": "iPhone 17 (256GB) black",
     "storage": "256GB · black",
     "color": "أسود",
     "colorHex": "#0a0a0a",
@@ -189,7 +189,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 226,
     "cat": "new",
-    "name": "iPhone 17 (256GB)",
+    "name": "iPhone 17 (256GB) white",
     "storage": "256GB ·",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
@@ -210,7 +210,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 225,
     "cat": "new",
-    "name": "iphone 17 pro256",
+    "name": "iphone 17 pro256 black",
     "storage": "256GB ·blue",
     "color": "أزرق",
     "colorHex": "#1e40af",
@@ -231,7 +231,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 224,
     "cat": "new",
-    "name": "iphone 17 pro256",
+    "name": "iphone 17 pro256 silver",
     "storage": "silver.256GB",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
@@ -252,7 +252,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 223,
     "cat": "new",
-    "name": "iphone 17 pro256",
+    "name": "iphone 17 pro256 orange",
     "storage": "256GB · orange",
     "color": "اورنجh,h,vk[vk[",
     "colorHex": "#f5a700",
@@ -273,7 +273,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 222,
     "cat": "new",
-    "name": "iphone 17 promax 256",
+    "name": "iphone 17 promax 256 blue",
     "storage": "blue-256",
     "color": "أزرق",
     "colorHex": "#1e40af",
@@ -294,7 +294,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 221,
     "cat": "new",
-    "name": "256 iPhone 17 Pro Max",
+    "name": "iphone 17 pro max256 silver",
     "storage": "256GB-SILVER",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
@@ -315,10 +315,10 @@ window.ELKING_PRODUCTS = [
   {
     "id": 220,
     "cat": "new",
-    "name": "iphone 17 promax 256",
+    "name": "iphone 17 promax 256 orange",
     "storage": "256GB · orange",
-    "color": "ذهبي",
-    "colorHex": "#f0d000",
+    "color": "orangeذهبي",
+    "colorHex": "#ffb514",
     "brand": "apple",
     "price": "97000",
     "originalPrice": "107000",
