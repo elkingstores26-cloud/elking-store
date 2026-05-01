@@ -1,10 +1,115 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٠٦:٣٨ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٢٩:٤٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 243,
+    "cat": "new",
+    "name": "samsung a56  8/256 white",
+    "storage": "256 waite",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "28000",
+    "originalPrice": "30000",
+    "description": "يأتي هاتف سامسونج جالاكسي A56 5G (المتوقع لعام 2025/2026) بتصميم زجاجي أنيق وإطار ألومنيوم، مع شاشة 6.7 بوصة Super AMOLED 120Hz، معالج Exynos 1580 القوي، وكاميرا رئيسية 50 ميجابكسل، وبطارية 5000 مللي أمبير تدعم شحن 45 واط",
+    "img": "images/products/p243_0_kgog32.jpg",
+    "imgs": [
+      "images/products/p243_0_kgog32.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 242,
+    "cat": "new",
+    "name": "samsung a56 12/256 white",
+    "storage": "256 white",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "24300",
+    "originalPrice": "25000",
+    "description": "",
+    "img": "images/products/p242_0_kgog32.jpg",
+    "imgs": [
+      "images/products/p242_0_kgog32.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 241,
+    "cat": "new",
+    "name": "samsung a56 12/256 black",
+    "storage": "256 black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "21300",
+    "originalPrice": "22000",
+    "description": "يأتي هاتف سامسونج جالاكسي A56 5G (المتوقع لعام 2025/2026) بتصميم زجاجي أنيق وإطار ألومنيوم، مع شاشة 6.7 بوصة Super AMOLED 120Hz، معالج Exynos 1580 القوي، وكاميرا رئيسية 50 ميجابكسل، وبطارية 5000 مللي أمبير تدعم شحن 45 واط",
+    "img": "images/products/p241_0_ap54nf.jpg",
+    "imgs": [
+      "images/products/p241_0_ap54nf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 240,
+    "cat": "new",
+    "name": "samsung a57 8/256 gray",
+    "storage": "256 gray",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Samsung",
+    "price": "28000",
+    "originalPrice": "30000",
+    "description": "يأتي هاتف سامسونج Galaxy A57 5G (المتوقع لعام 2026) بتصميم زجاجي أنيق وشاشة 6.7 بوصة Super AMOLED 120Hz، ومعالج Exynos 1680 (4 نانومتر)، وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري، وشحن 45 واط، متوفر بأربعة ألوان",
+    "img": "images/products/p240_0_frez6a.jpg",
+    "imgs": [
+      "images/products/p240_0_frez6a.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 239,
+    "cat": "new",
+    "name": "samsung a57 12/256 volite",
+    "storage": "256GB · volite",
+    "color": "Deep Purple",
+    "colorHex": "#5e548e",
+    "brand": "",
+    "price": "30750",
+    "originalPrice": "32500",
+    "description": "يأتي هاتف سامسونج Galaxy A57 5G (المتوقع لعام 2026) بتصميم زجاجي أنيق وشاشة 6.7 بوصة Super AMOLED 120Hz، ومعالج Exynos 1680 (4 نانومتر)، وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري، وشحن 45 واط، متوفر بأربعة ألوان",
+    "img": "images/products/p239_0_dbkzcr.jpg",
+    "imgs": [
+      "images/products/p239_0_dbkzcr.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 238,
     "cat": "new",
-    "name": "samsung s26ultra 256 violet",
+    "name": "samsung s26ultra12/256 violet",
     "storage": "256 violet",
     "color": "Deep Purple",
     "colorHex": "#5e548e",
@@ -25,7 +130,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 237,
     "cat": "new",
-    "name": "Samsung s26 ultra 256 blue",
+    "name": "Samsung s26 ultra 12/256 blue",
     "storage": "256 blue",
     "color": "أزرق",
     "colorHex": "#1e40af",
@@ -46,7 +151,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 236,
     "cat": "new",
-    "name": "samsung s26 ultra 256 black",
+    "name": "samsung s26 ultra 12/256 black",
     "storage": "256GB ·black",
     "color": "أسود",
     "colorHex": "#0a0a0a",
@@ -67,7 +172,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 235,
     "cat": "new",
-    "name": "samsung s26 ultra 256 whait",
+    "name": "samsung s26 ultra 12/256 whait",
     "storage": "256GB · whait",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
