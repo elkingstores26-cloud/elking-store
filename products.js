@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:١٤:٠٧ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:١٨:٥٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 260,
+    "cat": "new",
+    "name": "samsung tab a9 4/64 black",
+    "storage": "4/64 black",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "8500",
+    "originalPrice": "9000",
+    "description": "يأتي تابلت سامسونج Galaxy Tab A9 بشاشة 8.7 بوصة (TFT LCD) بدقة WXGA+، ومعالج MediaTek Helio G99 القوي، مع خيارات ذاكرة 4/64 جيجابايت أو 8/128 جيجابايت. يتميز بتصميم معدني أنيق يتوفر بألوان: الجرافيت (الرمادي الغامق)، الفضي، والأزرق الداكن (Navy)",
+    "img": "images/products/p260_0_flsama.jpg",
+    "imgs": [
+      "images/products/p260_0_flsama.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 259,
+    "cat": "new",
+    "name": "samsung tab a9 4/64 blue",
+    "storage": "4/64  blue",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "Samsung",
+    "price": "8000",
+    "originalPrice": "8500",
+    "description": "يأتي تابلت سامسونج Galaxy Tab A9 بشاشة 8.7 بوصة (TFT LCD) بدقة WXGA+، ومعالج MediaTek Helio G99 القوي، مع خيارات ذاكرة 4/64 جيجابايت أو 8/128 جيجابايت. يتميز بتصميم معدني أنيق يتوفر بألوان: الجرافيت (الرمادي الغامق)، الفضي، والأزرق الداكن (Navy)",
+    "img": "images/products/p259_0_flsama.jpg",
+    "imgs": [
+      "images/products/p259_0_flsama.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 257,
     "cat": "new",
