@@ -1,6 +1,258 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:٥٢:٠٣ م
+// آخر تحديث: ٢‏/٥‏/٢٠٢٦ ١٢:١٦:٤٧ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 280,
+    "cat": "new",
+    "name": "oppo a6x  4/64 blue",
+    "storage": "4/64 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "oppo",
+    "price": "5400",
+    "originalPrice": "5800",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
+    "img": "images/products/p280_0_bstrs0.jpg",
+    "imgs": [
+      "images/products/p280_0_bstrs0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 279,
+    "cat": "new",
+    "name": "oppo a6x 4/64 iceblue",
+    "storage": "4/64 iceblue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "oppo",
+    "price": "5400",
+    "originalPrice": "5800",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
+    "img": "images/products/p279_0_bamq92.jpg",
+    "imgs": [
+      "images/products/p279_0_bamq92.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 278,
+    "cat": "new",
+    "name": "oppo a6x 4/128 blue",
+    "storage": "4/128 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "oppo",
+    "price": "7825",
+    "originalPrice": "8000",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
+    "img": "images/products/p278_0_bstrs0.jpg",
+    "imgs": [
+      "images/products/p278_0_bstrs0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 277,
+    "cat": "new",
+    "name": "oppo a6x 4/128 iceblue",
+    "storage": "4/128 iceblue",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "oppo",
+    "price": "7825",
+    "originalPrice": "8000",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
+    "img": "images/products/p277_0_bamq92.jpg",
+    "imgs": [
+      "images/products/p277_0_bamq92.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 276,
+    "cat": "new",
+    "name": "oppo a6 4/128 blue",
+    "storage": "4/128 blue",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "oppo",
+    "price": "8400",
+    "originalPrice": "9000",
+    "description": "أعلنت شركة أوبو عن هاتفها الأحدث الـ Oppo A6 4G والذي يأتي لينافس في الفئة الاقتصادية بأعلى مقاومة للماء والغبار بمعيار IP68/IP69 مع شاشة من نوع IPS LCD بدقة متواضعة HD+ مع دعم معدل التحديث الـ 120 هرتز مع كاميرا خلفية 50 ميجا بكسل وسيلفي 8 ميجا بكسل مع استخدام معالج اقتصادي من كوالكم Snapdragon 685 بالأضافة لبطارية ضخمة بسعة 7000 مللي أمبير تدعم الشحن السريع بقوة 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6 جيل رابع وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p276_0_kqkaml.jpg",
+    "imgs": [
+      "images/products/p276_0_kqkaml.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 275,
+    "cat": "new",
+    "name": "oppo a6 4/128 gold",
+    "storage": "4/128 gold",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "oppo",
+    "price": "8400",
+    "originalPrice": "9000",
+    "description": "أعلنت شركة أوبو عن هاتفها الأحدث الـ Oppo A6 4G والذي يأتي لينافس في الفئة الاقتصادية بأعلى مقاومة للماء والغبار بمعيار IP68/IP69 مع شاشة من نوع IPS LCD بدقة متواضعة HD+ مع دعم معدل التحديث الـ 120 هرتز مع كاميرا خلفية 50 ميجا بكسل وسيلفي 8 ميجا بكسل مع استخدام معالج اقتصادي من كوالكم Snapdragon 685 بالأضافة لبطارية ضخمة بسعة 7000 مللي أمبير تدعم الشحن السريع بقوة 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6 جيل رابع وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p275_0_lnkvli.jpg",
+    "imgs": [
+      "images/products/p275_0_lnkvli.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 274,
+    "cat": "new",
+    "name": "oppo a6 6/128 blue",
+    "storage": "6/128blue",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "oppo",
+    "price": "10400",
+    "originalPrice": "11000",
+    "description": "أعلنت شركة أوبو عن هاتفها الأحدث الـ Oppo A6 4G والذي يأتي لينافس في الفئة الاقتصادية بأعلى مقاومة للماء والغبار بمعيار IP68/IP69 مع شاشة من نوع IPS LCD بدقة متواضعة HD+ مع دعم معدل التحديث الـ 120 هرتز مع كاميرا خلفية 50 ميجا بكسل وسيلفي 8 ميجا بكسل مع استخدام معالج اقتصادي من كوالكم Snapdragon 685 بالأضافة لبطارية ضخمة بسعة 7000 مللي أمبير تدعم الشحن السريع بقوة 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6 جيل رابع وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p274_0_kqkaml.jpg",
+    "imgs": [
+      "images/products/p274_0_kqkaml.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 273,
+    "cat": "new",
+    "name": "oppo a6 6/128 gold",
+    "storage": "6/128 gold",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "oppo",
+    "price": "10400",
+    "originalPrice": "11000",
+    "description": "أعلنت شركة أوبو عن هاتفها الأحدث الـ Oppo A6 4G والذي يأتي لينافس في الفئة الاقتصادية بأعلى مقاومة للماء والغبار بمعيار IP68/IP69 مع شاشة من نوع IPS LCD بدقة متواضعة HD+ مع دعم معدل التحديث الـ 120 هرتز مع كاميرا خلفية 50 ميجا بكسل وسيلفي 8 ميجا بكسل مع استخدام معالج اقتصادي من كوالكم Snapdragon 685 بالأضافة لبطارية ضخمة بسعة 7000 مللي أمبير تدعم الشحن السريع بقوة 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6 جيل رابع وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p273_0_lnkvli.jpg",
+    "imgs": [
+      "images/products/p273_0_lnkvli.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 272,
+    "cat": "new",
+    "name": "oppo a6 pro 4g 8/256 bink",
+    "storage": "8/256 bink",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "oppo",
+    "price": "14490",
+    "originalPrice": "15500",
+    "description": "يأتي هاتف Oppo A6 Pro 4G (وفقاً لأحدث البيانات) بمعالج MediaTek Helio G100 أو Snapdragon 680، مع ذاكرة تخزين 256 جيجابايت ورام 8 جيجابايت، وشاشة 6.5-6.7 بوصة (غالباً IPS LCD) بتردد 90 هرتز. يتميز ببطارية ضخمة تصل إلى 7000 مللي أمبير (في بعض الإصدارات) أو 5000 مللي أمبير مع شحن سريع 45-80 واط، وكاميرا خلفية أساسية بدقة 50 ميجابكسل",
+    "img": "images/products/p272_0_y2ir6y.jpg",
+    "imgs": [
+      "images/products/p272_0_y2ir6y.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 271,
+    "cat": "new",
+    "name": "oppo a6 pro 4g 8/256 blue",
+    "storage": "8/256 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "oppo",
+    "price": "14450",
+    "originalPrice": "15500",
+    "description": "يأتي هاتف Oppo A6 Pro 4G (وفقاً لأحدث البيانات) بمعالج MediaTek Helio G100 أو Snapdragon 680، مع ذاكرة تخزين 256 جيجابايت ورام 8 جيجابايت، وشاشة 6.5-6.7 بوصة (غالباً IPS LCD) بتردد 90 هرتز. يتميز ببطارية ضخمة تصل إلى 7000 مللي أمبير (في بعض الإصدارات) أو 5000 مللي أمبير مع شحن سريع 45-80 واط، وكاميرا خلفية أساسية بدقة 50 ميجابكسل",
+    "img": "images/products/p271_0_wvcdc1.jpg",
+    "imgs": [
+      "images/products/p271_0_wvcdc1.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 270,
+    "cat": "new",
+    "name": "oppo a6pro 5g 8/256 blue",
+    "storage": "8/256 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "oppo",
+    "price": "16625",
+    "originalPrice": "17000",
+    "description": "يتميز هاتف Oppo A6 Pro 5G ببطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع بقوة 80 واط، شاشة AMOLED بحجم 6.57 بوصة وتردد 120 هرتز، ومعالج MediaTek Dimensity 6300 الداعم للـ 5G. يأتي الهاتف بكاميرا خلفية أساسية 50 ميجابكسل، ويتميز بمقاومة الماء والغبار بمعيار IP69، وذاكرة تخزين 256 جيجابايت مع 8 أو 12 جيجابايت رام",
+    "img": "images/products/p270_0_wvcdc1.jpg",
+    "imgs": [
+      "images/products/p270_0_wvcdc1.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 269,
+    "cat": "new",
+    "name": "oppo a6pro 5g 8/256 bink",
+    "storage": "8/256 bink",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "oppo",
+    "price": "16625",
+    "originalPrice": "17000",
+    "description": "يتميز هاتف Oppo A6 Pro 5G ببطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع بقوة 80 واط، شاشة AMOLED بحجم 6.57 بوصة وتردد 120 هرتز، ومعالج MediaTek Dimensity 6300 الداعم للـ 5G. يأتي الهاتف بكاميرا خلفية أساسية 50 ميجابكسل، ويتميز بمقاومة الماء والغبار بمعيار IP69، وذاكرة تخزين 256 جيجابايت مع 8 أو 12 جيجابايت رام",
+    "img": "images/products/p269_0_y2ir6y.jpg",
+    "imgs": [
+      "images/products/p269_0_y2ir6y.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 268,
     "cat": "new",
