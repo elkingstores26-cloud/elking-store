@@ -1,6 +1,321 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/٥‏/٢٠٢٦ ١٢:١٦:٤٧ ص
+// آخر تحديث: ٢‏/٥‏/٢٠٢٦ ١:٠٥:٤٤ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 295,
+    "cat": "new",
+    "name": "Redmi A5 4/64 gray",
+    "storage": "4/64 gray",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Xiaomi",
+    "price": "5400",
+    "originalPrice": "6000",
+    "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p295_0_msu0cg.jpg",
+    "imgs": [
+      "images/products/p295_0_msu0cg.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 294,
+    "cat": "new",
+    "name": "Redmi A5 4/64 blue",
+    "storage": "4/64 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Xiaomi",
+    "price": "5400",
+    "originalPrice": "6000",
+    "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p294_0_4d1mz5.jpg",
+    "imgs": [
+      "images/products/p294_0_4d1mz5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 293,
+    "cat": "new",
+    "name": "Redmi A5 4/64 black",
+    "storage": "4/64 black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "5400",
+    "originalPrice": "6000",
+    "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p293_0_lmi44n.jpg",
+    "imgs": [
+      "images/products/p293_0_lmi44n.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 292,
+    "cat": "new",
+    "name": "Redmi A5 4/128 gray",
+    "storage": "4/128 gray",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Xiaomi",
+    "price": "6200",
+    "originalPrice": "7000",
+    "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p292_0_msu0cg.jpg",
+    "imgs": [
+      "images/products/p292_0_msu0cg.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 291,
+    "cat": "new",
+    "name": "Redmi A5 4/128 black",
+    "storage": "4/128 black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "6200",
+    "originalPrice": "7000",
+    "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p291_0_lmi44n.jpg",
+    "imgs": [
+      "images/products/p291_0_lmi44n.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 290,
+    "cat": "new",
+    "name": "Redmi A5 4/128 blue",
+    "storage": "4/128 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Xiaomi",
+    "price": "6200",
+    "originalPrice": "6500",
+    "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p290_0_4d1mz5.jpg",
+    "imgs": [
+      "images/products/p290_0_4d1mz5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 289,
+    "cat": "new",
+    "name": "Redmi 15C 4G 6/128 blue",
+    "storage": "6/128 blue",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "6900",
+    "originalPrice": "7500",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p289_0_nsc8qw.jpg",
+    "imgs": [
+      "images/products/p289_0_nsc8qw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 288,
+    "cat": "new",
+    "name": "Redmi 15C 4G 6/128 bink",
+    "storage": "6/128 bink",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "Xiaomi",
+    "price": "6700",
+    "originalPrice": "7000",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p288_0_7abgna.jpg",
+    "imgs": [
+      "images/products/p288_0_7abgna.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 287,
+    "cat": "new",
+    "name": "Redmi 15C 6/128 black",
+    "storage": "6/128 black",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "6900",
+    "originalPrice": "7500",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p287_0_e0csgy.jpg",
+    "imgs": [
+      "images/products/p287_0_e0csgy.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 286,
+    "cat": "new",
+    "name": "Redmi 15C 4G  8/256 bink",
+    "storage": "8/256 bink",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "Xiaomi",
+    "price": "8700",
+    "originalPrice": "9000",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p286_0_7abgna.jpg",
+    "imgs": [
+      "images/products/p286_0_7abgna.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 285,
+    "cat": "new",
+    "name": "Redmi 15C 4G 8/256 black",
+    "storage": "8/256 black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "8700",
+    "originalPrice": "9000",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p285_0_e0csgy.jpg",
+    "imgs": [
+      "images/products/p285_0_e0csgy.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 284,
+    "cat": "new",
+    "name": "Redmi 15C 4G 8/256 blue",
+    "storage": "8/256 blue",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Xiaomi",
+    "price": "8700",
+    "originalPrice": "9000",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p284_0_nsc8qw.jpg",
+    "imgs": [
+      "images/products/p284_0_nsc8qw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 283,
+    "cat": "new",
+    "name": "Redmi Note 15 5G black",
+    "storage": "256 black",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "13550",
+    "originalPrice": "14500",
+    "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi Note 15 جيل خامس وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p283_0_kyjz8f.jpg",
+    "imgs": [
+      "images/products/p283_0_kyjz8f.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 282,
+    "cat": "new",
+    "name": "Redmi Note 15 5G blue",
+    "storage": "256 blue",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "",
+    "originalPrice": "",
+    "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi Note 15 جيل خامس وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p282_0_kpzj08.jpg",
+    "imgs": [
+      "images/products/p282_0_kpzj08.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 281,
+    "cat": "new",
+    "name": "Redmi Note 15 5G iceblue",
+    "storage": "256 iceblue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "xiaomi",
+    "price": "13550",
+    "originalPrice": "14500",
+    "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi Note 15 جيل خامس وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p281_0_ivbpre.jpg",
+    "imgs": [
+      "images/products/p281_0_ivbpre.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 280,
     "cat": "new",
