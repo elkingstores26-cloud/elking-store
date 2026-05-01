@@ -1,8 +1,8 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:٢٠:٢٠ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:٣٨:٢٣ م
 window.ELKING_PRODUCTS = [
   {
-    "id": 261,
+    "id": 266,
     "cat": "new",
     "name": "",
     "storage": "",
@@ -17,6 +17,111 @@ window.ELKING_PRODUCTS = [
     "featured": false,
     "variants": [],
     "inStock": true
+  },
+  {
+    "id": 265,
+    "cat": "new",
+    "name": "oppo reno15 12/256 blue",
+    "storage": "12/256 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "oppo",
+    "price": "27800",
+    "originalPrice": "30000",
+    "description": "هاتف Oppo Reno 15 5G (الذي تم الإعلان عنه في يناير 2026) يأتي ضمن الفئة المتوسطة العليا بشاشة AMOLED 120Hz، معالج Snapdragon 7 Gen 4 (4 نانومتر)، وبطارية ضخمة بسعة 6500 مللي أمبير تدعم الشحن السريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق والأبيض.",
+    "img": "images/products/p265_0_2kofvd.jpg",
+    "imgs": [
+      "images/products/p265_0_2kofvd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 264,
+    "cat": "new",
+    "name": "oppo reno15 12/256 white",
+    "storage": "12/256 white",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "27800",
+    "originalPrice": "30000",
+    "description": "هاتف Oppo Reno 15 5G (الذي تم الإعلان عنه في يناير 2026) يأتي ضمن الفئة المتوسطة العليا بشاشة AMOLED 120Hz، معالج Snapdragon 7 Gen 4 (4 نانومتر)، وبطارية ضخمة بسعة 6500 مللي أمبير تدعم الشحن السريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق والأبيض.",
+    "img": "images/products/p264_0_6vodxf.jpg",
+    "imgs": [
+      "images/products/p264_0_6vodxf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 263,
+    "cat": "new",
+    "name": "oppo reno15 12/512 blue",
+    "storage": "12/512 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "oppo",
+    "price": "30000",
+    "originalPrice": "32000",
+    "description": "هاتف Oppo Reno 15 5G (الذي تم الإعلان عنه في يناير 2026) يأتي ضمن الفئة المتوسطة العليا بشاشة AMOLED 120Hz، معالج Snapdragon 7 Gen 4 (4 نانومتر)، وبطارية ضخمة بسعة 6500 مللي أمبير تدعم الشحن السريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق والأبيض.",
+    "img": "images/products/p263_0_2kofvd.jpg",
+    "imgs": [
+      "images/products/p263_0_2kofvd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 262,
+    "cat": "new",
+    "name": "oppo reno15 12/512 white",
+    "storage": "15/512 white",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "30000",
+    "originalPrice": "32000",
+    "description": "هاتف Oppo Reno 15 5G (الذي تم الإعلان عنه في يناير 2026) يأتي ضمن الفئة المتوسطة العليا بشاشة AMOLED 120Hz، معالج Snapdragon 7 Gen 4 (4 نانومتر)، وبطارية ضخمة بسعة 6500 مللي أمبير تدعم الشحن السريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق والأبيض.",
+    "img": "images/products/p262_0_6vodxf.jpg",
+    "imgs": [
+      "images/products/p262_0_6vodxf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 261,
+    "cat": "new",
+    "name": "oppo reno 15pro 12/512 blue",
+    "storage": "12/512 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "oppo",
+    "price": "36000",
+    "originalPrice": "38500",
+    "description": "يأتي هاتف Oppo Reno 15 Pro (المعلن عنه في أوائل 2026) بتصميم أنيق ومواصفات قوية، أبرزها شاشة AMOLED بحجم 6.32 بوصة وتردد 120Hz، معالج Dimensity 8450، بطارية ضخمة بسعة 6200 مللي أمبير وشحن سريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق (Aurora Blue) والبني/البرونزي (Dusk Brown).",
+    "img": "images/products/p261_0_evtzcs.jpg",
+    "imgs": [
+      "images/products/p261_0_evtzcs.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
   },
   {
     "id": 260,
