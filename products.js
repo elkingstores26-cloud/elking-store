@@ -1,10 +1,178 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/٥‏/٢٠٢٦ ٩:٥٠:١٦ م
+// آخر تحديث: ١‏/٥‏/٢٠٢٦ ١٠:١٤:٠٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 257,
+    "cat": "new",
+    "name": "samsung a07 4/64 blue",
+    "storage": "4/64 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "5700",
+    "originalPrice": "6000",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p257_0_uqh3tf.jpg",
+    "imgs": [
+      "images/products/p257_0_uqh3tf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 256,
+    "cat": "new",
+    "name": "samsung a07 4/64 black",
+    "storage": "4/64  black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "5700",
+    "originalPrice": "6000",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p256_0_k8o68x.jpg",
+    "imgs": [
+      "images/products/p256_0_k8o68x.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 258,
+    "cat": "new",
+    "name": "samsung a07 4/128  blue",
+    "storage": "4/128 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "8000",
+    "originalPrice": "8500",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p258_0_uqh3tf.jpg",
+    "imgs": [
+      "images/products/p258_0_uqh3tf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 255,
+    "cat": "new",
+    "name": "samsung a07 4/128 black",
+    "storage": "4/128 black",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "8800",
+    "originalPrice": "9000",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p255_0_k8o68x.jpg",
+    "imgs": [
+      "images/products/p255_0_k8o68x.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 254,
+    "cat": "new",
+    "name": "samsung a07 6/128 blue",
+    "storage": "6/128 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "7000",
+    "originalPrice": "7500",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p254_0_uqh3tf.jpg",
+    "imgs": [
+      "images/products/p254_0_uqh3tf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 252,
+    "cat": "new",
+    "name": "samsung a07 6/128 black",
+    "storage": "6/128 black",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "7000",
+    "originalPrice": "7500",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p252_0_k8o68x.jpg",
+    "imgs": [
+      "images/products/p252_0_k8o68x.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 253,
+    "cat": "new",
+    "name": "samsaung a07 8/256 black",
+    "storage": "8/256 black",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "8300",
+    "originalPrice": "8500",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p253_0_k8o68x.jpg",
+    "imgs": [
+      "images/products/p253_0_k8o68x.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 251,
+    "cat": "new",
+    "name": "samsung a07 8/256 blue",
+    "storage": "8/256 blue",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "8300",
+    "originalPrice": "8500",
+    "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
+    "img": "images/products/p251_0_uqh3tf.jpg",
+    "imgs": [
+      "images/products/p251_0_uqh3tf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 250,
     "cat": "new",
-    "name": "samsung 4/128 blue",
+    "name": "samsung a17 4/128 blue",
     "storage": "4/128 blue",
     "color": "Iceblue",
     "colorHex": "#a0cfec",
