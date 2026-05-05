@@ -1,6 +1,216 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٧:١٦:٢١ م
+// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٧:٥٣:٤١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 308,
+    "cat": "new",
+    "name": "x5c plus 4/128",
+    "storage": "4/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "6700",
+    "originalPrice": "7000",
+    "description": "يتميز هاتف هونر X5c Plus (Honor X5c Plus) بكونه جهازاً اقتصادياً ببطارية ضخمة سعة 5260 مللي أمبير، وشاشة واسعة 6.74 بوصة بتردد 90 هيرتز، وكاميرا خلفية 50 ميجابكسل، مع معالج MediaTek Helio G81 ومساحة تخزين 128 جيجابايت، ويستهدف تقديم أداء يومي متوازن بسعر تنافسي",
+    "img": "images/products/p308_0_b9mb8t.jpg",
+    "imgs": [
+      "images/products/p308_0_b9mb8t.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 307,
+    "cat": "new",
+    "name": "honor x5c 4/64",
+    "storage": "4/64",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "5800",
+    "originalPrice": "6000",
+    "description": "يأتي هاتف HONOR X5c كخيار اقتصادي ببطارية ضخمة بسعة 5260 مللي أمبير، وشاشة كبيرة بحجم 6.74 بوصة تدعم تردد 90Hz، معالج MediaTek Helio G81، وكاميرا خلفية أساسية بدقة 13 أو 50 ميجابكسل (حسب الإصدار/المنطقة). يعمل الهاتف بنظام Android 15 ويوفر مساحة تخزين 64/128 جيجابايت مع 4 جيجابايت",
+    "img": "images/products/p307_0_b9mb8t.jpg",
+    "imgs": [
+      "images/products/p307_0_b9mb8t.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 306,
+    "cat": "new",
+    "name": "HONOR X6c 6/128",
+    "storage": "6/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "7100",
+    "originalPrice": "7500",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X6c لينافس في الفئة الاقتصادية بخامات عالية مقاومة للصدمات وبطارية 5300 مللي أمبير وشحن سريع بقوة 35 واط بالأضافة لكاميرا خلفية 50 ميجا بيكسل ومعالج Mediatek Helio G81 Ultra .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR X6c وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p306_0_ml5797.jpg",
+    "imgs": [
+      "images/products/p306_0_ml5797.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 305,
+    "cat": "new",
+    "name": "HONOR X6c 6/256",
+    "storage": "6/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "8000",
+    "originalPrice": "8300",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X6c لينافس في الفئة الاقتصادية بخامات عالية مقاومة للصدمات وبطارية 5300 مللي أمبير وشحن سريع بقوة 35 واط بالأضافة لكاميرا خلفية 50 ميجا بيكسل ومعالج Mediatek Helio G81 Ultra .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR X6c وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p305_0_ml5797.jpg",
+    "imgs": [
+      "images/products/p305_0_ml5797.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 304,
+    "cat": "new",
+    "name": "HONOR X7d 5G  8/256",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "13000",
+    "originalPrice": "13500",
+    "description": "أعلنت شركة هونر عن هاتفها الاقتصادي الـ HONOR X7d 5G ليكون من أرخص الهواتف الداعمة لشبكات الجيل الخامس مع معالج جيد من كوالكم Snapdragon 6s Gen 3 بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير تدعم شحن سريع بقوة 35 واط بخلاف مقاومة الكسر والصدمات بشهادة معتمدة .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR X7d 5G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p304_0_kpfgw7.jpg",
+    "imgs": [
+      "images/products/p304_0_kpfgw7.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 303,
+    "cat": "new",
+    "name": "HONOR X7d 4g 8/256",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "12500",
+    "originalPrice": "13000",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X7d 4G الذي يأتي لينافس في الفئة الاقتصادية بهيكل مقاوم للصدمات ومعالج من كوالكم Snapdragon 685 مع كاميرا سيلفي 8 ميجا بكسل وكاميرا خلفية 108 ميجا بكسل بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير مع دعم الشحن السريع بقوة 35 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR X7d 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p303_0_onnmgj.jpg",
+    "imgs": [
+      "images/products/p303_0_onnmgj.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 302,
+    "cat": "new",
+    "name": "HONOR X8d 8/256",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "14200",
+    "originalPrice": "15000",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X8d الذي ينافس في الفئة المتوسطة ببطارية ضخمة 7000 مللي أمبير تدعم شحن سريع بقوة 45 واط بالأضافة لتصميم مشابهه للأيفون مع شاشة كبيرة أموليد 120 هيرتز ولكن مع معالج متواضع من كوالكم SD 6s Gen 2 داعم لشبكات الجيل الرابع .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR X8d وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
+    "img": "images/products/p302_0_dod2ds.jpg",
+    "imgs": [
+      "images/products/p302_0_dod2ds.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 301,
+    "cat": "new",
+    "name": "Honor X9d 5G 12/256",
+    "storage": "128/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "21000",
+    "originalPrice": "22000",
+    "description": "يُعد هونر X9d (5G) هاتفاً متميزاً في الفئة المتوسطة، يركز بشكل أساسي على المتانة الفائقة والبطارية الضخمة. أبرز مواصفاته تتضمن بطارية ضخمة بسعة 8300 مللي أمبير، شحن سريع 66 واط، شاشة AMOLED بتردد 120 هرتز، ومعالج Snapdragon 6 Gen 4. كما يتميز بمقاومة عالية للماء والغبار بمعيار IP68/IP69K، ومقاومة السقوط من ارتفاع 2.5 متر",
+    "img": "images/products/p301_0_dod2ds.jpg",
+    "imgs": [
+      "images/products/p301_0_dod2ds.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 300,
+    "cat": "new",
+    "name": "HONOR 400 12/256",
+    "storage": "12/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "19200",
+    "originalPrice": "",
+    "description": "الـ HONOR 400 الذي يأتي لأول مرة بكاميرا خلفية بدقة 200 ميجا بيكسل بمثبت بصري مع سيلفي بدقة 50 ميجا بيكسل بالأضافة لشاشة كبيرة بشكل الثقب من نوع أموليد مع معالج من نوع SD 7 Gen 3 مع بطارية 6000 مللي أمبير تدعم الشحن السريع بقوة 80 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR 400 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p300_0_887m3m.jpg",
+    "imgs": [
+      "images/products/p300_0_887m3m.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 299,
+    "cat": "new",
+    "name": "HONOR 400 12/512",
+    "storage": "12/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "honor",
+    "price": "20600",
+    "originalPrice": "",
+    "description": "الـ HONOR 400 الذي يأتي لأول مرة بكاميرا خلفية بدقة 200 ميجا بيكسل بمثبت بصري مع سيلفي بدقة 50 ميجا بيكسل بالأضافة لشاشة كبيرة بشكل الثقب من نوع أموليد مع معالج من نوع SD 7 Gen 3 مع بطارية 6000 مللي أمبير تدعم الشحن السريع بقوة 80 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف HONOR 400 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
+    "img": "images/products/p299_0_887m3m.jpg",
+    "imgs": [
+      "images/products/p299_0_887m3m.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 298,
     "cat": "new",
