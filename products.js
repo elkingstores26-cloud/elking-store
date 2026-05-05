@@ -1,22 +1,68 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/٥‏/٢٠٢٦ ١:٠٨:٥٣ ص
+// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٧:١٦:٢١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 298,
+    "cat": "new",
+    "name": "3/64 Smart10",
+    "storage": "3/64",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Infinix",
+    "price": "4900",
+    "originalPrice": "5500",
+    "description": "أهم المميزات:\n\nشاشة كبيرة 120Hz بسطوع 700 شمعة.\nبطارية ضخمة 5000mAh مع شحن سريع وعكسي.\nتصميم مقاوم لرذاذ الماء والغبار IP64.\nصوت ستيريو مجسم.\nدعم بصمة جانبية وفتح بالوجه.",
+    "img": "images/products/p298_0_tyja22.jpg",
+    "imgs": [
+      "images/products/p298_0_tyja22.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 296,
     "cat": "new",
-    "name": "",
-    "storage": "",
+    "name": "Smart10 4/128",
+    "storage": "4/128",
     "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
+    "colorHex": "#0a0a0a",
+    "brand": "Infinix",
+    "price": "5600",
+    "originalPrice": "6100",
+    "description": "أهم المميزات:\n\nشاشة كبيرة 120Hz بسطوع 700 شمعة.\nبطارية ضخمة 5000mAh مع شحن سريع وعكسي.\nتصميم مقاوم لرذاذ الماء والغبار IP64.\nصوت ستيريو مجسم.\nدعم بصمة جانبية وفتح بالوجه.",
+    "img": "images/products/p296_0_tyja22.jpg",
+    "imgs": [
+      "images/products/p296_0_tyja22.jpg"
+    ],
     "featured": false,
     "variants": [],
-    "inStock": true
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 297,
+    "cat": "new",
+    "name": "Infinix Smart 10 6/256",
+    "storage": "6/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Infinix",
+    "price": "7700",
+    "originalPrice": "8000",
+    "description": "أهم المميزات:\n\nشاشة كبيرة 120Hz بسطوع 700 شمعة.\nبطارية ضخمة 5000mAh مع شحن سريع وعكسي.\nتصميم مقاوم لرذاذ الماء والغبار IP64.\nصوت ستيريو مجسم.\nدعم بصمة جانبية وفتح بالوجه.",
+    "img": "images/products/p297_0_tyja22.jpg",
+    "imgs": [
+      "images/products/p297_0_tyja22.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
   },
   {
     "id": 295,
