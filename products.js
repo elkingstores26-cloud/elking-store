@@ -1,6 +1,132 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٧:٥٣:٤١ م
+// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٨:٠٧:٣٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 314,
+    "cat": "new",
+    "name": "nokia105",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "nokia",
+    "price": "950",
+    "originalPrice": "1200",
+    "description": "هاتف نوكيا 105 (إصدار 2023/2024) هو هاتف تقليدي (Feature Phone) عملي، يتميز بشاشة 1.8 بوصة، بطارية قوية تصل سعتها إلى 1000 مللي أمبير تدوم لعدة أيام، وشريحتين اتصال (Dual SIM). يدعم شبكات 2G، ويأتي بهيكل متين، كشاف إضاءة، وراديو FM، مع نظام تشغيل نوكيا 30+ الأساسي",
+    "img": "images/products/p314_0_97y4wk.jpg",
+    "imgs": [
+      "images/products/p314_0_97y4wk.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 313,
+    "cat": "new",
+    "name": "nokia106",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "nokia",
+    "price": "1050",
+    "originalPrice": "1250",
+    "description": "نوكيا 106 (إصدار 2023/2024) هو هاتف تقليدي (Feature Phone) يتميز بالمتانة والبساطة، يأتي بشاشة 1.8 بوصة، بطارية 800-1000 مللي أمبير تدوم لأيام، دعم شريحتين (Dual SIM)، راديو FM، ومشغل MP3، مع ذاكرة داخلية صغيرة وهيكل بلاستيكي متين، ويعمل بشبكات 2G أو 4G حسب الإصدار",
+    "img": "images/products/p313_0_lmi44n.jpg",
+    "imgs": [
+      "images/products/p313_0_lmi44n.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 312,
+    "cat": "new",
+    "name": "nokia108",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "nokia",
+    "price": "1050",
+    "originalPrice": "1350",
+    "description": "يتميز هاتف نوكيا 108 4G (إصدار 2024) بتصميم متين وشاشة 2.0 بوصة، ويدعم شبكات الجيل الرابع (4G) لمكالمات HD، مع بطارية قوية 1450 مللي أمبير، ومنفذ USB-C، وشريحتي اتصال (Nano-SIM). لا يحتوي على كاميرا، ويدعم راديو FM ومشغل MP3 وكارت ذاكرة، وهو مصمم للاستخدام العملي والمكالمات الصوتية الواضحة",
+    "img": "images/products/p312_0_mnjr2x.jpg",
+    "imgs": [
+      "images/products/p312_0_mnjr2x.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 311,
+    "cat": "new",
+    "name": "nokia110",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "nokia",
+    "price": "1200",
+    "originalPrice": "1350",
+    "description": "هاتف نوكيا 110 (Nokia 110) هو هاتف تقليدي (Feature Phone) يتميز بتصميم كلاسيكي، شاشة \\(1.8\\) بوصة ملونة، كاميرا خلفية أساسية، ودعم لبطاقتي SIM. يعمل بنظام S30+، ويحتوي على بطارية قابلة للإزالة تدوم لأيام، وراديو FM، ومشغل MP3، مع دعم كارت ذاكرة خارجي، وهو متاح بإصدارات تدعم 2G أو 4G",
+    "img": "images/products/p311_0_gmugo6.jpg",
+    "imgs": [
+      "images/products/p311_0_gmugo6.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 310,
+    "cat": "new",
+    "name": "nokia125",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "nokia",
+    "price": "1250",
+    "originalPrice": "1400",
+    "description": "يعد نوكيا 125 (2020) هاتفاً تقليدياً بسيطاً (Feature Phone) يركز على العملية، ويتميز بشاشة 2.4 بوصة، بطارية 1020 مللي أمبير تدوم طويلاً، هيكل من البولي كربونيت المتين، دعم شريحتين، راديو FM، وكشاف إضاءة LED. مثالي للمكالمات والرسائل فقط",
+    "img": "images/products/p310_0_enuls4.jpg",
+    "imgs": [
+      "images/products/p310_0_enuls4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 309,
+    "cat": "new",
+    "name": "lenovo tab one 4/128",
+    "storage": "4/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "lenovo",
+    "price": "6700",
+    "originalPrice": "7000",
+    "description": "يُعد Lenovo Tab One تابلت عملي وصغير الحجم بشاشة 8.7 بوصة ودقة HD+ (1340x800)، يعمل بمعالج MediaTek Helio G85، وذاكرة رام 4 جيجابايت، وبطارية 5100 مللي أمبير. يأتي بمساحة تخزين 64 أو 128 جيجابايت (قابلة للزيادة)، وكاميرا خلفية 8 ميجابكسل، ويتميز بنظام أندرويد 14، مما يجعله مناسباً للاستخدام اليومي الخفيف والقراءة.",
+    "img": "images/products/p309_0_onmdyv.jpg",
+    "imgs": [
+      "images/products/p309_0_onmdyv.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 308,
     "cat": "new",
