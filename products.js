@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٨:١٤:١٠ م
+// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٩:٠١:٤٧ م
 window.ELKING_PRODUCTS = [
   {
     "id": 298,
@@ -1349,8 +1349,8 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "21000",
-    "originalPrice": "22500",
+    "price": "19700",
+    "originalPrice": "21000",
     "description": "يتميز جهاز آيباد الجيل الحادي عشر (موديل 2025) بشريحة A16 Bionic القوية (4 نانومتر)، وشاشة Liquid Retina مقاس 10.9 أو 11 بوصة، وذاكرة رام 6 جيجابايت، مع كاميرات 12MP تدعم Center Stage، وبطارية تدوم لـ 10 ساعات، ويعد خياراً مثالياً للأداء السريع والسلس بأسعار معقولة",
     "img": "images/products/p234_0_dqy3hn.jpg",
     "imgs": [
@@ -1370,8 +1370,8 @@ window.ELKING_PRODUCTS = [
     "color": "فضي",
     "colorHex": "#c0c0c0",
     "brand": "apple",
-    "price": "21500",
-    "originalPrice": "22500",
+    "price": "19700",
+    "originalPrice": "21000",
     "description": "يتميز جهاز آيباد الجيل الحادي عشر (موديل 2025) بشريحة A16 Bionic القوية (4 نانومتر)، وشاشة Liquid Retina مقاس 10.9 أو 11 بوصة، وذاكرة رام 6 جيجابايت، مع كاميرات 12MP تدعم Center Stage، وبطارية تدوم لـ 10 ساعات، ويعد خياراً مثالياً للأداء السريع والسلس بأسعار معقولة",
     "img": "images/products/p233_0_8qhjyl.jpg",
     "imgs": [
@@ -1391,8 +1391,8 @@ window.ELKING_PRODUCTS = [
     "color": "وردي",
     "colorHex": "#f9a8d4",
     "brand": "apple",
-    "price": "53800",
-    "originalPrice": "60000",
+    "price": "53000",
+    "originalPrice": "58000",
     "description": "بشاشة 6.1 بوصة، ومعالج A18 القوي (3 نانومتر)، ونظام كاميرا مزدوج 48MP، مع ذاكرة رام 8GB، وهيكل ألومنيوم مقاوم للماء (IP68) وزجاج خلفي ملون، بالإضافة إلى زر التحكم بالكاميرا الجديد",
     "img": "images/products/p232_0_ye2y16.jpg",
     "imgs": [
@@ -1412,8 +1412,8 @@ window.ELKING_PRODUCTS = [
     "color": "أخضر",
     "colorHex": "#16a34a",
     "brand": "apple",
-    "price": "53800",
-    "originalPrice": "60000",
+    "price": "53000",
+    "originalPrice": "58000",
     "description": "بشاشة OLED مقاس 6.1 بوصة، ومعالج A18 الجديد بتقنية 3 نانومتر، وذاكرة وصول عشوائي 8 جيجابايت لدعم الذكاء الاصطناعي. يأتي الهاتف بكاميرا أساسية 48 ميجابكسل، وزر \"التحكم في الكاميرا\" الجديد، وهيكل مقاوم للماء والغبار. كما يدعم شبكات 5G وبطارية محسّنة تدوم طوال اليوم",
     "img": "images/products/p231_0_lhoabn.jpg",
     "imgs": [
@@ -1433,8 +1433,8 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "apple",
-    "price": "53800",
-    "originalPrice": "55000",
+    "price": "53000",
+    "originalPrice": "58000",
     "description": "بشاشة OLED مقاس 6.1 بوصة، ومعالج A18 الجديد بتقنية 3 نانومتر، وذاكرة وصول عشوائي 8 جيجابايت لدعم الذكاء الاصطناعي. يأتي الهاتف بكاميرا أساسية 48 ميجابكسل، وزر \"التحكم في الكاميرا\" الجديد، وهيكل مقاوم للماء والغبار. كما يدعم شبكات 5G وبطارية محسّنة تدوم طوال اليوم",
     "img": "images/products/p230_0_mt9upw.jpg",
     "imgs": [
@@ -1454,8 +1454,8 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "73000",
-    "originalPrice": "68000",
+    "price": "66000",
+    "originalPrice": "69000",
     "description": "يأتي آيفون 17 (iPhone 17) بشاشة 6.3 بوصة من نوع LTPO OLED بتردد 120 هرتز لأول مرة في النسخة العادية، معالج A19 الجديد، كاميرا رئيسية وواسعة 48 ميجابكسل، وذاكرة عشوائية (RAM) أكبر لتحسين أداء الذكاء الاصطناعي، مما يجعله تحديثاً جوهرياً في الأداء والشاشة",
     "img": "images/products/p229_0_tm1is.jpg",
     "imgs": [
@@ -1475,8 +1475,8 @@ window.ELKING_PRODUCTS = [
     "color": "أخضر",
     "colorHex": "#16a34a",
     "brand": "apple",
-    "price": "68000",
-    "originalPrice": "72000",
+    "price": "66000",
+    "originalPrice": "69000",
     "description": "يأتي آيفون 17 (iPhone 17) بشاشة 6.3 بوصة من نوع LTPO OLED بتردد 120 هرتز لأول مرة في النسخة العادية، معالج A19 الجديد، كاميرا رئيسية وواسعة 48 ميجابكسل، وذاكرة عشوائية (RAM) أكبر لتحسين أداء الذكاء الاصطناعي، مما يجعله تحديثاً جوهرياً في الأداء والشاشة.",
     "img": "images/products/p228_0_oini3g.jpg",
     "imgs": [
@@ -1496,8 +1496,8 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "apple",
-    "price": "66750",
-    "originalPrice": "70000",
+    "price": "66000",
+    "originalPrice": "69000",
     "description": "يأتي آيفون 17 (iPhone 17) بشاشة 6.3 بوصة من نوع LTPO OLED بتردد 120 هرتز لأول مرة في النسخة العادية، معالج A19 الجديد، كاميرا رئيسية وواسعة 48 ميجابكسل، وذاكرة عشوائية (RAM) أكبر لتحسين أداء الذكاء الاصطناعي، مما يجعله تحديثاً جوهرياً في الأداء والشاشة.",
     "img": "images/products/p227_0_p3yuwk.jpg",
     "imgs": [
@@ -1517,8 +1517,8 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "apple",
-    "price": "66750",
-    "originalPrice": "75000",
+    "price": "66000",
+    "originalPrice": "69000",
     "description": "يأتي آيفون 17 (iPhone 17) بشاشة 6.3 بوصة من نوع LTPO OLED بتردد 120 هرتز لأول مرة في النسخة العادية، معالج A19 الجديد، كاميرا رئيسية وواسعة 48 ميجابكسل، وذاكرة عشوائية (RAM) أكبر لتحسين أداء الذكاء الاصطناعي، مما يجعله تحديثاً جوهرياً في الأداء والشاشة",
     "img": "images/products/p226_0_okq78k.jpg",
     "imgs": [
@@ -1568,7 +1568,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -1580,8 +1580,8 @@ window.ELKING_PRODUCTS = [
     "color": "اورنجh,h,vk[vk[",
     "colorHex": "#f5a700",
     "brand": "apple",
-    "price": "90000",
-    "originalPrice": "95000",
+    "price": "85000",
+    "originalPrice": "90000",
     "description": "يأتي آيفون 17 برو (iPhone 17 Pro) بشاشة 6.3 بوصة من نوع LTPO OLED، ومعالج A19 Pro بتقنية 3 نانو، مع ذاكرة عشوائية 12 جيجابايت، ونظام كاميرات خلفية ثلاثية بدقة 48 ميجابكسل، بالإضافة إلى إطار من الألومنيوم، ودعم لشبكات Wi-Fi 7",
     "img": "images/products/p223_0_b5vrzj.jpg",
     "imgs": [
@@ -1602,7 +1602,7 @@ window.ELKING_PRODUCTS = [
     "colorHex": "#1e40af",
     "brand": "apple",
     "price": "100000",
-    "originalPrice": "11000",
+    "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p222_0_xt1ecs.jpg",
     "imgs": [
@@ -1622,8 +1622,8 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "apple",
-    "price": "102000",
-    "originalPrice": "11000",
+    "price": "103000",
+    "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p221_0_onmdyv.jpg",
     "imgs": [
@@ -1643,8 +1643,8 @@ window.ELKING_PRODUCTS = [
     "color": "orangeذهبي",
     "colorHex": "#ffb514",
     "brand": "apple",
-    "price": "97000",
-    "originalPrice": "107000",
+    "price": "96000",
+    "originalPrice": "100000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p220_0_h8m1i0.jpg",
     "imgs": [
