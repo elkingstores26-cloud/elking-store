@@ -1,6 +1,50 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٦‏/٥‏/٢٠٢٦ ٥:٥٩:٠٨ م
+// آخر تحديث: ٦‏/٥‏/٢٠٢٦ ٦:٠٨:٠٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 305,
+    "cat": "used",
+    "name": "13pro max used",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple used",
+    "price": "37000",
+    "originalPrice": "39000",
+    "description": "13pro max used\n256G\n77%\nNo Box \nNo Tax",
+    "img": "images/products/p305_0_8kwwy5.jpg",
+    "imgs": [
+      "images/products/p305_0_8kwwy5.jpg",
+      "images/products/p305_1_gqhpki.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "77%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 304,
+    "cat": "used",
+    "name": "13pro max used",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple used",
+    "price": "39000",
+    "originalPrice": "40000",
+    "description": "13promax used\n256G\n83%\nNo Box\nNo Tax",
+    "img": "images/products/p304_0_6b7801.jpg",
+    "imgs": [
+      "images/products/p304_0_6b7801.jpg",
+      "images/products/p304_1_gmor24.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "79%",
+    "condition": "ممتاز"
+  },
   {
     "id": 303,
     "cat": "used",
