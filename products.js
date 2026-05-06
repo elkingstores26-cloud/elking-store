@@ -1,57 +1,6 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٥‏/٢٠٢٦ ٩:٠١:٤٧ م
+// آخر تحديث: ٦‏/٥‏/٢٠٢٦ ٥:٢١:٠٤ م
 window.ELKING_PRODUCTS = [
-  {
-    "id": 298,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
-  },
-  {
-    "id": 297,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
-  },
-  {
-    "id": 296,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
-  },
   {
     "id": 295,
     "cat": "new",
