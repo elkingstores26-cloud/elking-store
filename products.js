@@ -1,6 +1,28 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٦‏/٥‏/٢٠٢٦ ٥:٤١:٤٧ م
+// آخر تحديث: ٦‏/٥‏/٢٠٢٦ ٥:٥٥:٥٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 302,
+    "cat": "used",
+    "name": "14pro max used",
+    "storage": "256",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "Apple used",
+    "price": "40000",
+    "originalPrice": "43000",
+    "description": "14pro max used\n256G\n100%\nBattery replaced\nWith box\nNo tax",
+    "img": "images/products/p302_0_dhi69u.jpg",
+    "imgs": [
+      "images/products/p302_0_dhi69u.jpg",
+      "images/products/p302_1_a9hymu.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "جيد جدا"
+  },
   {
     "id": 301,
     "cat": "used",
