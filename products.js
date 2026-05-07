@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٠٣:٠٦ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٠٩:٠٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 309,
+    "cat": "used",
+    "name": "Iphone 15 used",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Apple used",
+    "price": "32000",
+    "originalPrice": "35000",
+    "description": "Iphone 15 \n128\n83%\nWith box\nNo tax",
+    "img": "images/products/p309_0_p1aev5.jpg",
+    "imgs": [
+      "images/products/p309_0_p1aev5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "82%",
+    "condition": "جيد"
+  },
   {
     "id": 308,
     "cat": "used",
