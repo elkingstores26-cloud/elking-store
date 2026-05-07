@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٥٤:٥٠ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٠٠:٠٦ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 312,
+    "cat": "used",
+    "name": "Samsung A26 used",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung used",
+    "price": "14000",
+    "originalPrice": "15000",
+    "description": "المعالج: ثماني النواة Exynos 1380 تكنولوجيا 5 نانو\nالتخزين / الرام: 256 جيجا مع 8 جيجا رام\nالكاميرا: خلفية ثلاثية 50+8+2 م.ب. / امامية 13 م.ب.\nالشاشة: 6.7 بوصة بدقة 1080x2340 بها نوتش صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
+    "img": "images/products/p312_0_fob9pf.jpg",
+    "imgs": [
+      "images/products/p312_0_fob9pf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 311,
     "cat": "used",
