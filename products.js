@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٠٩:٠٩ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٠٩:٢٥ م
 window.ELKING_PRODUCTS = [
   {
     "id": 309,
@@ -29,7 +29,7 @@ window.ELKING_PRODUCTS = [
     "storage": "",
     "color": "أزرق",
     "colorHex": "#1e40af",
-    "brand": "",
+    "brand": "Apple used",
     "price": "33000",
     "originalPrice": "35000",
     "description": "14plus\n128G\n83%\nWith box \nNo tax",
