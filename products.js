@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٤٤:١٧ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٤٨:٣٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 310,
+    "cat": "used",
+    "name": "Samsung S25 ultra used",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung used",
+    "price": "57000",
+    "originalPrice": "60000",
+    "description": "المعالج: ثماني النواة Snapdragon 8 Elite تكنولوجيا 3 نانو\nالتخزين / الرام: 256 جيجا مع 12 جيجا رام\nالكاميرا: خلفية رباعية 200+10+50+50 م.ب. / امامية 12 م.ب.\nالشاشة: 6.9 بوصة بدقة 1440x3120 بكسل بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
+    "img": "images/products/p310_0_l7xs65.jpg",
+    "imgs": [
+      "images/products/p310_0_l7xs65.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 309,
     "cat": "used",
