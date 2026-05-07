@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ١:٥٤:٣٤ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٢:٠٣:٠٦ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 308,
+    "cat": "used",
+    "name": "Iphone 14plus used",
+    "storage": "",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "",
+    "price": "33000",
+    "originalPrice": "35000",
+    "description": "14plus\n128G\n83%\nWith box \nNo tax",
+    "img": "images/products/p308_0_fs4q30.jpg",
+    "imgs": [
+      "images/products/p308_0_fs4q30.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "83%",
+    "condition": "جيد"
+  },
   {
     "id": 307,
     "cat": "used",
