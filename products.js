@@ -1,6 +1,44 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٠٣:٤٦ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٥٧:٠٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 315,
+    "cat": "used",
+    "name": "Oppo A5 used",
+    "storage": "128",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Oppo used",
+    "price": "8000",
+    "originalPrice": "9000",
+    "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nلتخزين / الرام : 128 جيجا مع 6 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 314,
+    "cat": "used",
+    "name": "Oppo A5 used",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Oppo used",
+    "price": "9000",
+    "originalPrice": "10000",
+    "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nالتخزين / الرام: 256 جيجا مع 8 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 313,
     "cat": "used",
