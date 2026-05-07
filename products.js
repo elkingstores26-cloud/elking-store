@@ -1,6 +1,25 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٥٧:٠٥ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٥٩:٤٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 316,
+    "cat": "used",
+    "name": "Honor 400 5G used",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Honor used",
+    "price": "22500",
+    "originalPrice": "23500",
+    "description": "المعالج: ثماني النواة Snapdragon 7 Gen 3 تكنولوجيا 4 نانو\nالتخزين / الرام: 256 جيجا مع 12 جيجا رام\nالكاميرا: خلفية مزدوجة 200+12 م.ب / امامية 50 م.ب.\nالشاشة: 6.55 بوصة بدقة 1200x2664 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 315,
     "cat": "used",
