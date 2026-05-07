@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٠٠:٠٦ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٣:٠٣:٤٦ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 313,
+    "cat": "used",
+    "name": "Samsung A16 used",
+    "storage": "128",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Samsung used",
+    "price": "7500",
+    "originalPrice": "8000",
+    "description": "المعالج: ثماني النواة Mediatek Helio G99 تكنولوجيا 6 نانو\nالتخزين / الرام: 128 جيجا مع 6 جيجا رام\nالكاميرا: خلفية ثلاثية 50+5+2 م.ب. / امامية 13 م.ب.\nالشاشة: 6.7 بوصة بدقة 1080x2340 بكسل بها نوتش\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
+    "img": "images/products/p313_0_57gfxd.jpg",
+    "imgs": [
+      "images/products/p313_0_57gfxd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 312,
     "cat": "used",
