@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٤:٤٧:٥٦ م
+// آخر تحديث: ٧‏/٥‏/٢٠٢٦ ٤:٥٠:١١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 316,
@@ -33,8 +33,10 @@ window.ELKING_PRODUCTS = [
     "price": "8000",
     "originalPrice": "9000",
     "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nلتخزين / الرام : 128 جيجا مع 6 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
-    "img": "",
-    "imgs": [],
+    "img": "images/products/p315_0_ixakje.jpg",
+    "imgs": [
+      "images/products/p315_0_ixakje.jpg"
+    ],
     "featured": false,
     "variants": [],
     "inStock": true,
@@ -52,8 +54,10 @@ window.ELKING_PRODUCTS = [
     "price": "9000",
     "originalPrice": "10000",
     "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nالتخزين / الرام: 256 جيجا مع 8 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
-    "img": "",
-    "imgs": [],
+    "img": "images/products/p314_0_ml72b4.jpg",
+    "imgs": [
+      "images/products/p314_0_ml72b4.jpg"
+    ],
     "featured": false,
     "variants": [],
     "inStock": true,
