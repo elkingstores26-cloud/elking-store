@@ -1,10 +1,10 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١١‏/٥‏/٢٠٢٦ ١٠:٣٩:١٩ م
+// آخر تحديث: ١١‏/٥‏/٢٠٢٦ ١٠:٥٠:٢٨ م
 window.ELKING_PRODUCTS = [
   {
     "id": 316,
     "cat": "used",
-    "name": "Honor 400 5G used",
+    "name": "Honor 400 5G used k",
     "storage": "256",
     "color": "فضي",
     "colorHex": "#c0c0c0",
@@ -25,7 +25,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 315,
     "cat": "used",
-    "name": "Oppo A5 used",
+    "name": "Oppo A5 used k",
     "storage": "128",
     "color": "أخضر",
     "colorHex": "#16a34a",
@@ -46,7 +46,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 314,
     "cat": "used",
-    "name": "Oppo A5 used",
+    "name": "Oppo A5 used k",
     "storage": "256",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
@@ -67,7 +67,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 313,
     "cat": "used",
-    "name": "Samsung A16 used",
+    "name": "Samsung A16 used k",
     "storage": "128",
     "color": "فضي",
     "colorHex": "#c0c0c0",
@@ -88,7 +88,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 312,
     "cat": "used",
-    "name": "Samsung A26 used",
+    "name": "Samsung A26 used k",
     "storage": "256",
     "color": "",
     "colorHex": "#0a0a0a",
@@ -109,7 +109,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 311,
     "cat": "used",
-    "name": "Samsung S25 ultra used",
+    "name": "Samsung S25 ultra used k",
     "storage": "256",
     "color": "فضي",
     "colorHex": "#c0c0c0",
@@ -130,7 +130,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 310,
     "cat": "used",
-    "name": "Samsung S25 ultra used",
+    "name": "Samsung S25 ultra used k",
     "storage": "256",
     "color": "",
     "colorHex": "#0a0a0a",
@@ -151,7 +151,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 309,
     "cat": "used",
-    "name": "Iphone 15 used",
+    "name": "Iphone 15 used k",
     "storage": "128",
     "color": "Iceblue",
     "colorHex": "#a0cfec",
@@ -172,7 +172,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 308,
     "cat": "used",
-    "name": "Iphone 14plus used",
+    "name": "Iphone 14plus used k",
     "storage": "",
     "color": "أزرق",
     "colorHex": "#1e40af",
@@ -193,7 +193,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 307,
     "cat": "used",
-    "name": "15pro max used",
+    "name": "15pro max used k",
     "storage": "512",
     "color": "Titanium",
     "colorHex": "#8e8e93",
@@ -214,7 +214,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 306,
     "cat": "used",
-    "name": "17pro max used",
+    "name": "17pro max used k",
     "storage": "256",
     "color": "فضي",
     "colorHex": "#c0c0c0",
@@ -235,7 +235,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 305,
     "cat": "used",
-    "name": "13pro max used",
+    "name": "13pro max used k",
     "storage": "256",
     "color": "ذهبي",
     "colorHex": "#d4af37",
@@ -257,7 +257,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 304,
     "cat": "used",
-    "name": "13pro max used",
+    "name": "13pro max used k",
     "storage": "256",
     "color": "ذهبي",
     "colorHex": "#d4af37",
@@ -279,7 +279,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 303,
     "cat": "used",
-    "name": "14pro max used",
+    "name": "14pro max used k",
     "storage": "128",
     "color": "وردي",
     "colorHex": "#f9a8d4",
@@ -301,7 +301,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 302,
     "cat": "used",
-    "name": "14pro max used",
+    "name": "14pro max used k",
     "storage": "256",
     "color": "وردي",
     "colorHex": "#f9a8d4",
@@ -323,7 +323,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 301,
     "cat": "used",
-    "name": "16pro max used",
+    "name": "16pro max used k",
     "storage": "256",
     "color": "ذهبي",
     "colorHex": "#d4af37",
@@ -345,7 +345,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 300,
     "cat": "used",
-    "name": "17pro max used",
+    "name": "17pro max used k",
     "storage": "256",
     "color": "أزرق",
     "colorHex": "#1e40af",
