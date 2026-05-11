@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٢‏/٥‏/٢٠٢٦ ١٢:٢١:٥٩ ص
+// آخر تحديث: ١٢‏/٥‏/٢٠٢٦ ١٢:٢٦:٣٢ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 321,
+    "cat": "used",
+    "name": "16",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple used",
+    "price": "50000",
+    "originalPrice": "52500",
+    "description": "16\n128GB\n155Cycle\nWith box\nNo tax",
+    "img": "images/products/p321_0_sovvc.jpg",
+    "imgs": [
+      "images/products/p321_0_sovvc.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
   {
     "id": 320,
     "cat": "used",
