@@ -1,6 +1,44 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١١‏/٥‏/٢٠٢٦ ١٠:٥٠:٤٧ م
+// آخر تحديث: ١١‏/٥‏/٢٠٢٦ ١١:٥٠:٠٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 318,
+    "cat": "used",
+    "name": "13pro max used k",
+    "storage": "256",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "Apple used",
+    "price": "38000",
+    "originalPrice": "39500",
+    "description": "13Pro max used\n256Gb\nWith box\nNo tax",
+    "img": "images/products/p318_0_opmjiv.jpg",
+    "imgs": [
+      "images/products/p318_0_opmjiv.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "75",
+    "condition": "جيد"
+  },
+  {
+    "id": 317,
+    "cat": "used",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
   {
     "id": 316,
     "cat": "used",
@@ -36,48 +74,6 @@ window.ELKING_PRODUCTS = [
     "img": "images/products/p315_0_ixakje.jpg",
     "imgs": [
       "images/products/p315_0_ixakje.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 314,
-    "cat": "used",
-    "name": "Oppo A5 used k",
-    "storage": "256",
-    "color": "أبيض",
-    "colorHex": "#f5f5f5",
-    "brand": "Oppo used",
-    "price": "9000",
-    "originalPrice": "10000",
-    "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nالتخزين / الرام: 256 جيجا مع 8 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
-    "img": "images/products/p314_0_ml72b4.jpg",
-    "imgs": [
-      "images/products/p314_0_ml72b4.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 313,
-    "cat": "used",
-    "name": "Samsung A16 used k",
-    "storage": "128",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Samsung used",
-    "price": "7500",
-    "originalPrice": "8000",
-    "description": "المعالج: ثماني النواة Mediatek Helio G99 تكنولوجيا 6 نانو\nالتخزين / الرام: 128 جيجا مع 6 جيجا رام\nالكاميرا: خلفية ثلاثية 50+5+2 م.ب. / امامية 13 م.ب.\nالشاشة: 6.7 بوصة بدقة 1080x2340 بكسل بها نوتش\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
-    "img": "images/products/p313_0_57gfxd.jpg",
-    "imgs": [
-      "images/products/p313_0_57gfxd.jpg"
     ],
     "featured": false,
     "variants": [],
