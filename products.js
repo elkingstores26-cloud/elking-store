@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٢‏/٥‏/٢٠٢٦، ١٠:٣٨:١١ م
+// آخر تحديث: ١٢‏/٥‏/٢٠٢٦، ١٠:٤٥:٤١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 331,
+    "cat": "used",
+    "name": "Galaxy A56 5g",
+    "storage": "256",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Samsung used",
+    "price": "21000",
+    "originalPrice": "22000",
+    "description": "Galaxy A56 5g\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p331_0_nzibrx.jpg",
+    "imgs": [
+      "images/products/p331_0_nzibrx.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 330,
     "cat": "used",
