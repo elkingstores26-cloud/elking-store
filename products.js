@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٢‏/٥‏/٢٠٢٦، ١٠:٥٠:٠٥ م
+// آخر تحديث: ١٢‏/٥‏/٢٠٢٦، ١٠:٥٦:٢٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 334,
+    "cat": "used",
+    "name": "Galaxy A54 5g",
+    "storage": "128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung used",
+    "price": "12500",
+    "originalPrice": "13500",
+    "description": "Galaxy A54 5g\nRam:8\nGB:128\nWith Box\nNo Tax",
+    "img": "images/products/p334_0_ksr7im.jpg",
+    "imgs": [
+      "images/products/p334_0_ksr7im.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
+  {
+    "id": 333,
+    "cat": "used",
+    "name": "Galaxy A54 5g",
+    "storage": "128",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Samsung used",
+    "price": "12500",
+    "originalPrice": "14000",
+    "description": "Galaxy A54 5g\nRam:8\nGB:128\nWith Box\nNo Tax",
+    "img": "images/products/p333_0_ogyl6h.jpg",
+    "imgs": [
+      "images/products/p333_0_ogyl6h.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 332,
     "cat": "used",
