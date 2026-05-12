@@ -1,6 +1,90 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٢‏/٥‏/٢٠٢٦ ١٢:٢٦:٣٢ ص
+// آخر تحديث: ١٢‏/٥‏/٢٠٢٦، ١٠:٢٤:٥٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 325,
+    "cat": "used",
+    "name": "Xs Max",
+    "storage": "512",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple used",
+    "price": "15000",
+    "originalPrice": "16000",
+    "description": "Xs Max used\n512GB\nWith box\nNo tax",
+    "img": "images/products/p325_0_bxfk18.jpg",
+    "imgs": [
+      "images/products/p325_0_bxfk18.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "77",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 324,
+    "cat": "used",
+    "name": "13",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Apple used",
+    "price": "18000",
+    "originalPrice": "20000",
+    "description": "13used\n128GB\nNO box\n tax",
+    "img": "images/products/p324_0_yd0u4m.jpg",
+    "imgs": [
+      "images/products/p324_0_yd0u4m.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 323,
+    "cat": "used",
+    "name": "13",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple used",
+    "price": "29000",
+    "originalPrice": "32000",
+    "description": "13used\n128GB\nWarranty 1 Year\nWith box\nNo tax",
+    "img": "images/products/p323_0_iahlxd.jpg",
+    "imgs": [
+      "images/products/p323_0_iahlxd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "95",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 322,
+    "cat": "used",
+    "name": "Iphone 14plus used s",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple used",
+    "price": "31000",
+    "originalPrice": "33000",
+    "description": "14Plus used\n128GB\nWith box\nNo tax",
+    "img": "images/products/p322_0_uwax76.jpg",
+    "imgs": [
+      "images/products/p322_0_uwax76.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91",
+    "condition": "ممتاز"
+  },
   {
     "id": 321,
     "cat": "used",
