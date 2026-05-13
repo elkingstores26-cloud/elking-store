@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:١٢:١٤ م
+// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٣٣:٠٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 338,
+    "cat": "used",
+    "name": "Redmi Note14 Pro+ 5g",
+    "storage": "256",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "Xiaomi",
+    "price": "17500",
+    "originalPrice": "18000",
+    "description": "Redmi Note14 Pro+ 5g \nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p338_0_exbwfd.jpg",
+    "imgs": [
+      "images/products/p338_0_exbwfd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
+  {
+    "id": 337,
+    "cat": "used",
+    "name": "16Pro max used",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple used",
+    "price": "63000",
+    "originalPrice": "65000",
+    "description": "16pro max used\n256Gb\nWith box\nNo tax",
+    "img": "images/products/p337_0_ghv5i.jpg",
+    "imgs": [
+      "images/products/p337_0_ghv5i.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "92",
+    "condition": "جيد جدا"
+  },
   {
     "id": 336,
     "cat": "new",
