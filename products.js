@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٤٢:٤٤ م
+// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٤٨:١٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 340,
+    "cat": "used",
+    "name": "Honor x8b",
+    "storage": "512",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Honor used",
+    "price": "17500",
+    "originalPrice": "18300",
+    "description": "Honor x8b\nRam:8\nGB:512\nWith Box\nNo Tax",
+    "img": "images/products/p340_0_4iwpvu.jpg",
+    "imgs": [
+      "images/products/p340_0_4iwpvu.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 339,
     "cat": "used",
