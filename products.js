@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٣٣:٠٣ م
+// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٤٢:٤٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 339,
+    "cat": "used",
+    "name": "Note 12 Pro Plus",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Xiaomi",
+    "price": "13500",
+    "originalPrice": "14500",
+    "description": "Note 12Pro Plus\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p339_0_n8z8gn.jpg",
+    "imgs": [
+      "images/products/p339_0_n8z8gn.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 338,
     "cat": "used",
