@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٢‏/٥‏/٢٠٢٦، ١٠:٥٦:٢٧ م
+// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٠٦:٢١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 335,
+    "cat": "new",
+    "name": "Galaxy A17 5g",
+    "storage": "256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "13500",
+    "originalPrice": "14500",
+    "description": "التخزين / الرام:/256 جيجا مع 8جيجا رام\nالكاميرا: خلفية ثلاثية 50+5+2 م.ب. / امامية 13 م.ب.\nالشاشة: 6.7 بوصة بدقة 1080x2340 بكسل بها نوتش\nنظام التشغيل: اندرويد 16\nالبطارية: 5000 مللي أمبير",
+    "img": "images/products/p335_0_pk4nwt.jpg",
+    "imgs": [
+      "images/products/p335_0_pk4nwt.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 334,
     "cat": "used",
