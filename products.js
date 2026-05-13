@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:٠٦:٢١ م
+// آخر تحديث: ١٣‏/٥‏/٢٠٢٦، ٩:١٢:١٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 336,
+    "cat": "new",
+    "name": "Redmi A7 Pro 4/128",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Xiaomi",
+    "price": "6800",
+    "originalPrice": "7500",
+    "description": "لمعالج: ثماني النواة Unisoc T7250 تكنولوجيا 12 نانو\nالتخزين / الرام:/128 جيجا مع 4 جيجا رام\nالكاميرا: خلفية 13 م.ب / امامية 8 م.ب.\nالشاشة: 6.9 بوصة بدقة 720x1600 بكسل بها نوتش\nنظام التشغيل: اندرويد 16\nالبطارية: 6000 مللي أمبير",
+    "img": "images/products/p336_0_etzxj0.jpg",
+    "imgs": [
+      "images/products/p336_0_etzxj0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 335,
     "cat": "new",
