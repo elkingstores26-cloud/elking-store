@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:٠٠:٢٣ م
+// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:٠٤:١٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 344,
+    "cat": "used",
+    "name": "Reno11f 5g",
+    "storage": "256",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Oppo used",
+    "price": "12500",
+    "originalPrice": "13500",
+    "description": "Oppo Reno 11f 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p344_0_nap0tw.jpg",
+    "imgs": [
+      "images/products/p344_0_nap0tw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 343,
     "cat": "used",
