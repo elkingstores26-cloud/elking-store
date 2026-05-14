@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:٠٩:٠٨ م
+// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:١١:٣٢ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 347,
+    "cat": "used",
+    "name": "Vivo V50 lite 5g",
+    "storage": "256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Vivo used",
+    "price": "13500",
+    "originalPrice": "14000",
+    "description": "Vivo V50 lite 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p347_0_h5qxlu.jpg",
+    "imgs": [
+      "images/products/p347_0_h5qxlu.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 346,
     "cat": "used",
