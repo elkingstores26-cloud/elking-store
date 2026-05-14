@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:٠٦:٢١ م
+// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:٠٩:٠٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 346,
+    "cat": "used",
+    "name": "Realme 11 Pro 5g",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Realme used",
+    "price": "12500",
+    "originalPrice": "13000",
+    "description": "Realme 11 Pro 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p346_0_h1egy3.jpg",
+    "imgs": [
+      "images/products/p346_0_h1egy3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 345,
     "cat": "used",
