@@ -1,42 +1,25 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ٩:٥١:٣٤ م
+// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ٩:٥٤:١٢ م
 window.ELKING_PRODUCTS = [
-  {
-    "id": 342,
-    "cat": "used",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
-    "featured": false,
-    "variants": [],
-    "inStock": true
-  },
   {
     "id": 341,
     "cat": "used",
-    "name": "15Plus",
-    "storage": "128",
-    "color": "Iceblue",
-    "colorHex": "#a0cfec",
-    "brand": "Apple used",
-    "price": "35000",
-    "originalPrice": "36500",
-    "description": "15Plus\n128GB\nWith box\nYas tax",
-    "img": "images/products/p341_0_ckd4n7.jpg",
+    "name": "Galaxy A56 5g",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung used",
+    "price": "19000",
+    "originalPrice": "19500",
+    "description": "Galaxy A56 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p341_0_4zfajl.jpg",
     "imgs": [
-      "images/products/p341_0_ckd4n7.jpg"
+      "images/products/p341_0_4zfajl.jpg"
     ],
     "featured": false,
     "variants": [],
     "inStock": true,
-    "battery": "100",
+    "battery": "",
     "condition": "ممتاز"
   },
   {
