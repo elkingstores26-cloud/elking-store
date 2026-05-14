@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ٩:٥٤:١٢ م
+// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:٠٠:٢٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 343,
+    "cat": "used",
+    "name": "Reno 13f",
+    "storage": "256",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Oppo used",
+    "price": "14000",
+    "originalPrice": "14500",
+    "description": "Oppo Reno 13f\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p343_0_y06754.jpg",
+    "imgs": [
+      "images/products/p343_0_y06754.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
+  {
+    "id": 342,
+    "cat": "used",
+    "name": "Oppo A6 Pro 5g",
+    "storage": "256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Oppo used",
+    "price": "15000",
+    "originalPrice": "15500",
+    "description": "Oppo A6 Pro 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p342_0_2zqtuo.jpg",
+    "imgs": [
+      "images/products/p342_0_2zqtuo.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 341,
     "cat": "used",
