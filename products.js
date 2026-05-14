@@ -1,27 +1,6 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ٩:٤٧:٢٨ م
+// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ٩:٤٨:٠٠ م
 window.ELKING_PRODUCTS = [
-  {
-    "id": 341,
-    "cat": "used",
-    "name": "15Plus",
-    "storage": "128",
-    "color": "Iceblue",
-    "colorHex": "#a0cfec",
-    "brand": "Apple used",
-    "price": "35000",
-    "originalPrice": "36500",
-    "description": "15Plus\n128GB\nWith box\nYas tax",
-    "img": "images/products/p341_0_ckd4n7.jpg",
-    "imgs": [
-      "images/products/p341_0_ckd4n7.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100",
-    "condition": "ممتاز"
-  },
   {
     "id": 340,
     "cat": "used",
