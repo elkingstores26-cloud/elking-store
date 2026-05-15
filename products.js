@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٣:٥٢:٤٠ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٢:١٩ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 353,
+    "cat": "used",
+    "name": "Realme 12 Pro Plus",
+    "storage": "256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Realme used",
+    "price": "16000",
+    "originalPrice": "16800",
+    "description": "Realme 12 Pro Plus\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p353_0_vv2e7.jpg",
+    "imgs": [
+      "images/products/p353_0_vv2e7.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
+  {
+    "id": 352,
+    "cat": "used",
+    "name": "Realme 14 Pro",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Realme used",
+    "price": "16000",
+    "originalPrice": "16900",
+    "description": "Realme 14 Pro\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p352_0_wtb5v3.jpg",
+    "imgs": [
+      "images/products/p352_0_wtb5v3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 351,
     "cat": "used",
