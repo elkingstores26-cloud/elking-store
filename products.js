@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٣:٥٠:١١ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٣:٥٢:٤٠ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 351,
+    "cat": "used",
+    "name": "Redmi Note 15",
+    "storage": "256",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Xiaomi Used",
+    "price": "10000",
+    "originalPrice": "10800",
+    "description": "Redmi Note 15\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p351_0_lh6000.jpg",
+    "imgs": [
+      "images/products/p351_0_lh6000.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 350,
     "cat": "used",
