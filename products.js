@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:١٤:٣١ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:١٩:٢٦ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 358,
+    "cat": "used",
+    "name": "Mi 11T 5g",
+    "storage": "256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi Used",
+    "price": "12500",
+    "originalPrice": "13700",
+    "description": "Xiaomi 11T 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p358_0_1oa5fn.jpg",
+    "imgs": [
+      "images/products/p358_0_1oa5fn.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 357,
     "cat": "used",
