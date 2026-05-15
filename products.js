@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٩:٠٢ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:١٤:٣١ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 357,
+    "cat": "used",
+    "name": "Honor 400 5g",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Honor used",
+    "price": "12500",
+    "originalPrice": "13900",
+    "description": "Honor 400 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p357_0_oc4yzm.jpg",
+    "imgs": [
+      "images/products/p357_0_oc4yzm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 356,
     "cat": "used",
@@ -459,7 +480,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
