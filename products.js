@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٥:١٣ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٦:٥٩ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 355,
+    "cat": "used",
+    "name": "Oppo Find X5 5g",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Oppo used",
+    "price": "16000",
+    "originalPrice": "16900",
+    "description": "Oppo Find X5 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p355_0_o3zl20.jpg",
+    "imgs": [
+      "images/products/p355_0_o3zl20.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 354,
     "cat": "used",
