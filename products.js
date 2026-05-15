@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٣:٤٧:٢٣ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٣:٥٠:١١ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 350,
+    "cat": "used",
+    "name": "Honor X9c 5g",
+    "storage": "256",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Honor used",
+    "price": "16000",
+    "originalPrice": "17000",
+    "description": "Honor X9c 5g\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p350_0_51hdlm.jpg",
+    "imgs": [
+      "images/products/p350_0_51hdlm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 349,
     "cat": "used",
