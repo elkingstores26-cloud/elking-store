@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٤‏/٥‏/٢٠٢٦، ١٠:١١:٣٢ م
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٣:٤٥:٣٨ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 348,
+    "cat": "used",
+    "name": "Redmi Note 13",
+    "storage": "256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi used",
+    "price": "10000",
+    "originalPrice": "10500",
+    "description": "Redmi Note13 \nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p348_0_gyekel.jpg",
+    "imgs": [
+      "images/products/p348_0_gyekel.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 347,
     "cat": "used",
