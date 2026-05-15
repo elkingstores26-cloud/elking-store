@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٢:١٩ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٥:١٣ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 354,
+    "cat": "used",
+    "name": "Realme 11 Pro Plus",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Realme used",
+    "price": "14000",
+    "originalPrice": "14900",
+    "description": "Realme 11 Pro Plus\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p354_0_29fjmg.jpg",
+    "imgs": [
+      "images/products/p354_0_29fjmg.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد جدا"
+  },
   {
     "id": 353,
     "cat": "used",
