@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٦:٥٩ ص
+// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:٠٩:٠٢ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 356,
+    "cat": "used",
+    "name": "Realme 15",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Realme used",
+    "price": "16000",
+    "originalPrice": "17000",
+    "description": "Realme 15\nRam:12\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p356_0_6wfcav.jpg",
+    "imgs": [
+      "images/products/p356_0_6wfcav.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 355,
     "cat": "used",
