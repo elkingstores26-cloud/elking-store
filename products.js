@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣١:٣٣ م
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣٥:٠٨ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -2109,7 +2109,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "7350",
+    "price": "7400",
     "originalPrice": "8000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p254_0_uqh3tf.jpg",
@@ -2130,7 +2130,7 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "7350",
+    "price": "7400",
     "originalPrice": "8000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p252_0_k8o68x.jpg",
@@ -2151,7 +2151,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "8200",
+    "price": "8100",
     "originalPrice": "8500",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p253_0_k8o68x.jpg",
@@ -2172,7 +2172,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "8200",
+    "price": "8100",
     "originalPrice": "8500",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p251_0_uqh3tf.jpg",
