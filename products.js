@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٥‏/٢٠٢٦، ٤:١٩:٢٦ ص
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:١٦:٣٥ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -471,7 +471,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Xiaomi",
-    "price": "6800",
+    "price": "6500",
     "originalPrice": "7500",
     "description": "لمعالج: ثماني النواة Unisoc T7250 تكنولوجيا 12 نانو\nالتخزين / الرام:/128 جيجا مع 4 جيجا رام\nالكاميرا: خلفية 13 م.ب / امامية 8 م.ب.\nالشاشة: 6.9 بوصة بدقة 720x1600 بكسل بها نوتش\nنظام التشغيل: اندرويد 16\nالبطارية: 6000 مللي أمبير",
     "img": "images/products/p336_0_etzxj0.jpg",
@@ -2563,7 +2563,7 @@ window.ELKING_PRODUCTS = [
     "color": "وردي",
     "colorHex": "#f9a8d4",
     "brand": "apple",
-    "price": "53000",
+    "price": "54500",
     "originalPrice": "58000",
     "description": "بشاشة 6.1 بوصة، ومعالج A18 القوي (3 نانومتر)، ونظام كاميرا مزدوج 48MP، مع ذاكرة رام 8GB، وهيكل ألومنيوم مقاوم للماء (IP68) وزجاج خلفي ملون، بالإضافة إلى زر التحكم بالكاميرا الجديد",
     "img": "images/products/p232_0_ye2y16.jpg",
