@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:١٩:٥٣ م
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٢٣:٣٣ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -1555,7 +1555,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "oppo",
-    "price": "6900",
+    "price": "7100",
     "originalPrice": "7500",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p280_0_bstrs0.jpg",
@@ -1576,7 +1576,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "oppo",
-    "price": "6900",
+    "price": "7100",
     "originalPrice": "7500",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p279_0_bamq92.jpg",
@@ -1597,7 +1597,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "oppo",
-    "price": "8000",
+    "price": "8100",
     "originalPrice": "8500",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p278_0_bstrs0.jpg",
@@ -1613,12 +1613,12 @@ window.ELKING_PRODUCTS = [
   {
     "id": 277,
     "cat": "new",
-    "name": "oppo a6x 4/128 iceblue",
+    "name": "oppo a6x 4/128",
     "storage": "4/128 iceblue",
-    "color": "",
-    "colorHex": "#0a0a0a",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
     "brand": "oppo",
-    "price": "8000",
+    "price": "8100",
     "originalPrice": "8500",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p277_0_bamq92.jpg",
@@ -1626,7 +1626,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p277_0_bamq92.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -2773,7 +2781,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "100000",
+    "price": "101000",
     "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p222_0_xt1ecs.jpg",
@@ -2794,7 +2802,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "apple",
-    "price": "103000",
+    "price": "103500",
     "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p221_0_onmdyv.jpg",
