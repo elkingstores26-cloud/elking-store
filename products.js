@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣٦:٠٢ م
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣٩:١٥ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -2319,7 +2319,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "Samsung",
-    "price": "17550",
+    "price": "17350",
     "originalPrice": "18000",
     "description": "يأتي سامسونج جالكسي A36 5G (إصدار 2025) بتصميم أنيق ونحيف، متوفراً بأربعة ألوان جذابة (\"رائعة\" - Awesome) وهي: اللافندر (البنفسجي)، الليموني (الأخضر الفاتح)، الأبيض، والأسود. يتميز الهاتف بظهر زجاجي مقاوم للخدش (Gorilla Glass Victus+) وإطار بلاستيكي، مع مقاومة للماء والغبار بمعيار IP67",
     "img": "images/products/p244_0_bl3g51.jpg",
@@ -2340,9 +2340,9 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "Samsung",
-    "price": "21500",
-    "originalPrice": "22500",
-    "description": "يأتي هاتف سامسونج جالاكسي A56 5G (المتوقع لعام 2025/2026) بتصميم زجاجي أنيق وإطار ألومنيوم، مع شاشة 6.7 بوصة Super AMOLED 120Hz، معالج Exynos 1580 القوي، وكاميرا رئيسية 50 ميجابكسل، وبطارية 5000 مللي أمبير تدعم شحن 45 واط",
+    "price": "21200",
+    "originalPrice": "22000",
+    "description": "يأتي هاتف سامسونج جالاكسي A56 5G (المتوقع لعام 2025/2026) بتصميم زجاجي أنيق وإطار ألومنيوم، مع شاشة 6.7 بوصة Super AMOLED 120Hz، معالج Exynos 1580 القوي، وكاميرا رئيسية 50 ميجابكسل، وبطارية 5000 مللي أمبير تدعم شحن 45 وات",
     "img": "images/products/p243_0_kgog32.jpg",
     "imgs": [
       "images/products/p243_0_kgog32.jpg"
@@ -2361,7 +2361,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "Samsung",
-    "price": "24250",
+    "price": "24000",
     "originalPrice": "25000",
     "description": "",
     "img": "images/products/p242_0_kgog32.jpg",
@@ -2382,7 +2382,7 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "24250",
+    "price": "24000",
     "originalPrice": "25000",
     "description": "يأتي هاتف سامسونج جالاكسي A56 5G (المتوقع لعام 2025/2026) بتصميم زجاجي أنيق وإطار ألومنيوم، مع شاشة 6.7 بوصة Super AMOLED 120Hz، معالج Exynos 1580 القوي، وكاميرا رئيسية 50 ميجابكسل، وبطارية 5000 مللي أمبير تدعم شحن 45 واط",
     "img": "images/products/p241_0_ap54nf.jpg",
@@ -2508,7 +2508,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "Samsung",
-    "price": "72800",
+    "price": "72500",
     "originalPrice": "74000",
     "description": "يُعد Samsung Galaxy S26 Ultra (المتوقع لعام 2026) هاتفاً رائداً بشاشة 6.9 بوصة Dynamic AMOLED 2X بتردد 120Hz، ومعالج Snapdragon 8 Elite Gen 5 (3 نانو)، وكاميرا خلفية رباعية بدقة 200MP. يتميز الهاتف بذاكرة عشوائية تصل إلى 16GB، وبطارية 5000-5500 مللي أمبير مع شحن سريع 60 واط، ونظام أندرويد 16، مع تركيز مكثف على ميزات Galaxy AI",
     "img": "images/products/p235_0_84w26o.jpg",
