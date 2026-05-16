@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣٥:٠٨ م
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣٦:٠٢ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -2235,8 +2235,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "8900",
-    "originalPrice": "9300",
+    "price": "9200",
+    "originalPrice": "9700",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p248_0_v12nyp.jpg",
     "imgs": [
@@ -2256,8 +2256,8 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "8900",
-    "originalPrice": "9300",
+    "price": "9200",
+    "originalPrice": "9700",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p247_0_2wo9kq.jpg",
     "imgs": [
