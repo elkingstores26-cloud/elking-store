@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٣٩:١٥ م
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٤٠:٣٢ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -1253,7 +1253,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Xiaomi",
-    "price": "6000",
+    "price": "5700",
     "originalPrice": "6800",
     "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
     "img": "images/products/p294_0_4d1mz5.jpg",
