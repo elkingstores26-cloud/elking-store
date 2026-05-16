@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:١٧:٠٧ م
+// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:١٩:٥٣ م
 window.ELKING_PRODUCTS = [
   {
     "id": 358,
@@ -2626,7 +2626,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "66000",
+    "price": "67000",
     "originalPrice": "69000",
     "description": "يأتي آيفون 17 (iPhone 17) بشاشة 6.3 بوصة من نوع LTPO OLED بتردد 120 هرتز لأول مرة في النسخة العادية، معالج A19 الجديد، كاميرا رئيسية وواسعة 48 ميجابكسل، وذاكرة عشوائية (RAM) أكبر لتحسين أداء الذكاء الاصطناعي، مما يجعله تحديثاً جوهرياً في الأداء والشاشة",
     "img": "images/products/p229_0_tm1is.jpg",
@@ -2647,7 +2647,7 @@ window.ELKING_PRODUCTS = [
     "color": "أخضر",
     "colorHex": "#16a34a",
     "brand": "apple",
-    "price": "66000",
+    "price": "67000",
     "originalPrice": "69000",
     "description": "يأتي آيفون 17 (iPhone 17) بشاشة 6.3 بوصة من نوع LTPO OLED بتردد 120 هرتز لأول مرة في النسخة العادية، معالج A19 الجديد، كاميرا رئيسية وواسعة 48 ميجابكسل، وذاكرة عشوائية (RAM) أكبر لتحسين أداء الذكاء الاصطناعي، مما يجعله تحديثاً جوهرياً في الأداء والشاشة.",
     "img": "images/products/p228_0_oini3g.jpg",
@@ -2677,7 +2677,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -2698,14 +2698,14 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
   {
     "id": 225,
     "cat": "new",
-    "name": "iphone 17 pro256 black",
+    "name": "iphone 17 pro256 blue",
     "storage": "256GB ·blue",
     "color": "أزرق",
     "colorHex": "#1e40af",
@@ -2719,7 +2719,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
