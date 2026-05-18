@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٦‏/٥‏/٢٠٢٦، ٩:٤٢:٢٦ م
+// آخر تحديث: ١٨‏/٥‏/٢٠٢٦، ٩:٤٥:٠٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 359,
+    "cat": "used",
+    "name": "17Pro",
+    "storage": "256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple used",
+    "price": "74000",
+    "originalPrice": "76000",
+    "description": "17Pro  used\n256Gb\nEsim\nWith box\nNo tax",
+    "img": "images/products/p359_0_aec67f.jpg",
+    "imgs": [
+      "images/products/p359_0_aec67f.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "98",
+    "condition": "جيد جدا"
+  },
   {
     "id": 358,
     "cat": "used",
@@ -968,48 +989,6 @@ window.ELKING_PRODUCTS = [
     "condition": "ممتاز"
   },
   {
-    "id": 311,
-    "cat": "used",
-    "name": "Samsung S25 ultra used k",
-    "storage": "256",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Samsung used",
-    "price": "56000",
-    "originalPrice": "59000",
-    "description": "المعالج: ثماني النواة Snapdragon 8 Elite تكنولوجيا 3 نانو\nالتخزين / الرام: 256 جيجا مع 12 جيجا رام\nالكاميرا: خلفية رباعية 200+10+50+50 م.ب. / امامية 12 م.ب.\nالشاشة: 6.9 بوصة بدقة 1440x3120 بكسل بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
-    "img": "images/products/p311_0_jghesl.jpg",
-    "imgs": [
-      "images/products/p311_0_jghesl.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 310,
-    "cat": "used",
-    "name": "Samsung S25 ultra used k",
-    "storage": "256",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "Samsung used",
-    "price": "57000",
-    "originalPrice": "60000",
-    "description": "المعالج: ثماني النواة Snapdragon 8 Elite تكنولوجيا 3 نانو\nالتخزين / الرام: 256 جيجا مع 12 جيجا رام\nالكاميرا: خلفية رباعية 200+10+50+50 م.ب. / امامية 12 م.ب.\nالشاشة: 6.9 بوصة بدقة 1440x3120 بكسل بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
-    "img": "images/products/p310_0_l7xs65.jpg",
-    "imgs": [
-      "images/products/p310_0_l7xs65.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
     "id": 309,
     "cat": "used",
     "name": "Iphone 15 used k",
@@ -1050,27 +1029,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "83%",
     "condition": "جيد"
-  },
-  {
-    "id": 307,
-    "cat": "used",
-    "name": "15pro max used k",
-    "storage": "512",
-    "color": "Titanium",
-    "colorHex": "#8e8e93",
-    "brand": "Apple used",
-    "price": "57000",
-    "originalPrice": "60000",
-    "description": "15pro max used\n512\n90%\nWith box\nNo tax",
-    "img": "images/products/p307_0_oku5vn.jpg",
-    "imgs": [
-      "images/products/p307_0_oku5vn.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "90%",
-    "condition": "ممتاز"
   },
   {
     "id": 306,
