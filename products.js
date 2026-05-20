@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٩‏/٥‏/٢٠٢٦، ١٢:٠٢:٢٦ م
+// آخر تحديث: ٢٠‏/٥‏/٢٠٢٦، ٧:١٢:٠٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 362,
+    "cat": "used",
+    "name": "13",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple used",
+    "price": "29000",
+    "originalPrice": "30000",
+    "description": "13used\n128GB\nWith box\nNo tax",
+    "img": "images/products/p362_0_abknxa.jpg",
+    "imgs": [
+      "images/products/p362_0_abknxa.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86",
+    "condition": "جيد جدا"
+  },
   {
     "id": 361,
     "cat": "used",
@@ -41,27 +62,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "81",
-    "condition": "جيد جدا"
-  },
-  {
-    "id": 359,
-    "cat": "used",
-    "name": "17Pro",
-    "storage": "256",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple used",
-    "price": "74000",
-    "originalPrice": "76000",
-    "description": "17Pro  used\n256Gb\nEsim\nWith box\nNo tax",
-    "img": "images/products/p359_0_aec67f.jpg",
-    "imgs": [
-      "images/products/p359_0_aec67f.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "98",
     "condition": "جيد جدا"
   },
   {
