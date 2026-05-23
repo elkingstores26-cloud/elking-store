@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٥‏/٢٠٢٦، ٧:١٢:٠٠ م
+// آخر تحديث: ٢٣‏/٥‏/٢٠٢٦، ٢:٥٦:٥١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 362,
@@ -926,27 +926,6 @@ window.ELKING_PRODUCTS = [
     "condition": "جيد جدا"
   },
   {
-    "id": 316,
-    "cat": "used",
-    "name": "Honor 400 5G used k",
-    "storage": "256",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Honor used",
-    "price": "22500",
-    "originalPrice": "23500",
-    "description": "المعالج: ثماني النواة Snapdragon 7 Gen 3 تكنولوجيا 4 نانو\nالتخزين / الرام: 256 جيجا مع 12 جيجا رام\nالكاميرا: خلفية مزدوجة 200+12 م.ب / امامية 50 م.ب.\nالشاشة: 6.55 بوصة بدقة 1200x2664 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
-    "img": "images/products/p316_0_srl93z.jpg",
-    "imgs": [
-      "images/products/p316_0_srl93z.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
     "id": 315,
     "cat": "used",
     "name": "Oppo A5 used k",
@@ -1201,27 +1180,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "91%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 300,
-    "cat": "used",
-    "name": "17pro max used k",
-    "storage": "256",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple used",
-    "price": "90000",
-    "originalPrice": "93000",
-    "description": "17pro max\n256G\n100%\n140cycle\nWith Box\nNo Tax",
-    "img": "images/products/p300_0_js2w39.jpg",
-    "imgs": [
-      "images/products/p300_0_js2w39.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100%",
     "condition": "ممتاز"
   },
   {
