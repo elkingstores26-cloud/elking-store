@@ -1,27 +1,6 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٩‏/٦‏/٢٠٢٦، ٤:٢١:٥٨ م
+// آخر تحديث: ١٥‏/٦‏/٢٠٢٦، ٩:٥٦:٢٣ م
 window.ELKING_PRODUCTS = [
-  {
-    "id": 366,
-    "cat": "used",
-    "name": "17pro max",
-    "storage": "512",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Apple used",
-    "price": "100000",
-    "originalPrice": "103000",
-    "description": "17Pro max used\n512GB\nEsim\nWith box\nNo tax",
-    "img": "images/products/p366_0_t80tkm.jpg",
-    "imgs": [
-      "images/products/p366_0_t80tkm.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100",
-    "condition": "ممتاز"
-  },
   {
     "id": 365,
     "cat": "used",
@@ -126,27 +105,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "100",
     "condition": "ممتاز"
-  },
-  {
-    "id": 360,
-    "cat": "used",
-    "name": "12Pro Max",
-    "storage": "256",
-    "color": "أبيض",
-    "colorHex": "#f5f5f5",
-    "brand": "Apple used",
-    "price": "29000",
-    "originalPrice": "30000",
-    "description": "12Pro max used\n256Gb\nWith box\nNo tax",
-    "img": "images/products/p360_0_zg8t0g.jpg",
-    "imgs": [
-      "images/products/p360_0_zg8t0g.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "81",
-    "condition": "جيد جدا"
   },
   {
     "id": 358,
@@ -1010,69 +968,6 @@ window.ELKING_PRODUCTS = [
     "condition": "جيد جدا"
   },
   {
-    "id": 315,
-    "cat": "used",
-    "name": "Oppo A5 used k",
-    "storage": "128",
-    "color": "أخضر",
-    "colorHex": "#16a34a",
-    "brand": "Oppo used",
-    "price": "8000",
-    "originalPrice": "9000",
-    "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nلتخزين / الرام : 128 جيجا مع 6 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
-    "img": "images/products/p315_0_ixakje.jpg",
-    "imgs": [
-      "images/products/p315_0_ixakje.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 314,
-    "cat": "used",
-    "name": "Oppo A5 used k",
-    "storage": "256",
-    "color": "أبيض",
-    "colorHex": "#f5f5f5",
-    "brand": "Oppo used",
-    "price": "9000",
-    "originalPrice": "10000",
-    "description": "لمعالج: ثماني النواة Snapdragon 6s Gen1 تكنولوجيا 11 نانو\nالتخزين / الرام: 256 جيجا مع 8 جيجا رام\nالكاميرا: خلفية مزدوجة 50+2 م.ب / امامية 5 م.ب.\nالشاشة: 6.67 بوصة بدقة 1604x720 بها ثقب صغير\nنظام التشغيل: اندرويد 15\nالبطارية: 6000 مللي أمبير",
-    "img": "images/products/p314_0_ml72b4.jpg",
-    "imgs": [
-      "images/products/p314_0_ml72b4.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 313,
-    "cat": "used",
-    "name": "Samsung A16 used k",
-    "storage": "128",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Samsung used",
-    "price": "7500",
-    "originalPrice": "8000",
-    "description": "المعالج: ثماني النواة Mediatek Helio G99 تكنولوجيا 6 نانو\nالتخزين / الرام: 128 جيجا مع 6 جيجا رام\nالكاميرا: خلفية ثلاثية 50+5+2 م.ب. / امامية 13 م.ب.\nالشاشة: 6.7 بوصة بدقة 1080x2340 بكسل بها نوتش\nنظام التشغيل: اندرويد 15\nالبطارية: 5000 مللي أمبير",
-    "img": "images/products/p313_0_57gfxd.jpg",
-    "imgs": [
-      "images/products/p313_0_57gfxd.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
     "id": 312,
     "cat": "used",
     "name": "Samsung A26 used k",
@@ -1113,48 +1008,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "82%",
     "condition": "جيد"
-  },
-  {
-    "id": 308,
-    "cat": "used",
-    "name": "Iphone 14plus used k",
-    "storage": "",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple used",
-    "price": "33000",
-    "originalPrice": "35000",
-    "description": "14plus\n128G\n83%\nWith box \nNo tax",
-    "img": "images/products/p308_0_fs4q30.jpg",
-    "imgs": [
-      "images/products/p308_0_fs4q30.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "83%",
-    "condition": "جيد"
-  },
-  {
-    "id": 306,
-    "cat": "used",
-    "name": "17pro max used k",
-    "storage": "256",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Apple used",
-    "price": "94000",
-    "originalPrice": "96000",
-    "description": "17pro max used\n256G\n100%\n79cycle\nWith Box\nNo Tax",
-    "img": "images/products/p306_0_yud11j.jpg",
-    "imgs": [
-      "images/products/p306_0_yud11j.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100%",
-    "condition": "ممتاز"
   },
   {
     "id": 305,
@@ -1198,28 +1051,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "79%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 303,
-    "cat": "used",
-    "name": "14pro max used k",
-    "storage": "128",
-    "color": "وردي",
-    "colorHex": "#f9a8d4",
-    "brand": "Apple used",
-    "price": "39000",
-    "originalPrice": "42000",
-    "description": "14pro max used\n128G\n83%\nWith box\nNo Tax",
-    "img": "images/products/p303_0_qied2l.jpg",
-    "imgs": [
-      "images/products/p303_0_qied2l.jpg",
-      "images/products/p303_1_gz6rc9.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "83%",
     "condition": "ممتاز"
   },
   {
