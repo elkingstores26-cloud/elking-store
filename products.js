@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٥‏/٦‏/٢٠٢٦، ١٠:١٣:١٦ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٤:٥١:١٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 366,
+    "cat": "new",
+    "name": "iphone 17 promax 256 orange",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "66000",
+    "description": "With Tax\nEsim",
+    "img": "images/products/p366_0_v1dvpl.jpg",
+    "imgs": [
+      "images/products/p366_0_v1dvpl.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 365,
     "cat": "used",
@@ -2516,7 +2537,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -2654,7 +2675,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "101000",
+    "price": "99000",
     "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p222_0_xt1ecs.jpg",
@@ -2663,7 +2684,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
@@ -2705,7 +2726,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   }
