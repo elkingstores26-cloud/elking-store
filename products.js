@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٩:٠٣:١٠ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٩:٠٧:٤٣ م
 window.ELKING_PRODUCTS = [
   {
     "id": 384,
@@ -113,7 +113,7 @@ window.ELKING_PRODUCTS = [
     "storage": "",
     "color": "Deep Purple",
     "colorHex": "#5e548e",
-    "brand": "",
+    "brand": "Apple",
     "price": "35000",
     "originalPrice": "36000",
     "description": "iPhone 14 Pro Max\nGB: 256\nBi: 95%\nمغير ظهر وبطارية",
@@ -134,7 +134,7 @@ window.ELKING_PRODUCTS = [
     "storage": "",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
-    "brand": "",
+    "brand": "Apple",
     "price": "50000",
     "originalPrice": "51000",
     "description": "iPhone 15 Pro Max\nGB: 256\nBi: 86%",
@@ -197,7 +197,7 @@ window.ELKING_PRODUCTS = [
     "storage": "",
     "color": "أزرق",
     "colorHex": "#1e40af",
-    "brand": "",
+    "brand": "Apple",
     "price": "50000",
     "originalPrice": "51000",
     "description": "iPhone 15 Pro Max\nGB: 256\nBi: 86%\n2Sim",
