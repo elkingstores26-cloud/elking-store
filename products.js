@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٩:٠٩:٥٩ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٩:١٧:٥٦ م
 window.ELKING_PRODUCTS = [
   {
     "id": 384,
@@ -575,7 +575,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
-    "brand": "Realme used",
+    "brand": "Realme",
     "price": "14000",
     "originalPrice": "14900",
     "description": "Realme 11 Pro Plus\nRam:12\nGB:256\nWith Box\nNo Tax",
@@ -785,7 +785,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "Iceblue",
     "colorHex": "#a0cfec",
-    "brand": "Oppo used",
+    "brand": "Oppo",
     "price": "12500",
     "originalPrice": "13500",
     "description": "Oppo Reno 11f 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
@@ -932,7 +932,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "ذهبي",
     "colorHex": "#d4af37",
-    "brand": "Apple used",
+    "brand": "Apple",
     "price": "63000",
     "originalPrice": "65000",
     "description": "16pro max used\n256Gb\nWith box\nNo tax",
@@ -1016,7 +1016,7 @@ window.ELKING_PRODUCTS = [
     "storage": "128",
     "color": "أخضر",
     "colorHex": "#16a34a",
-    "brand": "Samsung used",
+    "brand": "Samsung",
     "price": "12500",
     "originalPrice": "14000",
     "description": "Galaxy A54 5g\nRam:8\nGB:128\nWith Box\nNo Tax",
