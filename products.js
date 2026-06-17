@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٤:٥٤:٢٦ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٥:١٨:٤٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 369,
+    "cat": "used",
+    "name": "S25 ultra 12/256",
+    "storage": "256",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Samsung",
+    "price": "57000",
+    "originalPrice": "58000",
+    "description": "S25 ultra 12/256\nUsed like new\nWith box\nNo tax",
+    "img": "images/products/p369_0_7nkoc3.jpg",
+    "imgs": [
+      "images/products/p369_0_7nkoc3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 368,
     "cat": "new",
@@ -648,7 +669,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
