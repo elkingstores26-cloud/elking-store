@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٦:٢٦:٣٤ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٦:٣٣:٠٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 380,
+    "cat": "used",
+    "name": "14pro max used u",
+    "storage": "512",
+    "color": "Deep Purple",
+    "colorHex": "#5e548e",
+    "brand": "Apple",
+    "price": "46000",
+    "originalPrice": "47000",
+    "description": "iPhone 14 Pro Max\nGB: 512\nBi: 87%",
+    "img": "images/products/p380_0_cw1qme.jpg",
+    "imgs": [
+      "images/products/p380_0_cw1qme.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "87%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 379,
+    "cat": "used",
+    "name": "14pro max used u",
+    "storage": "",
+    "color": "Deep Purple",
+    "colorHex": "#5e548e",
+    "brand": "",
+    "price": "35000",
+    "originalPrice": "36000",
+    "description": "iPhone 14 Pro Max\nGB: 256\nBi: 95%\nمغير ظهر وبطارية",
+    "img": "images/products/p379_0_pdi8s9.jpg",
+    "imgs": [
+      "images/products/p379_0_pdi8s9.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "95%",
+    "condition": "جيد"
+  },
   {
     "id": 378,
     "cat": "used",
