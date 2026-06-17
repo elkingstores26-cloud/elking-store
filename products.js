@@ -1,6 +1,44 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٤:٥١:١٠ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٤:٥٣:٢٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 368,
+    "cat": "new",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
+  {
+    "id": 367,
+    "cat": "new",
+    "name": "17pro max 256 silver",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "66000",
+    "description": "With tax\nESIM",
+    "img": "images/products/p367_0_9ztq2i.jpg",
+    "imgs": [
+      "images/products/p367_0_9ztq2i.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 366,
     "cat": "new",
