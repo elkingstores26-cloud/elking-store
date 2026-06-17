@@ -1,6 +1,132 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٥:٤٤:٢٦ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٦:٢٤:٢٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 377,
+    "cat": "used",
+    "name": "15pro max used u",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Apple",
+    "price": "51000",
+    "originalPrice": "52000",
+    "description": "iPhone 15 Pro Max \nGB: 256\nBi: 89%",
+    "img": "images/products/p377_0_irsrpy.jpg",
+    "imgs": [
+      "images/products/p377_0_irsrpy.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "89%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 376,
+    "cat": "used",
+    "name": "15pro max used U",
+    "storage": "256",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Apple",
+    "price": "49000",
+    "originalPrice": "50000",
+    "description": "iPhone 15 Pro Max\nGB: 256\nBi: 86%",
+    "img": "images/products/p376_0_qolh16.jpg",
+    "imgs": [
+      "images/products/p376_0_qolh16.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86%",
+    "condition": "جيد"
+  },
+  {
+    "id": 375,
+    "cat": "used",
+    "name": "15pro max used U",
+    "storage": "",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "",
+    "price": "50000",
+    "originalPrice": "51000",
+    "description": "iPhone 15 Pro Max\nGB: 256\nBi: 86%\n2Sim",
+    "img": "images/products/p375_0_t47sr2.jpg",
+    "imgs": [
+      "images/products/p375_0_t47sr2.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86%",
+    "condition": "جيد"
+  },
+  {
+    "id": 374,
+    "cat": "used",
+    "name": "15pro max used U",
+    "storage": "512",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "55000",
+    "originalPrice": "56000",
+    "description": "iPhone 15 Pro Max \nGB: 512\nBi: 87%",
+    "img": "images/products/p374_0_qzoh9x.jpg",
+    "imgs": [
+      "images/products/p374_0_qzoh9x.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "87%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 373,
+    "cat": "used",
+    "name": "16pro max used U",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "75000",
+    "originalPrice": "76000",
+    "description": "iPhone 16 Pro Max\nGB: 256\nBi: 100% \n(79🔌)",
+    "img": "images/products/p373_0_epm2e8.jpg",
+    "imgs": [
+      "images/products/p373_0_epm2e8.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 372,
+    "cat": "used",
+    "name": "iphone 17 promax 256 used U",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "64000",
+    "originalPrice": "65000",
+    "description": "iPhone 17 Pro Max\nGB: 256\nBi: 100%\n(30🔌)\nTax",
+    "img": "images/products/p372_0_qgov00.jpg",
+    "imgs": [
+      "images/products/p372_0_qgov00.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 371,
     "cat": "used",
