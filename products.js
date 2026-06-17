@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٦:٢٤:٢٩ م
+// آخر تحديث: ١٧‏/٦‏/٢٠٢٦، ٦:٢٦:٣٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 378,
+    "cat": "used",
+    "name": "15pro max used u",
+    "storage": "",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "",
+    "price": "50000",
+    "originalPrice": "51000",
+    "description": "iPhone 15 Pro Max\nGB: 256\nBi: 86%",
+    "img": "images/products/p378_0_irsrpy.jpg",
+    "imgs": [
+      "images/products/p378_0_irsrpy.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86%",
+    "condition": ".ممتاز"
+  },
   {
     "id": 377,
     "cat": "used",
