@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٩:٠٦:٥٠ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٩:٠٨:٥٦ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 407,
+    "cat": "used",
+    "name": "Xiaomi note 13 used",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "7000",
+    "originalPrice": "7500",
+    "description": "Note 13 \n8/128G",
+    "img": "images/products/p407_0_gskqg0.jpg",
+    "imgs": [
+      "images/products/p407_0_gskqg0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 406,
     "cat": "used",
