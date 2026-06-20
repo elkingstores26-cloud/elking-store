@@ -1,6 +1,65 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٥:٠٠:٣٣ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٧:٣٤:٠١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 388,
+    "cat": "used",
+    "name": "S24 ultra used s",
+    "storage": "256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "44000",
+    "originalPrice": "45000",
+    "description": "S24 ultra\n12ram\n256GB",
+    "img": "images/products/p388_0_nvvihf.jpg",
+    "imgs": [
+      "images/products/p388_0_nvvihf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 387,
+    "cat": "used",
+    "name": "16pro max used s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "66000",
+    "originalPrice": "67000",
+    "description": "16pro max \n256\n91%\nNo tax",
+    "img": "images/products/p387_0_11mxrb.jpg",
+    "imgs": [
+      "images/products/p387_0_11mxrb.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 386,
+    "cat": "new",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
   {
     "id": 385,
     "cat": "used",
