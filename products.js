@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٨:٥٢:١١ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٩:٠١:٠٠ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 403,
+    "cat": "used",
+    "name": "16plus used u",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "35000",
+    "originalPrice": "36000",
+    "description": "iPhone 16 Plus \nGB: 128\nBi: 100% \n(101🔌)\nTax",
+    "img": "images/products/p403_0_s1pxlh.jpg",
+    "imgs": [
+      "images/products/p403_0_s1pxlh.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 402,
     "cat": "used",
@@ -339,20 +360,24 @@ window.ELKING_PRODUCTS = [
   },
   {
     "id": 386,
-    "cat": "new",
-    "name": "",
-    "storage": "",
-    "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
+    "cat": "used",
+    "name": "12Pro Max used u",
+    "storage": "128",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "Apple",
+    "price": "26000",
+    "originalPrice": "27000",
+    "description": "iPhone 12 Pro Max\nGB :128\nBi: 79%",
+    "img": "images/products/p386_0_5et6pi.jpg",
+    "imgs": [
+      "images/products/p386_0_5et6pi.jpg"
+    ],
     "featured": false,
     "variants": [],
-    "inStock": true
+    "inStock": true,
+    "battery": "79%",
+    "condition": "جيد"
   },
   {
     "id": 385,
@@ -697,7 +722,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "أزرق",
     "colorHex": "#1e40af",
-    "brand": "Apple",
+    "brand": "apple",
     "price": "65000",
     "originalPrice": "66000",
     "description": "With tax\nEsim",
@@ -718,7 +743,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "فضي",
     "colorHex": "#c0c0c0",
-    "brand": "Apple",
+    "brand": "apple",
     "price": "65000",
     "originalPrice": "66000",
     "description": "With tax\nESIM",
@@ -739,7 +764,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "ذهبي",
     "colorHex": "#d4af37",
-    "brand": "Apple",
+    "brand": "apple",
     "price": "65000",
     "originalPrice": "66000",
     "description": "With Tax\nEsim",
