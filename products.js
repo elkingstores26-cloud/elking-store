@@ -1,10 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٧:٣٥:٥٣ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٧:٣٦:٣٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 390,
+    "cat": "used",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
   {
     "id": 389,
     "cat": "used",
-    "name": "17Air used",
+    "name": "17Air used s",
     "storage": "256",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
