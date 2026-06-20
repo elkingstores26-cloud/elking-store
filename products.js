@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٨:٤٦:٢٦ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٨:٤٨:٣٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 399,
+    "cat": "used",
+    "name": "12Pro Max used u",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "28000",
+    "originalPrice": "29000",
+    "description": "iPhone 12 Pro Max\nGB: 256\nBi: 87%",
+    "img": "images/products/p399_0_42jzy.jpg",
+    "imgs": [
+      "images/products/p399_0_42jzy.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "87%",
+    "condition": "جيد"
+  },
   {
     "id": 398,
     "cat": "used",
