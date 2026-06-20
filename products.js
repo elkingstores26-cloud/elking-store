@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠٤:٥٩ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠٥:١٩ م
 window.ELKING_PRODUCTS = [
   {
     "id": 410,
@@ -965,27 +965,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "90",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 363,
-    "cat": "used",
-    "name": "Honor X7d 5g",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Honor",
-    "price": "11000",
-    "originalPrice": "11500",
-    "description": "Honor X7d 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
-    "img": "images/products/p363_0_m1wnae.jpg",
-    "imgs": [
-      "images/products/p363_0_m1wnae.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
     "condition": "ممتاز"
   },
   {
