@@ -1,6 +1,44 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠١:٣٦ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠٢:٥٢ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 409,
+    "cat": "used",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
+  {
+    "id": 408,
+    "cat": "used",
+    "name": "S24 ultra used",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Samsung",
+    "price": "45000",
+    "originalPrice": "46000",
+    "description": "S24 ultra \n12/256\nNo tax",
+    "img": "images/products/p408_0_4gnzmz.jpg",
+    "imgs": [
+      "images/products/p408_0_4gnzmz.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 407,
     "cat": "used",
