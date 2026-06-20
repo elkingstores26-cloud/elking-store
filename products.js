@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٧:٣٤:٠١ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٧:٣٥:٥٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 389,
+    "cat": "used",
+    "name": "17Air used",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Apple",
+    "price": "52000",
+    "originalPrice": "53000",
+    "description": "17air\n256\n100%\n15cycle\nNo tax",
+    "img": "images/products/p389_0_5yghh0.jpg",
+    "imgs": [
+      "images/products/p389_0_5yghh0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 388,
     "cat": "used",
