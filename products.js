@@ -1,10 +1,10 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠٣:٣٩ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠٣:٤٦ م
 window.ELKING_PRODUCTS = [
   {
     "id": 409,
     "cat": "used",
-    "name": "S24 ultra",
+    "name": "S24 ultra used",
     "storage": "256",
     "color": "فضي",
     "colorHex": "#c0c0c0",
