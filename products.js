@@ -1,6 +1,69 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٧:٣٧:٥٠ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٨:٢٧:٤٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 393,
+    "cat": "used",
+    "name": "13pro max used u",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "",
+    "price": "40000",
+    "originalPrice": "41000",
+    "description": "iPhone 13 Pro Max \nGB :512\nBi: 79%",
+    "img": "images/products/p393_0_q4gqvm.jpg",
+    "imgs": [
+      "images/products/p393_0_q4gqvm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "79%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 392,
+    "cat": "used",
+    "name": "13pro max used u",
+    "storage": "128",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "Apple",
+    "price": "24000",
+    "originalPrice": "25000",
+    "description": "iPhone 13 Pro Max \nGB: 128\nBi: 77% \nTax",
+    "img": "images/products/p392_0_6vlbbt.jpg",
+    "imgs": [
+      "images/products/p392_0_6vlbbt.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "77%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 391,
+    "cat": "used",
+    "name": "13pro max used u",
+    "storage": "256",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "Apple",
+    "price": "36000",
+    "originalPrice": "37000",
+    "description": "iPhone 13 Pro Max\nGB: 256\nBi: 75%",
+    "img": "images/products/p391_0_589f0j.jpg",
+    "imgs": [
+      "images/products/p391_0_589f0j.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "75%",
+    "condition": "ممتاز"
+  },
   {
     "id": 390,
     "cat": "used",
