@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٩:٠١:٠٠ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٩:٠٢:٣٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 404,
+    "cat": "used",
+    "name": "16pro used u",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "55000",
+    "originalPrice": "56000",
+    "description": "iPhone 16 Pro \nGB: 256\nBi: 89%\n55000",
+    "img": "images/products/p404_0_ju8sdw.jpg",
+    "imgs": [
+      "images/products/p404_0_ju8sdw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "89%",
+    "condition": "ممتاز"
+  },
   {
     "id": 403,
     "cat": "used",
