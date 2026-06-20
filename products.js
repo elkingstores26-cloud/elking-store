@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:٠٥:١٩ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:١٠:٤١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 411,
+    "cat": "used",
+    "name": "15pro used u",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "38000",
+    "originalPrice": "39000",
+    "description": "iPhone 15 Pro \nGB: 256\nBi: 81%\nظهر",
+    "img": "images/products/p411_0_xrcmxg.jpg",
+    "imgs": [
+      "images/products/p411_0_xrcmxg.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "81%",
+    "condition": "جيد"
+  },
   {
     "id": 410,
     "cat": "used",
