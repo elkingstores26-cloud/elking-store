@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٨:٣٩:٠٥ م
+// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ٨:٤٠:٣٧ م
 window.ELKING_PRODUCTS = [
   {
     "id": 396,
@@ -24,20 +24,24 @@ window.ELKING_PRODUCTS = [
   },
   {
     "id": 395,
-    "cat": "new",
-    "name": "",
-    "storage": "",
+    "cat": "used",
+    "name": "13pro max used u",
+    "storage": "1TB",
     "color": "",
-    "colorHex": "",
-    "brand": "",
-    "price": "",
-    "originalPrice": "",
-    "description": "",
-    "img": "",
-    "imgs": [],
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "41000",
+    "originalPrice": "42000",
+    "description": "iPhone 13 Pro Max\nGB: 1 TB\nBi: 85% \nظهر",
+    "img": "images/products/p395_0_pni53w.jpg",
+    "imgs": [
+      "images/products/p395_0_pni53w.jpg"
+    ],
     "featured": false,
     "variants": [],
-    "inStock": true
+    "inStock": true,
+    "battery": "85%",
+    "condition": "جيد"
   },
   {
     "id": 394,
