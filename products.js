@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢١‏/٦‏/٢٠٢٦، ٥:١٠:٢٢ م
+// آخر تحديث: ٢١‏/٦‏/٢٠٢٦، ٧:١١:٥٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 412,
+    "cat": "used",
+    "name": "12pro max used z",
+    "storage": "512",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "28000",
+    "originalPrice": "29000",
+    "description": "12pro max\n75%\n512 \nNo box \n28000",
+    "img": "images/products/p412_0_vj16un.jpg",
+    "imgs": [
+      "images/products/p412_0_vj16un.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "75%",
+    "condition": "ممتاز"
+  },
   {
     "id": 411,
     "cat": "used",
