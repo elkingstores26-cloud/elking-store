@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٠‏/٦‏/٢٠٢٦، ١١:١٠:٤١ م
+// آخر تحديث: ٢١‏/٦‏/٢٠٢٦، ٤:٥٤:٠١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 411,
@@ -3556,7 +3556,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "99000",
+    "price": "96900",
     "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p222_0_xt1ecs.jpg",
@@ -3577,7 +3577,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "apple",
-    "price": "105000",
+    "price": "96900",
     "originalPrice": "110000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p221_0_onmdyv.jpg",
@@ -3586,7 +3586,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
@@ -3598,7 +3598,7 @@ window.ELKING_PRODUCTS = [
     "color": "orangeذهبي",
     "colorHex": "#ffb514",
     "brand": "apple",
-    "price": "97500",
+    "price": "96900",
     "originalPrice": "100000",
     "description": "يتميز آيفون 17 برو ماكس (iPhone 17 Pro Max) بشاشة ضخمة 6.9 بوصة من نوع LTPO OLED، ومعالج Apple A19 Pro (3 نانومتر)، وذاكرة عشوائية تصل إلى 12 جيجابايت، مع كاميرات خلفية بدقة 48 ميجابكسل، وبطارية بسعة 4823 مللي أمب",
     "img": "images/products/p220_0_h8m1i0.jpg",
