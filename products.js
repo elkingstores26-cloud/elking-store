@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢١‏/٦‏/٢٠٢٦، ٧:١١:٥٨ م
+// آخر تحديث: ٢١‏/٦‏/٢٠٢٦، ٧:١٣:٥٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 413,
+    "cat": "used",
+    "name": "Xiaomi note 14pro used",
+    "storage": "256",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "Xiaomi",
+    "price": "11500",
+    "originalPrice": "12000",
+    "description": "Note 14pro\n8/256\nLike new",
+    "img": "images/products/p413_0_r8geue.jpg",
+    "imgs": [
+      "images/products/p413_0_r8geue.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 412,
     "cat": "used",
