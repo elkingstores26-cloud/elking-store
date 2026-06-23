@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:١٤:٢٤ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٢٠:٣٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 431,
+    "cat": "used",
+    "name": "Iphone 13 used u",
+    "storage": "128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Apple",
+    "price": "24000",
+    "originalPrice": "24500",
+    "description": "iPhone 13 \nGB: 128\nBi: 86%\nباغه",
+    "img": "images/products/p431_0_5a4pd1.jpg",
+    "imgs": [
+      "images/products/p431_0_5a4pd1.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86%",
+    "condition": "جيد"
+  },
   {
     "id": 430,
     "cat": "used",
