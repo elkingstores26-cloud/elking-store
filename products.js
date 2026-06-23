@@ -1,6 +1,69 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٢٠:٣٥ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٢٤:٥٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 434,
+    "cat": "used",
+    "name": "Iphone 13 used u",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "19000",
+    "originalPrice": "19500",
+    "description": "iPhone 13 \nGB: 128\nBi: 86%\nTax",
+    "img": "images/products/p434_0_ssrw10.jpg",
+    "imgs": [
+      "images/products/p434_0_ssrw10.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 433,
+    "cat": "used",
+    "name": "Iphone 13 used u",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "29000",
+    "originalPrice": "29500",
+    "description": "iPhone 13 \nGB: 128\nBi: 91%",
+    "img": "images/products/p433_0_hbvivq.jpg",
+    "imgs": [
+      "images/products/p433_0_hbvivq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 432,
+    "cat": "used",
+    "name": "Ipone 13 used u",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "17000",
+    "originalPrice": "18000",
+    "description": "iPhone 13 \nGB: 128\nBi: 76%\nTax",
+    "img": "images/products/p432_0_gl68s4.jpg",
+    "imgs": [
+      "images/products/p432_0_gl68s4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "76%",
+    "condition": "جيد"
+  },
   {
     "id": 431,
     "cat": "used",
