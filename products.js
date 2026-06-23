@@ -1,6 +1,69 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢١‏/٦‏/٢٠٢٦، ٧:١٣:٥٨ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٤:٣٣:٢٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 416,
+    "cat": "used",
+    "name": "13pro max used z",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "39000",
+    "originalPrice": "40000",
+    "description": "13pro max \n256\n79%\nWith box \nNo tax",
+    "img": "images/products/p416_0_acbw2i.jpg",
+    "imgs": [
+      "images/products/p416_0_acbw2i.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "79%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 415,
+    "cat": "used",
+    "name": "A6 z",
+    "storage": "128",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Oppo",
+    "price": "8500",
+    "originalPrice": "9000",
+    "description": "Oppo a6 \n4/128\nLike new",
+    "img": "images/products/p415_0_mosebm.jpg",
+    "imgs": [
+      "images/products/p415_0_mosebm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 414,
+    "cat": "used",
+    "name": "V70 z",
+    "storage": "256",
+    "color": "Deep Purple",
+    "colorHex": "#5e548e",
+    "brand": "Vivo",
+    "price": "25500",
+    "originalPrice": "27000",
+    "description": "Vivo v70 \n12/256\nLike new",
+    "img": "images/products/p414_0_4nvbhy.jpg",
+    "imgs": [
+      "images/products/p414_0_4nvbhy.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 413,
     "cat": "used",
