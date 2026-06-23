@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٣:٥٧ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٦:٣٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 448,
+    "cat": "used",
+    "name": "Xs max used u",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "13000",
+    "originalPrice": "13500",
+    "description": "iPhone XSMAX \nGB: 256\nBi: 78%\nScreen \nظهر",
+    "img": "images/products/p448_0_di5ebq.jpg",
+    "imgs": [
+      "images/products/p448_0_di5ebq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "78%",
+    "condition": "جيد"
+  },
   {
     "id": 447,
     "cat": "used",
