@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٩:١٤ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٧:٠٠:٤٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 451,
+    "cat": "used",
+    "name": "Ipad m5 pro usedu",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "50000",
+    "originalPrice": "51000",
+    "description": "iPad M5 Pro \nGB: 256\nBi: 100% \nActive",
+    "img": "images/products/p451_0_be2go5.jpg",
+    "imgs": [
+      "images/products/p451_0_be2go5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 450,
     "cat": "used",
