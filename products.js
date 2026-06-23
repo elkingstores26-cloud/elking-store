@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٧:٠٠:٤٥ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٩:٥٢:٤١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 451,
@@ -1199,27 +1199,6 @@ window.ELKING_PRODUCTS = [
     "condition": "جيد"
   },
   {
-    "id": 394,
-    "cat": "used",
-    "name": "13pro max used u",
-    "storage": "",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "",
-    "price": "30000",
-    "originalPrice": "31000",
-    "description": "iPhone 13 Pro Max \nGB :256\nBi: 78%\n(Camera)",
-    "img": "images/products/p394_0_6gf06.jpg",
-    "imgs": [
-      "images/products/p394_0_6gf06.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "78%",
-    "condition": "جيد"
-  },
-  {
     "id": 393,
     "cat": "used",
     "name": "13pro max used u",
@@ -1449,27 +1428,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "81%",
     "condition": "ممتاز"
-  },
-  {
-    "id": 382,
-    "cat": "used",
-    "name": "14pro max used u",
-    "storage": "128",
-    "color": "Deep Purple",
-    "colorHex": "#5e548e",
-    "brand": "Apple",
-    "price": "37000",
-    "originalPrice": "38000",
-    "description": "iPhone 14 Pro Max \nGB: 128\nBi: 86%\n(N)",
-    "img": "images/products/p382_0_cw1qme.jpg",
-    "imgs": [
-      "images/products/p382_0_cw1qme.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "86%",
-    "condition": "جيد جدا"
   },
   {
     "id": 381,
