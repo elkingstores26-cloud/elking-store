@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٦:٣٨ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٧:٥٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 449,
+    "cat": "used",
+    "name": "Iphone X used u",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Apple",
+    "price": "10000",
+    "originalPrice": "11000",
+    "description": "iPhone X\nGB: 256\nBi: 82%",
+    "img": "images/products/p449_0_2w4mt5.jpg",
+    "imgs": [
+      "images/products/p449_0_2w4mt5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "82%",
+    "condition": "ممتاز"
+  },
   {
     "id": 448,
     "cat": "used",
