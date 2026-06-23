@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٤٣:٥٩ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٤٥:٢٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 441,
+    "cat": "used",
+    "name": "Iphone 13 mini used u",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "12000",
+    "originalPrice": "12500",
+    "description": "iPhone 13 mini\nGB: 256\nBi: 70%",
+    "img": "images/products/p441_0_7su0t8.jpg",
+    "imgs": [
+      "images/products/p441_0_7su0t8.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "70%",
+    "condition": "جيد"
+  },
   {
     "id": 440,
     "cat": "used",
