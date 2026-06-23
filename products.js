@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٥:٥٠:٥١ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٥:٥٤:١١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 424,
+    "cat": "used",
+    "name": "11pro used u",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "16000",
+    "originalPrice": "165000",
+    "description": "iPhone 11 Pro \nGB: 256\nBi: 71%\nN",
+    "img": "images/products/p424_0_jrut91.jpg",
+    "imgs": [
+      "images/products/p424_0_jrut91.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "71%",
+    "condition": "جيد جدا"
+  },
   {
     "id": 423,
     "cat": "used",
