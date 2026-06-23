@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٥:٤٦:٤٠ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٥:٤٨:٠٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 422,
+    "cat": "used",
+    "name": "12pro used u",
+    "storage": "128",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
+    "brand": "Apple",
+    "price": "16500",
+    "originalPrice": "17000",
+    "description": "iPhone 12 Pro \nGB: 128\nBi: 91% \nظهر \nBattery \n16500",
+    "img": "images/products/p422_0_mgxgj2.jpg",
+    "imgs": [
+      "images/products/p422_0_mgxgj2.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91%",
+    "condition": "جيد"
+  },
   {
     "id": 421,
     "cat": "used",
