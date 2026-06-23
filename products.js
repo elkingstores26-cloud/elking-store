@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٧:٥٤ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٥٩:١٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 450,
+    "cat": "used",
+    "name": "Iphone XR used u",
+    "storage": "64",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "7000",
+    "originalPrice": "7500",
+    "description": "iPhone XR\nGB:64%\nBi: 75%",
+    "img": "images/products/p450_0_n5l5fc.jpg",
+    "imgs": [
+      "images/products/p450_0_n5l5fc.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "75%",
+    "condition": "ممتاز"
+  },
   {
     "id": 449,
     "cat": "used",
