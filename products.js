@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٤٧:٠٥ م
+// آخر تحديث: ٢٣‏/٦‏/٢٠٢٦، ٦:٤٨:٥٨ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 443,
+    "cat": "used",
+    "name": "Iphone 11 used u",
+    "storage": "256",
+    "color": "أحمر",
+    "colorHex": "#dc2626",
+    "brand": "Apple",
+    "price": "10000",
+    "originalPrice": "10500",
+    "description": "iPhone 11 \nGB: 256\nBi: 70%",
+    "img": "images/products/p443_0_zfbs0k.jpg",
+    "imgs": [
+      "images/products/p443_0_zfbs0k.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "70%",
+    "condition": "جيد جدا"
+  },
   {
     "id": 442,
     "cat": "used",
