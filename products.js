@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٤‏/٦‏/٢٠٢٦، ٥:٢٨:٤٠ م
+// آخر تحديث: ٢٤‏/٦‏/٢٠٢٦، ٥:٣٦:١١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 453,
+    "cat": "used",
+    "name": "17pro max used k",
+    "storage": "256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "92000",
+    "originalPrice": "93000",
+    "description": "17pro max\n256\n79cycle\nWith box \nNo tax",
+    "img": "images/products/p453_0_s54hgt.jpg",
+    "imgs": [
+      "images/products/p453_0_s54hgt.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 452,
     "cat": "used",
@@ -1616,27 +1637,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "87%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 373,
-    "cat": "used",
-    "name": "16pro max used U",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Apple",
-    "price": "75000",
-    "originalPrice": "76000",
-    "description": "iPhone 16 Pro Max\nGB: 256\nBi: 100% \n(79🔌)",
-    "img": "images/products/p373_0_epm2e8.jpg",
-    "imgs": [
-      "images/products/p373_0_epm2e8.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100%",
     "condition": "ممتاز"
   },
   {
