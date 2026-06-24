@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٤‏/٦‏/٢٠٢٦، ٥:٤٧:٠٨ م
+// آخر تحديث: ٢٤‏/٦‏/٢٠٢٦، ٥:٥٠:١١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 454,
@@ -968,27 +968,6 @@ window.ELKING_PRODUCTS = [
     "condition": "جيد"
   },
   {
-    "id": 408,
-    "cat": "used",
-    "name": "S24 ultra used",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Samsung",
-    "price": "45000",
-    "originalPrice": "46000",
-    "description": "S24 ultra \n12/256\nNo tax",
-    "img": "images/products/p408_0_4gnzmz.jpg",
-    "imgs": [
-      "images/products/p408_0_4gnzmz.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
     "id": 407,
     "cat": "used",
     "name": "Xiaomi note 13 used",
@@ -1731,7 +1710,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "apple",
-    "price": "65000",
+    "price": "63500",
     "originalPrice": "66000",
     "description": "With tax\nEsim",
     "img": "images/products/p368_0_wr1xo8.jpg",
@@ -1740,7 +1719,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -1752,7 +1731,7 @@ window.ELKING_PRODUCTS = [
     "color": "فضي",
     "colorHex": "#c0c0c0",
     "brand": "apple",
-    "price": "65000",
+    "price": "63500",
     "originalPrice": "66000",
     "description": "With tax\nESIM",
     "img": "images/products/p367_0_9ztq2i.jpg",
@@ -1773,7 +1752,7 @@ window.ELKING_PRODUCTS = [
     "color": "ذهبي",
     "colorHex": "#d4af37",
     "brand": "apple",
-    "price": "65000",
+    "price": "63500",
     "originalPrice": "66000",
     "description": "With Tax\nEsim",
     "img": "images/products/p366_0_v1dvpl.jpg",
@@ -2370,7 +2349,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
