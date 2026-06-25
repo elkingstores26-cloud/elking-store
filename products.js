@@ -1,20 +1,20 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٥:٤٠:١٦ م
+// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٥:٤٤:٢١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 460,
     "cat": "new",
-    "name": "Samsung A57 12/512",
-    "storage": "512",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Samsung",
-    "price": "32400",
-    "originalPrice": "33000",
-    "description": "يأتي هاتف سامسونج Galaxy A57 5G (المتوقع لعام 2026) بتصميم زجاجي أنيق وشاشة 6.7 بوصة Super AMOLED 120Hz، ومعالج Exynos 1680 (4 نانومتر)، وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري، وشحن 45 واط، متوفر بأربعة ألوان",
-    "img": "images/products/p460_0_xgmnzi.jpg",
+    "name": "Infinix smart 20 4/128",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Infinix",
+    "price": "6800",
+    "originalPrice": "7000",
+    "description": "المعالج: ثماني النواة Helio G81 ULT تكنولوجيا 12 نانو\nالتخزين / الرام: 64/128 جيجا مع 4 جيجا رام\nالكاميرا: خلفية 8 م.ب / امامية 8 م.ب.\nالشاشة: 6.78 بوصة بدقة 720x1576 بكسل بها ثقب\nنظام التشغيل: اندرويد 16\nالبطارية: 5200 مللي أمبير",
+    "img": "images/products/p460_0_y5xn06.jpg",
     "imgs": [
-      "images/products/p460_0_xgmnzi.jpg"
+      "images/products/p460_0_y5xn06.jpg"
     ],
     "featured": false,
     "variants": [],
@@ -4102,8 +4102,8 @@ window.ELKING_PRODUCTS = [
     "color": "Titanium",
     "colorHex": "#8e8e93",
     "brand": "Samsung",
-    "price": "25000",
-    "originalPrice": "27000",
+    "price": "26000",
+    "originalPrice": "28000",
     "description": "يأتي هاتف سامسونج Galaxy A57 5G (المتوقع لعام 2026) بتصميم زجاجي أنيق وشاشة 6.7 بوصة Super AMOLED 120Hz، ومعالج Exynos 1680 (4 نانومتر)، وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري، وشحن 45 واط، متوفر بأربعة ألوان",
     "img": "images/products/p240_0_frez6a.jpg",
     "imgs": [
@@ -4123,8 +4123,8 @@ window.ELKING_PRODUCTS = [
     "color": "Deep Purple",
     "colorHex": "#5e548e",
     "brand": "",
-    "price": "27000",
-    "originalPrice": "28000",
+    "price": "28500",
+    "originalPrice": "31000",
     "description": "يأتي هاتف سامسونج Galaxy A57 5G (المتوقع لعام 2026) بتصميم زجاجي أنيق وشاشة 6.7 بوصة Super AMOLED 120Hz، ومعالج Exynos 1680 (4 نانومتر)، وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري، وشحن 45 واط، متوفر بأربعة ألوان",
     "img": "images/products/p239_0_dbkzcr.jpg",
     "imgs": [
