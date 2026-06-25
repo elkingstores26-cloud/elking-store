@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٦:١٥:٠٨ م
+// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٦:١٦:٥٠ م
 window.ELKING_PRODUCTS = [
   {
     "id": 462,
@@ -8,7 +8,7 @@ window.ELKING_PRODUCTS = [
     "storage": "256",
     "color": "فضي",
     "colorHex": "#c0c0c0",
-    "brand": "Apple",
+    "brand": "apple",
     "price": "24500",
     "originalPrice": "25000",
     "description": "يتميز جهاز آيباد الجيل الحادي عشر (موديل 2025) بشريحة A16 Bionic القوية (4 نانومتر)، وشاشة Liquid Retina مقاس 10.9 أو 11 بوصة، وذاكرة رام 6 جيجابايت، مع كاميرات 12MP تدعم Center Stage، وبطارية تدوم لـ 10 ساعات، ويعد خياراً مثالياً للأداء السريع والسلس بأسعار معقولة",
