@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٥:٤٤:٢١ م
+// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٥:٥٣:٥٢ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 461,
+    "cat": "new",
+    "name": "Infinix smart 20 3/64",
+    "storage": "64",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Infinix",
+    "price": "6200",
+    "originalPrice": "6500",
+    "description": "المعالج: ثماني النواة Helio G81 ULT تكنولوجيا 12 نانو\nالتخزين / الرام: 64/128 جيجا مع 4 جيجا رام\nالكاميرا: خلفية 8 م.ب / امامية 8 م.ب.\nالشاشة: 6.78 بوصة بدقة 720x1576 بكسل بها ثقب\nنظام التشغيل: اندرويد 16\nالبطارية: 5200 مللي أمبير",
+    "img": "images/products/p461_0_y5xn06.jpg",
+    "imgs": [
+      "images/products/p461_0_y5xn06.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 460,
     "cat": "new",
