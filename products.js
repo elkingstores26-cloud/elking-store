@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٤‏/٦‏/٢٠٢٦، ١١:٤٩:٥٧ م
+// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٥:٣٥:٣٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 459,
+    "cat": "used",
+    "name": "Samsung s24 ultra used",
+    "storage": "256",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Samsung",
+    "price": "45000",
+    "originalPrice": "46000",
+    "description": "Samsung s24 ultra\n 12/256",
+    "img": "images/products/p459_0_rzd2e0.jpg",
+    "imgs": [
+      "images/products/p459_0_rzd2e0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 458,
+    "cat": "used",
+    "name": "Oppo A6 used u",
+    "storage": "128",
+    "color": "وردي",
+    "colorHex": "#f9a8d4",
+    "brand": "Oppo",
+    "price": "8500",
+    "originalPrice": "9000",
+    "description": "OPPO A6 \nGB: 128\nRAM:4\nفك برشامه",
+    "img": "images/products/p458_0_6x6myw.jpg",
+    "imgs": [
+      "images/products/p458_0_6x6myw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 457,
     "cat": "used",
