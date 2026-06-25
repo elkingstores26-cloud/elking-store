@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٥‏/٦‏/٢٠٢٦، ٦:١٦:٥٠ م
+// آخر تحديث: ٢٦‏/٦‏/٢٠٢٦، ١٢:٠٢:٥٢ ص
 window.ELKING_PRODUCTS = [
   {
     "id": 462,
@@ -441,27 +441,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "94%",
     "condition": "ممتاز"
-  },
-  {
-    "id": 441,
-    "cat": "used",
-    "name": "Iphone 13 mini used u",
-    "storage": "256",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "Apple",
-    "price": "12000",
-    "originalPrice": "12500",
-    "description": "iPhone 13 mini\nGB: 256\nBi: 70%",
-    "img": "images/products/p441_0_7su0t8.jpg",
-    "imgs": [
-      "images/products/p441_0_7su0t8.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "70%",
-    "condition": "جيد"
   },
   {
     "id": 440,
@@ -1430,27 +1409,6 @@ window.ELKING_PRODUCTS = [
     "condition": "ممتاز"
   },
   {
-    "id": 391,
-    "cat": "used",
-    "name": "13pro max used u",
-    "storage": "256",
-    "color": "Sierra Blue",
-    "colorHex": "#4a6fa5",
-    "brand": "Apple",
-    "price": "36000",
-    "originalPrice": "37000",
-    "description": "iPhone 13 Pro Max\nGB: 256\nBi: 75%",
-    "img": "images/products/p391_0_589f0j.jpg",
-    "imgs": [
-      "images/products/p391_0_589f0j.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "75%",
-    "condition": "ممتاز"
-  },
-  {
     "id": 390,
     "cat": "used",
     "name": "17pro max used s",
@@ -1659,27 +1617,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "87%",
     "condition": "ممتاز"
-  },
-  {
-    "id": 379,
-    "cat": "used",
-    "name": "14pro max used u",
-    "storage": "",
-    "color": "Deep Purple",
-    "colorHex": "#5e548e",
-    "brand": "Apple",
-    "price": "35000",
-    "originalPrice": "36000",
-    "description": "iPhone 14 Pro Max\nGB: 256\nBi: 95%\nمغير ظهر وبطارية",
-    "img": "images/products/p379_0_pdi8s9.jpg",
-    "imgs": [
-      "images/products/p379_0_pdi8s9.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "95%",
-    "condition": "جيد"
   },
   {
     "id": 378,
