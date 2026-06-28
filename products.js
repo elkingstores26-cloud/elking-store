@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٨‏/٦‏/٢٠٢٦، ٧:٣٨:٤٩ م
+// آخر تحديث: ٢٨‏/٦‏/٢٠٢٦، ٧:٤٠:٢٩ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 467,
+    "cat": "used",
+    "name": "Honor x9d used z",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Honor",
+    "price": "18500",
+    "originalPrice": "19000",
+    "description": "Honor x9d\n12 / 256 \nضمان ٥ شهور",
+    "img": "images/products/p467_0_p7aphn.jpg",
+    "imgs": [
+      "images/products/p467_0_p7aphn.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 466,
     "cat": "used",
