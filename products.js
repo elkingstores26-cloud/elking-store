@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٦‏/٦‏/٢٠٢٦، ١٢:٠٢:٥٢ ص
+// آخر تحديث: ٢٨‏/٦‏/٢٠٢٦، ٧:٣٣:٤٤ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 464,
+    "cat": "used",
+    "name": "Iphone 12 used",
+    "storage": "64",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Apple",
+    "price": "15000",
+    "originalPrice": "16000",
+    "description": "Iphone 12\n74%\nWith box\nNo tax",
+    "img": "images/products/p464_0_ya3394.jpg",
+    "imgs": [
+      "images/products/p464_0_ya3394.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "74%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 463,
+    "cat": "used",
+    "name": "Iphone 15 used",
+    "storage": "128",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "39000",
+    "originalPrice": "40000",
+    "description": "Iphone 15 \n89%\nWith box \nNo tax",
+    "img": "images/products/p463_0_jbgtck.jpg",
+    "imgs": [
+      "images/products/p463_0_jbgtck.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "89%",
+    "condition": "ممتاز"
+  },
   {
     "id": 462,
     "cat": "new",
@@ -78,27 +120,6 @@ window.ELKING_PRODUCTS = [
     "img": "images/products/p459_0_rzd2e0.jpg",
     "imgs": [
       "images/products/p459_0_rzd2e0.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 458,
-    "cat": "used",
-    "name": "Oppo A6 used u",
-    "storage": "128",
-    "color": "وردي",
-    "colorHex": "#f9a8d4",
-    "brand": "Oppo",
-    "price": "8500",
-    "originalPrice": "9000",
-    "description": "OPPO A6 \nGB: 128\nRAM:4\nفك برشامه",
-    "img": "images/products/p458_0_6x6myw.jpg",
-    "imgs": [
-      "images/products/p458_0_6x6myw.jpg"
     ],
     "featured": false,
     "variants": [],
@@ -882,27 +903,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "82%",
     "condition": "ممتاز"
-  },
-  {
-    "id": 419,
-    "cat": "used",
-    "name": "14pro used u",
-    "storage": "128",
-    "color": "Deep Purple",
-    "colorHex": "#5e548e",
-    "brand": "Apple",
-    "price": "36000",
-    "originalPrice": "38000",
-    "description": "iPhone 14 Pro \nGB: 128\nBi: 79%",
-    "img": "images/products/p419_0_oghvzv.jpg",
-    "imgs": [
-      "images/products/p419_0_oghvzv.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "79%",
-    "condition": "جيد"
   },
   {
     "id": 418,
@@ -1848,27 +1848,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "",
     "condition": ""
-  },
-  {
-    "id": 365,
-    "cat": "used",
-    "name": "15",
-    "storage": "128",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "Apple",
-    "price": "39000",
-    "originalPrice": "40000",
-    "description": "15used\n128GB\nWith box\nNo tax",
-    "img": "images/products/p365_0_5ngwq.jpg",
-    "imgs": [
-      "images/products/p365_0_5ngwq.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "86",
-    "condition": "جيد جدا"
   },
   {
     "id": 364,
