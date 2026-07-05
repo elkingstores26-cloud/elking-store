@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٦:٠٨:٤٣ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٦:١٠:٠٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 479,
+    "cat": "used",
+    "name": "Ipad A16 128 used",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "18500",
+    "originalPrice": "19000",
+    "description": "ipad A16\n 128G \nwifi\n شحنه ١\nLike new",
+    "img": "images/products/p479_0_my9ivl.jpg",
+    "imgs": [
+      "images/products/p479_0_my9ivl.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
+    "condition": "ممتاز"
+  },
   {
     "id": 478,
     "cat": "used",
