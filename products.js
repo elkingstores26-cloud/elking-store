@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٦:٢٠:١٤ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٦:٢٣:٤٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 485,
+    "cat": "used",
+    "name": "Iphone 16pro max used s",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "66000",
+    "description": "16pro max\n91%",
+    "img": "images/products/p485_0_z03a4i.jpg",
+    "imgs": [
+      "images/products/p485_0_z03a4i.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91%",
+    "condition": "ممتاز"
+  },
   {
     "id": 484,
     "cat": "used",
