@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:٤٥:٢٧ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:٤٧:٠٦ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 477,
+    "cat": "used",
+    "name": "Samsung s23fe used",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "18000",
+    "originalPrice": "18500",
+    "description": "S23fe \n8Ram\n256GB\nWith box \nNo taxj",
+    "img": "images/products/p477_0_8w49us.jpg",
+    "imgs": [
+      "images/products/p477_0_8w49us.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 476,
     "cat": "used",
