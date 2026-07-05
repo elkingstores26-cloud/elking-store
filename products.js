@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:٣٤:٥٠ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:٣٦:١١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 474,
+    "cat": "used",
+    "name": "Iphone 17pro max 1TB used u",
+    "storage": "1TB",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "110000",
+    "originalPrice": "111000",
+    "description": "iPhone 17 Pro Max \nGB: 1TB\nBi: 99% (180🔌)",
+    "img": "images/products/p474_0_nmusde.jpg",
+    "imgs": [
+      "images/products/p474_0_nmusde.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "99%",
+    "condition": "ممتاز"
+  },
   {
     "id": 473,
     "cat": "used",
