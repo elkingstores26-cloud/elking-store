@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:٢٢:١٤ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:٢٦:٣٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 468,
+    "cat": "used",
+    "name": "Iphone 17 pro max 512 used",
+    "storage": "",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "",
+    "price": "100000",
+    "originalPrice": "101000",
+    "description": "17pro max used \n99%\nWithbox\n512\nNo tax",
+    "img": "images/products/p468_0_yh2osx.jpg",
+    "imgs": [
+      "images/products/p468_0_yh2osx.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "99%",
+    "condition": "ممتاز"
+  },
   {
     "id": 467,
     "cat": "used",
