@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٨‏/٦‏/٢٠٢٦، ٧:٤٠:٣٨ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٤:٥٠:٣٢ م
 window.ELKING_PRODUCTS = [
   {
     "id": 467,
@@ -21,27 +21,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "",
     "condition": "ممتاز"
-  },
-  {
-    "id": 466,
-    "cat": "used",
-    "name": "iPhone 14 Pro used u",
-    "storage": "128",
-    "color": "Deep Purple",
-    "colorHex": "#5e548e",
-    "brand": "Apple",
-    "price": "26000",
-    "originalPrice": "26500",
-    "description": "iPhone 14 Pro \nGB: 128 \nBi: 100% \nBattery \nظهر",
-    "img": "images/products/p466_0_p7crpi.jpg",
-    "imgs": [
-      "images/products/p466_0_p7crpi.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100%",
-    "condition": "جيد"
   },
   {
     "id": 465,
@@ -986,27 +965,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "84%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 417,
-    "cat": "used",
-    "name": "15pro max used",
-    "storage": "256",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Apple",
-    "price": "49000",
-    "originalPrice": "50000",
-    "description": "15pro max \n256\n81%\nZA\nNo tax",
-    "img": "images/products/p417_0_576bq6.jpg",
-    "imgs": [
-      "images/products/p417_0_576bq6.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "81%",
     "condition": "ممتاز"
   },
   {
