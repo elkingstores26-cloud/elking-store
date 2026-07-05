@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٤:٥٠:٣٢ م
+// آخر تحديث: ٥‏/٧‏/٢٠٢٦، ٥:١٧:٢١ م
 window.ELKING_PRODUCTS = [
   {
     "id": 467,
@@ -42,27 +42,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "82%",
     "condition": "جيد"
-  },
-  {
-    "id": 464,
-    "cat": "used",
-    "name": "Iphone 12 used",
-    "storage": "64",
-    "color": "أبيض",
-    "colorHex": "#f5f5f5",
-    "brand": "Apple",
-    "price": "15000",
-    "originalPrice": "16000",
-    "description": "Iphone 12\n74%\nWith box\nNo tax",
-    "img": "images/products/p464_0_ya3394.jpg",
-    "imgs": [
-      "images/products/p464_0_ya3394.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "74%",
-    "condition": "ممتاز"
   },
   {
     "id": 463,
