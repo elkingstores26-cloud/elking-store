@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١١‏/٧‏/٢٠٢٦، ٦:٣٨:٣٥ م
+// آخر تحديث: ١١‏/٧‏/٢٠٢٦، ٦:٥١:٥٤ م
 window.ELKING_PRODUCTS = [
   {
     "id": 489,
@@ -4123,8 +4123,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "6200",
-    "originalPrice": "6500",
+    "price": "6550",
+    "originalPrice": "7000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p257_0_uqh3tf.jpg",
     "imgs": [
@@ -4144,8 +4144,8 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "6200",
-    "originalPrice": "6500",
+    "price": "6550",
+    "originalPrice": "7000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p256_0_k8o68x.jpg",
     "imgs": [
@@ -4165,8 +4165,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "7000",
-    "originalPrice": "7500",
+    "price": "7300",
+    "originalPrice": "8000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p258_0_uqh3tf.jpg",
     "imgs": [
@@ -4186,7 +4186,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "7000",
+    "price": "7300",
     "originalPrice": "7500",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p255_0_k8o68x.jpg",
@@ -4207,15 +4207,23 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "7900",
-    "originalPrice": "8000",
+    "price": "8200",
+    "originalPrice": "8500",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p254_0_uqh3tf.jpg",
     "imgs": [
       "images/products/p254_0_uqh3tf.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -4228,8 +4236,8 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "7900",
-    "originalPrice": "8000",
+    "price": "8200",
+    "originalPrice": "8500",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p252_0_k8o68x.jpg",
     "imgs": [
@@ -4249,8 +4257,8 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "9400",
-    "originalPrice": "9900",
+    "price": "10400",
+    "originalPrice": "11000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p253_0_k8o68x.jpg",
     "imgs": [
@@ -4270,8 +4278,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "9400",
-    "originalPrice": "9900",
+    "price": "10400",
+    "originalPrice": "11000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p251_0_uqh3tf.jpg",
     "imgs": [
@@ -4291,8 +4299,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "8800",
-    "originalPrice": "8900",
+    "price": "9100",
+    "originalPrice": "9500",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p250_0_v12nyp.jpg",
     "imgs": [
@@ -4312,8 +4320,8 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "8800",
-    "originalPrice": "8900",
+    "price": "9100",
+    "originalPrice": "9500",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p249_0_2wo9kq.jpg",
     "imgs": [
@@ -4333,8 +4341,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "9900",
-    "originalPrice": "10000",
+    "price": "10300",
+    "originalPrice": "11000",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p248_0_v12nyp.jpg",
     "imgs": [
@@ -4354,8 +4362,8 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "9900",
-    "originalPrice": "10000",
+    "price": "10300",
+    "originalPrice": "11000",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p247_0_2wo9kq.jpg",
     "imgs": [
@@ -4375,7 +4383,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "12300",
+    "price": "13100",
     "originalPrice": "13000",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p246_0_v12nyp.jpg",
@@ -4396,7 +4404,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "12300",
+    "price": "13100",
     "originalPrice": "13000",
     "description": "يتميز سامسونج جالاكسي A17 (إصدار 2026) بشاشة Super AMOLED مقاس 6.7 بوصة (90Hz) وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري OIS، ويأتي بألوان جذابة تشمل الأسود (Black)، الرمادي (Gray)، الأزرق الفاتح/العميق (Blue)، مع تصميم نحيف 7.5 ملم ومعالج MediaTek Helio G99",
     "img": "images/products/p245_0_2wo9kq.jpg",
@@ -4459,7 +4467,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "Samsung",
-    "price": "24000",
+    "price": "24500",
     "originalPrice": "25000",
     "description": "",
     "img": "images/products/p242_0_kgog32.jpg",
@@ -4468,7 +4476,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
