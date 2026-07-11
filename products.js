@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١١‏/٧‏/٢٠٢٦، ٧:٠٣:٥٤ م
+// آخر تحديث: ١١‏/٧‏/٢٠٢٦، ٧:٠٥:٣٤ م
 window.ELKING_PRODUCTS = [
   {
     "id": 489,
@@ -2853,7 +2853,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3339,7 +3339,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3359,8 +3359,16 @@ window.ELKING_PRODUCTS = [
       "images/products/p294_0_4d1mz5.jpg"
     ],
     "featured": false,
-    "variants": [],
-    "inStock": true,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3401,7 +3409,7 @@ window.ELKING_PRODUCTS = [
     "color": "Titanium",
     "colorHex": "#8e8e93",
     "brand": "Xiaomi",
-    "price": "6800",
+    "price": "7200",
     "originalPrice": "7500",
     "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
     "img": "images/products/p292_0_msu0cg.jpg",
@@ -3422,7 +3430,7 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Xiaomi",
-    "price": "6800",
+    "price": "7200",
     "originalPrice": "7500",
     "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
     "img": "images/products/p291_0_lmi44n.jpg",
@@ -3443,7 +3451,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "Xiaomi",
-    "price": "6800",
+    "price": "7200",
     "originalPrice": "7500",
     "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
     "img": "images/products/p290_0_4d1mz5.jpg",
