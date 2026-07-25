@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢٥‏/٧‏/٢٠٢٦، ٦:٣٦:٤٤ م
+// آخر تحديث: ٢٥‏/٧‏/٢٠٢٦، ٦:٤٨:٣٨ م
 window.ELKING_PRODUCTS = [
   {
     "id": 489,
@@ -209,6 +209,27 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "91%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 479,
+    "cat": "used",
+    "name": "Ipad A16 128 used",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "18500",
+    "originalPrice": "19000",
+    "description": "ipad A16\n 128G \nwifi\n شحنه ١\nLike new",
+    "img": "images/products/p479_0_my9ivl.jpg",
+    "imgs": [
+      "images/products/p479_0_my9ivl.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100%",
     "condition": "ممتاز"
   },
   {
@@ -534,7 +555,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Infinix",
-    "price": "6200",
+    "price": "6300",
     "originalPrice": "6500",
     "description": "المعالج: ثماني النواة Helio G81 ULT تكنولوجيا 12 نانو\nالتخزين / الرام: 64/128 جيجا مع 4 جيجا رام\nالكاميرا: خلفية 8 م.ب / امامية 8 م.ب.\nالشاشة: 6.78 بوصة بدقة 720x1576 بكسل بها ثقب\nنظام التشغيل: اندرويد 16\nالبطارية: 5200 مللي أمبير",
     "img": "images/products/p461_0_y5xn06.jpg",
@@ -555,7 +576,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Infinix",
-    "price": "6800",
+    "price": "6900",
     "originalPrice": "7000",
     "description": "المعالج: ثماني النواة Helio G81 ULT تكنولوجيا 12 نانو\nالتخزين / الرام: 64/128 جيجا مع 4 جيجا رام\nالكاميرا: خلفية 8 م.ب / امامية 8 م.ب.\nالشاشة: 6.78 بوصة بدقة 720x1576 بكسل بها ثقب\nنظام التشغيل: اندرويد 16\nالبطارية: 5200 مللي أمبير",
     "img": "images/products/p460_0_y5xn06.jpg",
@@ -2270,6 +2291,69 @@ window.ELKING_PRODUCTS = [
     "condition": ""
   },
   {
+    "id": 364,
+    "cat": "used",
+    "name": "13",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "29000",
+    "originalPrice": "30000",
+    "description": "13used\n128GB\nNo box\nNo tax",
+    "img": "images/products/p364_0_g2gav1.jpg",
+    "imgs": [
+      "images/products/p364_0_g2gav1.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "90",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 362,
+    "cat": "used",
+    "name": "13",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "29000",
+    "originalPrice": "30000",
+    "description": "13used\n128GB\nWith box\nNo tax",
+    "img": "images/products/p362_0_abknxa.jpg",
+    "imgs": [
+      "images/products/p362_0_abknxa.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "88",
+    "condition": "جيد جدا"
+  },
+  {
+    "id": 361,
+    "cat": "used",
+    "name": "13",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "27000",
+    "originalPrice": "28000",
+    "description": "13used\n128GB\n1cycle\nWith box\nYes tax",
+    "img": "images/products/p361_0_89i5k6.jpg",
+    "imgs": [
+      "images/products/p361_0_89i5k6.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
     "id": 358,
     "cat": "used",
     "name": "Mi 11T 5g",
@@ -2289,6 +2373,27 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "",
     "condition": "جيد جدا"
+  },
+  {
+    "id": 357,
+    "cat": "used",
+    "name": "Honor 400 5g",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Honor",
+    "price": "12500",
+    "originalPrice": "13900",
+    "description": "Honor 400 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
+    "img": "images/products/p357_0_oc4yzm.jpg",
+    "imgs": [
+      "images/products/p357_0_oc4yzm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
   },
   {
     "id": 356,
@@ -2739,8 +2844,8 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "13500",
-    "originalPrice": "14500",
+    "price": "14500",
+    "originalPrice": "15000",
     "description": "التخزين / الرام:/256 جيجا مع 8جيجا رام\nالكاميرا: خلفية ثلاثية 50+5+2 م.ب. / امامية 13 م.ب.\nالشاشة: 6.7 بوصة بدقة 1080x2340 بكسل بها نوتش\nنظام التشغيل: اندرويد 16\nالبطارية: 5000 مللي أمبير",
     "img": "images/products/p335_0_pk4nwt.jpg",
     "imgs": [
@@ -2748,7 +2853,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
@@ -3068,6 +3173,27 @@ window.ELKING_PRODUCTS = [
     "condition": "جيد"
   },
   {
+    "id": 319,
+    "cat": "used",
+    "name": "13pro max used s",
+    "storage": "256",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Apple",
+    "price": "35000",
+    "originalPrice": "37000",
+    "description": "15pro max used\n256Gb\nNo box\nNo tax",
+    "img": "images/products/p319_0_8herrq.jpg",
+    "imgs": [
+      "images/products/p319_0_8herrq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "79",
+    "condition": "جيد جدا"
+  },
+  {
     "id": 317,
     "cat": "used",
     "name": "15pro max used s",
@@ -3107,6 +3233,71 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 309,
+    "cat": "used",
+    "name": "Iphone 15 used k",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Apple",
+    "price": "32000",
+    "originalPrice": "35000",
+    "description": "Iphone 15 \n128\n83%\nWith box\nNo tax",
+    "img": "images/products/p309_0_p1aev5.jpg",
+    "imgs": [
+      "images/products/p309_0_p1aev5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "82%",
+    "condition": "جيد"
+  },
+  {
+    "id": 305,
+    "cat": "used",
+    "name": "13pro max used k",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "37000",
+    "originalPrice": "39000",
+    "description": "13pro max used\n256G\n77%\nNo Box \nNo Tax",
+    "img": "images/products/p305_0_8kwwy5.jpg",
+    "imgs": [
+      "images/products/p305_0_8kwwy5.jpg",
+      "images/products/p305_1_gqhpki.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "77%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 304,
+    "cat": "used",
+    "name": "13pro max used k",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "39000",
+    "originalPrice": "40000",
+    "description": "13promax used\n256G\n83%\nNo Box\nNo Tax",
+    "img": "images/products/p304_0_6b7801.jpg",
+    "imgs": [
+      "images/products/p304_0_6b7801.jpg",
+      "images/products/p304_1_gmor24.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "79%",
     "condition": "ممتاز"
   },
   {
@@ -3206,7 +3397,7 @@ window.ELKING_PRODUCTS = [
         "imgs": []
       }
     ],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3227,7 +3418,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3239,7 +3430,7 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Xiaomi",
-    "price": "7200",
+    "price": "7000",
     "originalPrice": "7500",
     "description": "علنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi A5 والذي يأتي بتصميم شبيه بالأيفون مع شاشة كبيرة من نوع IPS LCD تدعم معدل التحديث الـ 120Hz بدقة HD+ مع معالج 12 نانو من نوع Unisoc T7250 مع كاميرا خلفية 32 ميجا بكسل وسيلفي 8 ميجا بكسل بالأضافة لبطارية 5200 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi A5 وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي",
     "img": "images/products/p291_0_lmi44n.jpg",
@@ -3247,7 +3438,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p291_0_lmi44n.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3269,7 +3468,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3278,11 +3477,11 @@ window.ELKING_PRODUCTS = [
     "cat": "new",
     "name": "Redmi 15C 4G 6/128 blue",
     "storage": "6/128 blue",
-    "color": "Iceblue",
-    "colorHex": "#a0cfec",
+    "color": "Sierra Blue",
+    "colorHex": "#4a6fa5",
     "brand": "Xiaomi",
-    "price": "7850",
-    "originalPrice": "8000",
+    "price": "8100",
+    "originalPrice": "8500",
     "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
     "img": "images/products/p289_0_nsc8qw.jpg",
     "imgs": [
@@ -3353,7 +3552,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": true,
+    "inStock": false,
     "battery": "",
     "condition": ""
   },
@@ -3373,7 +3572,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p285_0_e0csgy.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3407,8 +3614,8 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Xiaomi",
-    "price": "14800",
-    "originalPrice": "14900",
+    "price": "14900",
+    "originalPrice": "15000",
     "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi Note 15 جيل خامس وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
     "img": "images/products/p283_0_kyjz8f.jpg",
     "imgs": [
@@ -3428,15 +3635,23 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Xiaomi",
-    "price": "14800",
-    "originalPrice": "14900",
+    "price": "14900",
+    "originalPrice": "15000",
     "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi Note 15 جيل خامس وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
     "img": "images/products/p282_0_kpzj08.jpg",
     "imgs": [
       "images/products/p282_0_kpzj08.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3449,15 +3664,23 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Xiaomi",
-    "price": "14800",
-    "originalPrice": "14900",
+    "price": "14900",
+    "originalPrice": "15000",
     "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi Note 15 جيل خامس وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي فيما يلي .",
     "img": "images/products/p281_0_ivbpre.jpg",
     "imgs": [
       "images/products/p281_0_ivbpre.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3470,7 +3693,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "oppo",
-    "price": "8100",
+    "price": "7800",
     "originalPrice": "8200",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p280_0_bstrs0.jpg",
@@ -3478,7 +3701,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p280_0_bstrs0.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3491,7 +3722,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "oppo",
-    "price": "8100",
+    "price": "7800",
     "originalPrice": "8200",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p279_0_bamq92.jpg",
@@ -3512,7 +3743,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "oppo",
-    "price": "9400",
+    "price": "9000",
     "originalPrice": "9900",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p278_0_bstrs0.jpg",
@@ -3520,7 +3751,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p278_0_bstrs0.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3533,7 +3772,7 @@ window.ELKING_PRODUCTS = [
     "color": "وردي",
     "colorHex": "#f9a8d4",
     "brand": "oppo",
-    "price": "9400",
+    "price": "9000",
     "originalPrice": "9900",
     "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير .. فدعونا نتعرف على المواصفات الكاملة لهاتف Oppo A6x 4G وما هي أهم مميزاته وعيوبه وهل يستحق الشراء أم لا على النحو التالي .",
     "img": "images/products/p277_0_bamq92.jpg",
@@ -3570,7 +3809,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p276_0_kqkaml.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3612,7 +3859,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p274_0_kqkaml.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3662,7 +3917,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p272_0_y2ir6y.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3696,7 +3959,7 @@ window.ELKING_PRODUCTS = [
     "color": "أزرق",
     "colorHex": "#1e40af",
     "brand": "oppo",
-    "price": "17300",
+    "price": "17500",
     "originalPrice": "17500",
     "description": "يتميز هاتف Oppo A6 Pro 5G ببطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع بقوة 80 واط، شاشة AMOLED بحجم 6.57 بوصة وتردد 120 هرتز، ومعالج MediaTek Dimensity 6300 الداعم للـ 5G. يأتي الهاتف بكاميرا خلفية أساسية 50 ميجابكسل، ويتميز بمقاومة الماء والغبار بمعيار IP69، وذاكرة تخزين 256 جيجابايت مع 8 أو 12 جيجابايت رام",
     "img": "images/products/p270_0_wvcdc1.jpg",
@@ -3704,7 +3967,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p270_0_wvcdc1.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3717,7 +3988,7 @@ window.ELKING_PRODUCTS = [
     "color": "وردي",
     "colorHex": "#f9a8d4",
     "brand": "oppo",
-    "price": "17300",
+    "price": "17500",
     "originalPrice": "17500",
     "description": "يتميز هاتف Oppo A6 Pro 5G ببطارية ضخمة بسعة 7000 مللي أمبير وشحن سريع بقوة 80 واط، شاشة AMOLED بحجم 6.57 بوصة وتردد 120 هرتز، ومعالج MediaTek Dimensity 6300 الداعم للـ 5G. يأتي الهاتف بكاميرا خلفية أساسية 50 ميجابكسل، ويتميز بمقاومة الماء والغبار بمعيار IP69، وذاكرة تخزين 256 جيجابايت مع 8 أو 12 جيجابايت رام",
     "img": "images/products/p269_0_y2ir6y.jpg",
@@ -3725,7 +3996,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p269_0_y2ir6y.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3746,7 +4025,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p268_0_lmi44n.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3801,7 +4088,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "oppo",
-    "price": "27700",
+    "price": "27900",
     "originalPrice": "29000",
     "description": "هاتف Oppo Reno 15 5G (الذي تم الإعلان عنه في يناير 2026) يأتي ضمن الفئة المتوسطة العليا بشاشة AMOLED 120Hz، معالج Snapdragon 7 Gen 4 (4 نانومتر)، وبطارية ضخمة بسعة 6500 مللي أمبير تدعم الشحن السريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق والأبيض.",
     "img": "images/products/p265_0_2kofvd.jpg",
@@ -3822,7 +4109,7 @@ window.ELKING_PRODUCTS = [
     "color": "أبيض",
     "colorHex": "#f5f5f5",
     "brand": "oppo",
-    "price": "27700",
+    "price": "27900",
     "originalPrice": "29000",
     "description": "هاتف Oppo Reno 15 5G (الذي تم الإعلان عنه في يناير 2026) يأتي ضمن الفئة المتوسطة العليا بشاشة AMOLED 120Hz، معالج Snapdragon 7 Gen 4 (4 نانومتر)، وبطارية ضخمة بسعة 6500 مللي أمبير تدعم الشحن السريع 80 واط. يتوفر الهاتف بألوان جذابة تشمل الأزرق والأبيض.",
     "img": "images/products/p264_0_6vodxf.jpg",
@@ -3851,8 +4138,16 @@ window.ELKING_PRODUCTS = [
       "images/products/p263_0_2kofvd.jpg"
     ],
     "featured": false,
-    "variants": [],
-    "inStock": false,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
@@ -3873,7 +4168,7 @@ window.ELKING_PRODUCTS = [
     ],
     "featured": false,
     "variants": [],
-    "inStock": false,
+    "inStock": true,
     "battery": "",
     "condition": ""
   },
@@ -3956,7 +4251,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p257_0_uqh3tf.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -3990,7 +4293,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "7300",
+    "price": "7500",
     "originalPrice": "8000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p258_0_uqh3tf.jpg",
@@ -4011,7 +4314,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "7300",
+    "price": "7500",
     "originalPrice": "7500",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p255_0_k8o68x.jpg",
@@ -4019,7 +4322,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p255_0_k8o68x.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -4032,8 +4343,8 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "8200",
-    "originalPrice": "8500",
+    "price": "8600",
+    "originalPrice": "9000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p254_0_uqh3tf.jpg",
     "imgs": [
@@ -4061,15 +4372,23 @@ window.ELKING_PRODUCTS = [
     "color": "أسود",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "8200",
-    "originalPrice": "8500",
+    "price": "8600",
+    "originalPrice": "9000",
     "description": "يأتي هاتف سامسونج Samsung Galaxy A07 (إصدار 2025/2026) كخيار اقتصادي أنيق بتصميم نحيف (7.6 ملم) وشاشة كبيرة 6.7 بوصة 90 هرتز، مع معالج Helio G99 القوي وبطارية 5000 مللي أمبير، ويتوفر بالألوان الأسود، البنفسجي الفاتح، والأخضر/الرمادي",
     "img": "images/products/p252_0_k8o68x.jpg",
     "imgs": [
       "images/products/p252_0_k8o68x.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -4090,7 +4409,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p253_0_k8o68x.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -4166,7 +4493,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "10300",
+    "price": "10100",
     "originalPrice": "11000",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p248_0_v12nyp.jpg",
@@ -4174,7 +4501,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p248_0_v12nyp.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -4187,7 +4522,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "10300",
+    "price": "10100",
     "originalPrice": "11000",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p247_0_2wo9kq.jpg",
@@ -4195,7 +4530,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p247_0_2wo9kq.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
@@ -4208,7 +4551,7 @@ window.ELKING_PRODUCTS = [
     "color": "Iceblue",
     "colorHex": "#a0cfec",
     "brand": "Samsung",
-    "price": "13100",
+    "price": "13450",
     "originalPrice": "13000",
     "description": "تأتي الشاشة من نوع Super AMOLED بقياس 6.7 بوصة ودقة 1080×2340 بكسل (+FHD)، وتدعم معدل تحديث 90 هرتز، ما يجعل العرض سلسًا والألوان حية. يعمل هاتف Galaxy A17 5G بمعالج سامسونج ثماني النواة Exynos 1330 (ترددان 2.4 جيجاهرتز و2.0 جيجاهرتز)، مع معالج رسوميات Mali-G68 MP2",
     "img": "images/products/p246_0_v12nyp.jpg",
@@ -4229,7 +4572,7 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "13100",
+    "price": "13450",
     "originalPrice": "13000",
     "description": "يتميز سامسونج جالاكسي A17 (إصدار 2026) بشاشة Super AMOLED مقاس 6.7 بوصة (90Hz) وكاميرا رئيسية 50 ميجابكسل مع مثبت بصري OIS، ويأتي بألوان جذابة تشمل الأسود (Black)، الرمادي (Gray)، الأزرق الفاتح/العميق (Blue)، مع تصميم نحيف 7.5 ملم ومعالج MediaTek Helio G99",
     "img": "images/products/p245_0_2wo9kq.jpg",
@@ -4237,7 +4580,15 @@ window.ELKING_PRODUCTS = [
       "images/products/p245_0_2wo9kq.jpg"
     ],
     "featured": false,
-    "variants": [],
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
     "inStock": true,
     "battery": "",
     "condition": ""
