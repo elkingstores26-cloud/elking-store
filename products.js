@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١١‏/٧‏/٢٠٢٦، ٧:٠٥:٣٤ م
+// آخر تحديث: ٢٥‏/٧‏/٢٠٢٦، ٦:٣٦:٤٤ م
 window.ELKING_PRODUCTS = [
   {
     "id": 489,
@@ -209,27 +209,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "91%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 479,
-    "cat": "used",
-    "name": "Ipad A16 128 used",
-    "storage": "128",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple",
-    "price": "18500",
-    "originalPrice": "19000",
-    "description": "ipad A16\n 128G \nwifi\n شحنه ١\nLike new",
-    "img": "images/products/p479_0_my9ivl.jpg",
-    "imgs": [
-      "images/products/p479_0_my9ivl.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100%",
     "condition": "ممتاز"
   },
   {
@@ -2291,69 +2270,6 @@ window.ELKING_PRODUCTS = [
     "condition": ""
   },
   {
-    "id": 364,
-    "cat": "used",
-    "name": "13",
-    "storage": "128",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple",
-    "price": "29000",
-    "originalPrice": "30000",
-    "description": "13used\n128GB\nNo box\nNo tax",
-    "img": "images/products/p364_0_g2gav1.jpg",
-    "imgs": [
-      "images/products/p364_0_g2gav1.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "90",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 362,
-    "cat": "used",
-    "name": "13",
-    "storage": "128",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple",
-    "price": "29000",
-    "originalPrice": "30000",
-    "description": "13used\n128GB\nWith box\nNo tax",
-    "img": "images/products/p362_0_abknxa.jpg",
-    "imgs": [
-      "images/products/p362_0_abknxa.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "88",
-    "condition": "جيد جدا"
-  },
-  {
-    "id": 361,
-    "cat": "used",
-    "name": "13",
-    "storage": "128",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple",
-    "price": "27000",
-    "originalPrice": "28000",
-    "description": "13used\n128GB\n1cycle\nWith box\nYes tax",
-    "img": "images/products/p361_0_89i5k6.jpg",
-    "imgs": [
-      "images/products/p361_0_89i5k6.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100",
-    "condition": "ممتاز"
-  },
-  {
     "id": 358,
     "cat": "used",
     "name": "Mi 11T 5g",
@@ -2373,27 +2289,6 @@ window.ELKING_PRODUCTS = [
     "inStock": true,
     "battery": "",
     "condition": "جيد جدا"
-  },
-  {
-    "id": 357,
-    "cat": "used",
-    "name": "Honor 400 5g",
-    "storage": "256",
-    "color": "فضي",
-    "colorHex": "#c0c0c0",
-    "brand": "Honor",
-    "price": "12500",
-    "originalPrice": "13900",
-    "description": "Honor 400 5g\nRam:8\nGB:256\nWith Box\nNo Tax",
-    "img": "images/products/p357_0_oc4yzm.jpg",
-    "imgs": [
-      "images/products/p357_0_oc4yzm.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "",
-    "condition": "ممتاز"
   },
   {
     "id": 356,
@@ -3173,27 +3068,6 @@ window.ELKING_PRODUCTS = [
     "condition": "جيد"
   },
   {
-    "id": 319,
-    "cat": "used",
-    "name": "13pro max used s",
-    "storage": "256",
-    "color": "أخضر",
-    "colorHex": "#16a34a",
-    "brand": "Apple",
-    "price": "35000",
-    "originalPrice": "37000",
-    "description": "15pro max used\n256Gb\nNo box\nNo tax",
-    "img": "images/products/p319_0_8herrq.jpg",
-    "imgs": [
-      "images/products/p319_0_8herrq.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "79",
-    "condition": "جيد جدا"
-  },
-  {
     "id": 317,
     "cat": "used",
     "name": "15pro max used s",
@@ -3233,71 +3107,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 309,
-    "cat": "used",
-    "name": "Iphone 15 used k",
-    "storage": "128",
-    "color": "Iceblue",
-    "colorHex": "#a0cfec",
-    "brand": "Apple",
-    "price": "32000",
-    "originalPrice": "35000",
-    "description": "Iphone 15 \n128\n83%\nWith box\nNo tax",
-    "img": "images/products/p309_0_p1aev5.jpg",
-    "imgs": [
-      "images/products/p309_0_p1aev5.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "82%",
-    "condition": "جيد"
-  },
-  {
-    "id": 305,
-    "cat": "used",
-    "name": "13pro max used k",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Apple",
-    "price": "37000",
-    "originalPrice": "39000",
-    "description": "13pro max used\n256G\n77%\nNo Box \nNo Tax",
-    "img": "images/products/p305_0_8kwwy5.jpg",
-    "imgs": [
-      "images/products/p305_0_8kwwy5.jpg",
-      "images/products/p305_1_gqhpki.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "77%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 304,
-    "cat": "used",
-    "name": "13pro max used k",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Apple",
-    "price": "39000",
-    "originalPrice": "40000",
-    "description": "13promax used\n256G\n83%\nNo Box\nNo Tax",
-    "img": "images/products/p304_0_6b7801.jpg",
-    "imgs": [
-      "images/products/p304_0_6b7801.jpg",
-      "images/products/p304_1_gmor24.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "79%",
     "condition": "ممتاز"
   },
   {
