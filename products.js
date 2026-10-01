@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٥:٢٩ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٦:١٠ ص
 window.ELKING_PRODUCTS = [
   {
     "id": 535,
