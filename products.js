@@ -1,6 +1,111 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٢١:٤٣ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٣٠:٥٣ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 527,
+    "cat": "new",
+    "name": "oppo a6x",
+    "storage": "4/64",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "8950",
+    "originalPrice": "9500",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير",
+    "img": "images/products/p527_0_i4ivxv.jpg",
+    "imgs": [
+      "images/products/p527_0_i4ivxv.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 526,
+    "cat": "new",
+    "name": "oppo a6x",
+    "storage": "4/128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "10600",
+    "originalPrice": "11500",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6x 4G والذي يأتي لينافس في الفئة الاقتصادية بمعالج من نوع Snapdragon 685 ليقدم تجربة تصفح جيدة مع شاشة كبيرة بمساحة 6.75 بوصة مع دعم معدل التحديث الـ 120 هرتز بالأضافة لبطارية كبيرة السعة 6500 مللي أمبير",
+    "img": "images/products/p526_0_i4ivxv.jpg",
+    "imgs": [
+      "images/products/p526_0_i4ivxv.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 525,
+    "cat": "new",
+    "name": "oppo a6",
+    "storage": "4/128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "11800",
+    "originalPrice": "19500",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6  لينضم بشكل رسمي إلى سلسلة الـ A وأهم ما يميز الهاتف البطارية الكبيرة 7000 مللي أمبير وشحن 45 واط بالأضافة لمقاومة عالية ضيةد الماء بمعيار IP68/IP69 مع معالج Dimensity 6300 داعم لشبكات الجيل الخامس وصوت ستريو ولكن مع شاشة وكاميرا من الفئة الاقتصاد",
+    "img": "images/products/p525_0_ij3fth.jpg",
+    "imgs": [
+      "images/products/p525_0_ij3fth.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 524,
+    "cat": "new",
+    "name": "oppo a6",
+    "storage": "6/128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "15900",
+    "originalPrice": "17000",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد Oppo A6 لينضم بشكل رسمي إلى سلسلة الـ A وأهم ما يميز الهاتف البطارية الكبيرة 7000 مللي أمبير وشحن 45 واط بالأضافة لمقاومة عالية ضد الماء بمعيار IP68/IP69 مع معالج Dimensity 6300 داعم لشبكات الجيل الخامس وصوت ستريو ولكن مع شاشة وكاميرا من الفئة الاقتصادية",
+    "img": "images/products/p524_0_ij3fth.jpg",
+    "imgs": [
+      "images/products/p524_0_ij3fth.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 523,
+    "cat": "new",
+    "name": "oppo a6 pro 5g",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "20500",
+    "originalPrice": "22000",
+    "description": "أعلنت شركة Oppo عن هاتفها الجديد في الفئة المتوسطة الـ Oppo A6 Pro 4G داعم لشبكات الجيل الخامس بمعالج من ميدياتيك من نوع Dimensity 6300 مع شاشة أموليد FHD+ بتردد 120 هيرتز وسطوع عالي مع كاميرا سيلفي 16 ميجا بكسل وكاميرا خلفية 50 ميجا بكسل مع بطارية ضخمة 7000 مللي أمبير تدعم شحن سريع بقوة 80 واط .",
+    "img": "images/products/p523_0_tg4d8w.jpg",
+    "imgs": [
+      "images/products/p523_0_tg4d8w.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 522,
     "cat": "new",
