@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١٣‏/٨‏/٢٠٢٦، ٦:٣٣:٤٨ م
+// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ٩:٥٢:٤٢ م
 window.ELKING_PRODUCTS = [
   {
     "id": 490,
@@ -17,90 +17,6 @@ window.ELKING_PRODUCTS = [
     "featured": false,
     "variants": [],
     "inStock": true
-  },
-  {
-    "id": 489,
-    "cat": "used",
-    "name": "Xs max 256 used u",
-    "storage": "256",
-    "color": "",
-    "colorHex": "#0a0a0a",
-    "brand": "Apple",
-    "price": "11000",
-    "originalPrice": "12000",
-    "description": "iPhone XSMax\nGB: 256\nBi: 77%",
-    "img": "images/products/p489_0_eb5koa.jpg",
-    "imgs": [
-      "images/products/p489_0_eb5koa.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "77%",
-    "condition": "جيد"
-  },
-  {
-    "id": 488,
-    "cat": "used",
-    "name": "Iphone 15pro max used s",
-    "storage": "",
-    "color": "أزرق",
-    "colorHex": "#1e40af",
-    "brand": "Apple",
-    "price": "49000",
-    "originalPrice": "49500",
-    "description": "15 pro max \n88% \nNo box",
-    "img": "images/products/p488_0_vfpl6s.jpg",
-    "imgs": [
-      "images/products/p488_0_vfpl6s.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "88%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 487,
-    "cat": "used",
-    "name": "Iphone 16pro max used s",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Apple",
-    "price": "65000",
-    "originalPrice": "66000",
-    "description": "16pro max \n91%",
-    "img": "images/products/p487_0_3luxqi.jpg",
-    "imgs": [
-      "images/products/p487_0_3luxqi.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "91%",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 486,
-    "cat": "used",
-    "name": "Iphone 16pro max used s",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Apple",
-    "price": "68500",
-    "originalPrice": "69000",
-    "description": "16pro max\n97%",
-    "img": "images/products/p486_0_fkated.jpg",
-    "imgs": [
-      "images/products/p486_0_fkated.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "97%",
-    "condition": "ممتاز"
   },
   {
     "id": 485,
