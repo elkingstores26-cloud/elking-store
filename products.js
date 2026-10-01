@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:١٤:٥٨ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:١٥:٤٧ ص
 window.ELKING_PRODUCTS = [
   {
     "id": 519,
@@ -72,8 +72,8 @@ window.ELKING_PRODUCTS = [
     "color": "",
     "colorHex": "#0a0a0a",
     "brand": "Samsung",
-    "price": "15900",
-    "originalPrice": "16500",
+    "price": "12900",
+    "originalPrice": "13500",
     "description": "أعلنت شركة سامسونج عن هاتفها الاقتصادي الجديد الـ Samsung Galaxy A07 ليقدم أفضل اداء في الفئة الاقتصادية بمعالج من ميدياتيك Helio G99 وتحديثات لمدة 6 سنين مع تصميم بسيط وشاشة كبيرة 6.7 بوصة بتردد 90 هيرتز بالأضافة لكاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
     "img": "images/products/p515_0_djmvy4.jpg",
     "imgs": [
