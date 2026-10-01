@@ -1,6 +1,69 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:١٥:٤٧ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٢١:٤٣ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 522,
+    "cat": "new",
+    "name": "oppo reno16f",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "26700",
+    "originalPrice": "30000",
+    "description": "أعلنت شركة اوبو عن هاتفها المتوسط الجديد الـ Oppo Reno 16 F الذي يأتي بمعالج أفضل من الجيل السابق Dimensity 7300 Energy مع كاميرات جيدة واضافة عدسة مخصصة للزوم لأول مرة في فئة F من الرينو مع بطارية عملاقة 7000 مللي أمبير تدعم شحن سريع بقدرة 80 واط بالأضافة لشاشة أموليد مسطحة 120 هيرتز",
+    "img": "images/products/p522_0_o79j1s.jpg",
+    "imgs": [
+      "images/products/p522_0_o79j1s.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 521,
+    "cat": "new",
+    "name": "oppo reno16f 5g",
+    "storage": "12/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "30700",
+    "originalPrice": "32000",
+    "description": "أعلنت شركة اوبو عن هاتفها المتوسط الجديد الـ Oppo Reno 16 F الذي يأتي بمعالج أفضل من الجيل السابق Dimensity 7300 Energy مع كاميرات جيدة واضافة عدسة مخصصة للزوم لأول مرة في فئة F من الرينو مع بطارية عملاقة 7000 مللي أمبير تدعم شحن سريع بقدرة 80 واط بالأضافة لشاشة أموليد مسطحة 120 هيرتز",
+    "img": "images/products/p521_0_o79j1s.jpg",
+    "imgs": [
+      "images/products/p521_0_o79j1s.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 520,
+    "cat": "new",
+    "name": "oppo reno16 5g",
+    "storage": "12/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "oppo",
+    "price": "36400",
+    "originalPrice": "37500",
+    "description": "أعلنت شركة أوبو عن هاتفها الجديد الـ Oppo Reno 16 لينافس كالعادة في الفئة المتوسطة العليا بتصميم فخم زجاج مع المونيوم بالأضافة لشاشة أصغر في الحجم ولكنها بجودة ممتازة مع معالج كالعادة من كوالكم SD 7 Gen 4 مع نظام كاميرا قوي 50 ميجا بيكسل في كل العدسات اساسية وزوم والترا وايد وسيلفي مع دعم تصوير فيديو 4K بكل العدسات بالأضافة لبطارية كبيرة 6700 مللي",
+    "img": "images/products/p520_0_88813b.jpg",
+    "imgs": [
+      "images/products/p520_0_88813b.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 519,
     "cat": "new",
