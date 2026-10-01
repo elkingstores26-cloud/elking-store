@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٦:١٠ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٩:٢٤ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 537,
+    "cat": "new",
+    "name": "Infinix smart 20",
+    "storage": "4/128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Infinix",
+    "price": "8300",
+    "originalPrice": "8500",
+    "description": "أعلنت شركة انفنكس عن هاتفها الاقتصادي الـ Infinix Smart 20 واستخدمت انفنكس معالج من ميدياتيك G81 لتحصل على أداء مقبول مع شاشة بشكل الثقب بمعدل تحديث 120Hz بالأضافة لتصميم شيك ولكن مع بطارية 5200 مللي أمبير",
+    "img": "images/products/p537_0_ptphw.jpg",
+    "imgs": [
+      "images/products/p537_0_ptphw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 536,
+    "cat": "new",
+    "name": "Infinix smart 20",
+    "storage": "4/64",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Infinix",
+    "price": "7000",
+    "originalPrice": "7300",
+    "description": "أعلنت شركة انفنكس عن هاتفها الاقتصادي الـ Infinix Smart 20 واستخدمت انفنكس معالج من ميدياتيك G81 لتحصل على أداء مقبول مع شاشة بشكل الثقب بمعدل تحديث 120Hz بالأضافة لتصميم شيك ولكن مع بطارية 5200 مللي أمبير",
+    "img": "images/products/p536_0_ptphw.jpg",
+    "imgs": [
+      "images/products/p536_0_ptphw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 535,
     "cat": "new",
