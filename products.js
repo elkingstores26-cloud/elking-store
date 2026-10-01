@@ -1,6 +1,69 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٠٠:٤٧ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٠٣:٤٧ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 517,
+    "cat": "new",
+    "name": "samsung a07",
+    "storage": "4/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "8650",
+    "originalPrice": "9000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الاقتصادي الجديد الـ Samsung Galaxy A07 ليقدم أفضل اداء في الفئة الاقتصادية بمعالج من ميدياتيك Helio G99 وتحديثات لمدة 6 سنين مع تصميم بسيط وشاشة كبيرة 6.7 بوصة بتردد 90 هيرتز بالأضافة لكاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
+    "img": "images/products/p517_0_djmvy4.jpg",
+    "imgs": [
+      "images/products/p517_0_djmvy4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 516,
+    "cat": "new",
+    "name": "samsung a07",
+    "storage": "6/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "10850",
+    "originalPrice": "13000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الاقتصادي الجديد الـ Samsung Galaxy A07 ليقدم أفضل اداء في الفئة الاقتصادية بمعالج من ميدياتيك Helio G99 وتحديثات لمدة 6 سنين مع تصميم بسيط وشاشة كبيرة 6.7 بوصة بتردد 90 هيرتز بالأضافة لكاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
+    "img": "images/products/p516_0_djmvy4.jpg",
+    "imgs": [
+      "images/products/p516_0_djmvy4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 515,
+    "cat": "new",
+    "name": "samsung a07",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "15900",
+    "originalPrice": "16500",
+    "description": "أعلنت شركة سامسونج عن هاتفها الاقتصادي الجديد الـ Samsung Galaxy A07 ليقدم أفضل اداء في الفئة الاقتصادية بمعالج من ميدياتيك Helio G99 وتحديثات لمدة 6 سنين مع تصميم بسيط وشاشة كبيرة 6.7 بوصة بتردد 90 هيرتز بالأضافة لكاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
+    "img": "images/products/p515_0_djmvy4.jpg",
+    "imgs": [
+      "images/products/p515_0_djmvy4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 514,
     "cat": "new",
