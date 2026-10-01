@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٣٩:٥٧ م
+// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٤٤:٥٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 509,
+    "cat": "new",
+    "name": "samsung a17 5g",
+    "storage": "6/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "13250",
+    "originalPrice": "14500",
+    "description": "علنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A17 5G الذي يأتي لينافس في بداية الفئة المتوسطة بمعالج Exynos 1330 داعم لشبكات الجيل الخامس مع شاشة من نوع Super AMOLED تدعم معدل التحديث الـ 90Hz مع كاميرا أمامية 13 ميجا بكسل وكاميرا خلفية رئيسية 50 ميجا بكسل بمثبت بصري مع بطارية 5000 مللي أمبير تدعم الشحن السريع بقوة 25 واط",
+    "img": "images/products/p509_0_bu6uvl.jpg",
+    "imgs": [
+      "images/products/p509_0_bu6uvl.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 508,
+    "cat": "new",
+    "name": "samsung a17",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "15900",
+    "originalPrice": "16500",
+    "description": "علنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A17  الذي يأتي لينافس في بداية الفئة المتوسطة بمعالج Exynos 1330 داعم لشبكات الجيل الخامس مع شاشة من نوع Super AMOLED تدعم معدل التحديث الـ 90Hz مع كاميرا أمامية 13 ميجا بكسل وكاميرا خلفية رئيسية 50 ميجا بكسل بمثبت بصري مع بطارية 5000 مللي أمبير تدعم الشحن السريع بقوة 25 واط",
+    "img": "images/products/p508_0_bu6uvl.jpg",
+    "imgs": [
+      "images/products/p508_0_bu6uvl.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 507,
     "cat": "new",
