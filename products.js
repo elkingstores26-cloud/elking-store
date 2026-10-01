@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٥٧:٣٢ م
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٠٠:٤٧ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 514,
+    "cat": "new",
+    "name": "samsung a26",
+    "storage": "8/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "16500",
+    "originalPrice": "17500",
+    "description": "أعلنت شركة سامسونج عن هاتفها الـ Samsung Galaxy A26 لينافس في بداية الفئة المتوسطة حيث يأتي بمعالج قوي من نوع Exynos 1380 مع كاميرا خلفية 50 ميجا بكسل بمثبت بصري وكاميرا أمامية بدقة 13 ميجا بكسل بخلاف التصميم الزجاجي ومقاومة الماء IP67 مع بطارية بقوة 5000 مللي أمبير",
+    "img": "images/products/p514_0_9z82q0.jpg",
+    "imgs": [
+      "images/products/p514_0_9z82q0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 513,
+    "cat": "new",
+    "name": "samsung a27",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "18200",
+    "originalPrice": "19000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الـ Samsung Galaxy A26 لينافس في بداية الفئة المتوسطة حيث يأتي بمعالج قوي من نوع Exynos 1380 مع كاميرا خلفية 50 ميجا بكسل بمثبت بصري وكاميرا أمامية بدقة 13 ميجا بكسل بخلاف التصميم الزجاجي ومقاومة الماء IP67 مع بطارية بقوة 5000 مللي أمبير",
+    "img": "images/products/p513_0_9z82q0.jpg",
+    "imgs": [
+      "images/products/p513_0_9z82q0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 512,
     "cat": "new",
