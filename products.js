@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٤٠:٤١ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٤٣:٥٢ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 529,
+    "cat": "new",
+    "name": "Redmi Note 15 4g",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Xiaomi",
+    "price": "16400",
+    "originalPrice": "15500",
+    "description": "أعلنت شركة شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 4G وهو أقل فرد في السلسلة ولكن يأتي بشاشة أموليد منحنية ممتازة بمساحة 6.77 بوصة بدقة FHD+ تدعم الـ 120 هرتز مع معالج ميدياتيك Helio G100 Ultra وكاميرا خلفية بدقة 108 ميجا بكسل مع كاميرا سيلفي 20 ميجا بكسل وصوت ستريو بالأضافة لبطارية كبيرة بسعة 6000 مللي أمبير تدعم الشحن السريع 33 واط",
+    "img": "images/products/p529_0_2h8cl7.jpg",
+    "imgs": [
+      "images/products/p529_0_2h8cl7.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 528,
     "cat": "new",
