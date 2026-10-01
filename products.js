@@ -1,6 +1,132 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١٠:٥٩:٣٦ م
+// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:١٦:٣٢ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 498,
+    "cat": "new",
+    "name": "iphone15 128",
+    "storage": "128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Apple",
+    "price": "46500",
+    "originalPrice": "47500",
+    "description": "هاتف iPhone 15 هو أصغر هاتف في سلسلة أبل الجديد ويتميز بحجم صغير ومواصفات قوية حيث يأتي بمعالج A16 Bionic القوي وكاميرا خلفية أفضل 48 ميجا بيكسل مع بطارية أقوى من الجيل السابق بالاضافة لشاشة بشكل Dynamic Island .. فدعونا نتعرف على المواصفات الكاملة لهاتف",
+    "img": "images/products/p498_0_lmi44n.jpg",
+    "imgs": [
+      "images/products/p498_0_lmi44n.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 497,
+    "cat": "new",
+    "name": "iphone17promax256",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "67000",
+    "description": "ابل عن هاتفها الأقوى الـ iPhone 17 Pro Max لينافس الهواتف الرائدة بقوة مع تصميم جديد كليا للموبايل مع شكل جديد للكاميرا الخلفية وتطوير كبير في الهاتف من ناحية المعالج الأحدث الـ A19 Pro مع غرفة تبريد للحفاظ على الهاتف من الحرارة مع عدسة سيلفي جديدة 18 ميجا بيكسل وعدسة زوم مُحدثة 48 ميجا بيكسل مع بطارية أكبر بالأضافة لشاشة كبيرة 6.9 بوصة بسطوع أعلى وصوت ستريو ممتاز كالعادة",
+    "img": "images/products/p497_0_pxryv3.jpg",
+    "imgs": [
+      "images/products/p497_0_pxryv3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 496,
+    "cat": "new",
+    "name": "iphone17",
+    "storage": "256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "51000",
+    "originalPrice": "54000",
+    "description": "أعلنت شركة ابل عن هاتفها الجديد الـ iPhone 17 الذي يُمثل نقلة نوعية بالنسبة لهواتف أبل السابقة حيث تم تغيير الشاشة لتدعم التردد المتغير من 1 لـ 120 هيرتز مع سطوع أعلى وحماية أقوى بالأضافة لمعالج جديد من أبل A19 يقدم أداء أقوى مع سيلفي جديد كليا 18 ميجا بيكسل وعدسة الترا وايد 48 ميجا بيكسل بالأضافة لبطارية أكبر",
+    "img": "images/products/p496_0_39g5es.jpg",
+    "imgs": [
+      "images/products/p496_0_39g5es.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 495,
+    "cat": "new",
+    "name": "iphone17 active",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "49000",
+    "originalPrice": "52000",
+    "description": "أعلنت شركة ابل عن هاتفها الجديد الـ iPhone 17 الذي يُمثل نقلة نوعية بالنسبة لهواتف أبل السابقة حيث تم تغيير الشاشة لتدعم التردد المتغير من 1 لـ 120 هيرتز مع سطوع أعلى وحماية أقوى بالأضافة لمعالج جديد من أبل A19 يقدم أداء أقوى مع سيلفي جديد كليا 18 ميجا بيكسل وعدسة الترا وايد 48 ميجا بيكسل بالأضافة لبطارية أكبر",
+    "img": "images/products/p495_0_39g5es.jpg",
+    "imgs": [
+      "images/products/p495_0_39g5es.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 494,
+    "cat": "new",
+    "name": "iphone air apm",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "70000",
+    "description": "أعلنت شركة أبل عن هاتفها الجديد الـ iPhone Air الذي يأتي بتصميم ثوري ليكون أنحف وأخف هاتف من ابل مقارنة بالإصدارات السابقة حيث يأتي بسمك 5.6 ملم فقط مع وزن خفيف 165 جرام مع فريم من التيتانيوم وشاشة كبيرة 6.5 بوصة بتردد سريع متغير 120 هيرتز وسطوع عالي بالأضافة لمعالج أبل الأقوى A19 Pro بتقنية 3 نانومتر والسيلفي الجديد الـ 18 ميجا بيكسل بمستشعر مربع",
+    "img": "images/products/p494_0_8vert.jpg",
+    "imgs": [
+      "images/products/p494_0_8vert.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 493,
+    "cat": "new",
+    "name": "iphone17promax512 apm",
+    "storage": "512",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "75000",
+    "originalPrice": "82000",
+    "description": "ابل عن هاتفها الأقوى الـ iPhone 17 Pro Max لينافس الهواتف الرائدة بقوة مع تصميم جديد كليا للموبايل مع شكل جديد للكاميرا الخلفية وتطوير كبير في الهاتف من ناحية المعالج الأحدث الـ A19 Pro مع غرفة تبريد للحفاظ على الهاتف من الحرارة مع عدسة سيلفي جديدة 18 ميجا بيكسل وعدسة زوم مُحدثة 48 ميجا بيكسل مع بطارية أكبر بالأضافة لشاشة كبيرة 6.9 بوصة بسطوع أعلى وصوت ستريو ممتاز كالعادة",
+    "img": "images/products/p493_0_pxryv3.jpg",
+    "imgs": [
+      "images/products/p493_0_pxryv3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 492,
     "cat": "new",
