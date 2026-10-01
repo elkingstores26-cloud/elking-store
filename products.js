@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٣:٤٢ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٥:٢٩ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 535,
+    "cat": "new",
+    "name": "Poco C85",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "10850",
+    "originalPrice": "19500",
+    "description": "أعلنت شركة شاومي عن هاتفها الجديد الـ Xiaomi Poco C85 4G الذي يعتبر نسخة من Redmi 15C حيث يأتي بشاشة كبيرة بشكل النوتش بمساحة 6.9 إنش بدقة HD+ وتردد 120 هيرتز مع معالج من ميدياتيك Helio G81 Ultra يقدم اداء اقتصادي مع كاميرا سيلفي 8 ميجا بكسل وكاميرا خلفية 50 ميجا بكسل مع الاهتمام بالبطارية فتأتي بسعة 6000 مللي أمبير لتضمن لك العمل لفترة طويلة خلال اليوم مع دعم الشحن السريع بقوة 33 واط",
+    "img": "images/products/p535_0_rtt5pd.jpg",
+    "imgs": [
+      "images/products/p535_0_rtt5pd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 534,
     "cat": "new",
