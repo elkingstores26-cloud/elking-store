@@ -1,6 +1,69 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٣٢:٥٦ م
+// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٣٧:٢١ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 505,
+    "cat": "new",
+    "name": "samsung a57",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "26500",
+    "originalPrice": "30500",
+    "description": "أعلنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A57 الذي ينافس في الفئة المتوسطة العليا بأرقى خامات فريم معدن وظهر زجاج بحماية عالية ومقاومة ماء IP68 بالأضافة لمعالج جديد من سامسونج Exynos 1680 يقدم تجربة جيدة مع كاميرات مميزة ولكن بدون عدسة زوم وشاشة مميزة من نوع Super AMOLED Plus بدقة FHD+ تدعم 120Hz بحواف أقل عن الأجيال السابقة مع دعم سماعات ستيريو وبطارية 5000 مللي أمبير تدعم شحن سريع بقوة 45 واط",
+    "img": "images/products/p505_0_9ylr6z.jpg",
+    "imgs": [
+      "images/products/p505_0_9ylr6z.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 504,
+    "cat": "new",
+    "name": "samsung a57",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "28900",
+    "originalPrice": "32000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A57 الذي ينافس في الفئة المتوسطة العليا بأرقى خامات فريم معدن وظهر زجاج بحماية عالية ومقاومة ماء IP68 بالأضافة لمعالج جديد من سامسونج Exynos 1680 يقدم تجربة جيدة مع كاميرات مميزة ولكن بدون عدسة زوم وشاشة مميزة من نوع Super AMOLED Plus بدقة FHD+ تدعم 120Hz بحواف أقل عن الأجيال السابقة مع دعم سماعات ستيريو وبطارية 5000 مللي أمبير تدعم شحن سريع بقوة 45 واط",
+    "img": "images/products/p504_0_9ylr6z.jpg",
+    "imgs": [
+      "images/products/p504_0_9ylr6z.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 503,
+    "cat": "new",
+    "name": "samsung a57",
+    "storage": "512",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "33000",
+    "originalPrice": "35000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A57 الذي ينافس في الفئة المتوسطة العليا بأرقى خامات فريم معدن وظهر زجاج بحماية عالية ومقاومة ماء IP68 بالأضافة لمعالج جديد من سامسونج Exynos 1680 يقدم تجربة جيدة مع كاميرات مميزة ولكن بدون عدسة زوم وشاشة مميزة من نوع Super AMOLED Plus بدقة FHD+ تدعم 120Hz بحواف أقل عن الأجيال السابقة مع دعم سماعات ستيريو وبطارية 5000 مللي أمبير تدعم شحن سريع بقوة 45 واط",
+    "img": "images/products/p503_0_9ylr6z.jpg",
+    "imgs": [
+      "images/products/p503_0_9ylr6z.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 502,
     "cat": "new",
