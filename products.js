@@ -1,6 +1,132 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٩:٢٤ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١:١١:٥١ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 543,
+    "cat": "new",
+    "name": "HONOR X9d",
+    "storage": "12/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "HONOR",
+    "price": "22700",
+    "originalPrice": "23500",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X9d لينافس بقوة في الفئة المتوسطة بأكبر بطارية 8300 مللي أمبير تدعم شحن سريع 66 واط بالأضافة لمعالج جيد من كوالكم Snapdragon 6 Gen 4 مع كاميرا خلفية 108 ميجا بكسل وسيلفي 16 ميجا بكسل وبالطبع أعلى حماية ممكنة من الماء والأتربة والصدمات",
+    "img": "images/products/p543_0_vnnhc4.jpg",
+    "imgs": [
+      "images/products/p543_0_vnnhc4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 542,
+    "cat": "new",
+    "name": "HONOR X6c",
+    "storage": "6/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "HONOR",
+    "price": "11900",
+    "originalPrice": "12500",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X6c لينافس في الفئة الاقتصادية بخامات عالية مقاومة للصدمات وبطارية 5300 مللي أمبير وشحن سريع بقوة 35 واط بالأضافة لكاميرا خلفية 50 ميجا بيكسل ومعالج Mediatek Helio G81 Ultra .",
+    "img": "images/products/p542_0_km68lk.jpg",
+    "imgs": [
+      "images/products/p542_0_km68lk.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 541,
+    "cat": "new",
+    "name": "HONOR X6c",
+    "storage": "6/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "HONOR",
+    "price": "12950",
+    "originalPrice": "13500",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR X6c لينافس في الفئة الاقتصادية بخامات عالية مقاومة للصدمات وبطارية 5300 مللي أمبير وشحن سريع بقوة 35 واط بالأضافة لكاميرا خلفية 50 ميجا بيكسل ومعالج Mediatek Helio G81 Ultra .",
+    "img": "images/products/p541_0_km68lk.jpg",
+    "imgs": [
+      "images/products/p541_0_km68lk.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 540,
+    "cat": "new",
+    "name": "HONOR 600",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "HONOR",
+    "price": "28000",
+    "originalPrice": "30000",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR 600 لينافس بقوة في الفئة المتوسطة مع تطويرات واضحة مثل التصميم الجديد بفريم معدني فخم واستخدام معالج قوي من كوالكم Snapdragon 7 Gen 4 بالأضاضة لشاشة أموليد مسطحة بدقة 1.5K وسطوع خارق تحت الشمس مع كاميرا خلفية 200 ميجا بيكسل وبطارية عملاقة 7000 مللي أمبير تدعم شحن سريع بقوة 80 واط",
+    "img": "images/products/p540_0_tadssd.jpg",
+    "imgs": [
+      "images/products/p540_0_tadssd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 539,
+    "cat": "new",
+    "name": "HONOR 600",
+    "storage": "12/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "HONOR",
+    "price": "12950",
+    "originalPrice": "14000",
+    "description": "أعلنت شركة هونر عن هاتفها الجديد الـ HONOR 600 لينافس بقوة في الفئة المتوسطة مع تطويرات واضحة مثل التصميم الجديد بفريم معدني فخم واستخدام معالج قوي من كوالكم Snapdragon 7 Gen 4 بالأضاضة لشاشة أموليد مسطحة بدقة 1.5K وسطوع خارق تحت الشمس مع كاميرا خلفية 200 ميجا بيكسل وبطارية عملاقة 7000 مللي أمبير تدعم شحن سريع بقوة 80 واط",
+    "img": "images/products/p539_0_tadssd.jpg",
+    "imgs": [
+      "images/products/p539_0_tadssd.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 538,
+    "cat": "new",
+    "name": "HONOR Magic 7 Pro",
+    "storage": "12/512",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "HONOR",
+    "price": "57000",
+    "originalPrice": "60000",
+    "description": "أعلنت شركة هونر عن هاتفها الرائد الجديد الـ HONOR Magic 7 Pro لينافس بشراسة حيث يأتي بمعالج رائد من شركة كوالكم Snapdragon 8 Elite لتحصل على أقوى أداء متوفر في الوقت الحالي مع كاميرات خلفية مميزة تعطيك تجربة مثالية أثناء الاستخدام مع زوم قوي حتى 100X مع شاشة كبيرة منحنية بشكل الثقب المزدوج في منتصف الشاشة مع بطارية كبيرة السعة 5850 مللي أمبير تدعم الشحن السريع بقوة 100 واط بخلاف دعم الشحن الوايرلس",
+    "img": "images/products/p538_0_bfcdvs.jpg",
+    "imgs": [
+      "images/products/p538_0_bfcdvs.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 537,
     "cat": "new",
