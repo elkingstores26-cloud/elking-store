@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٠٣:٤٧ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٠٧:٣٥ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 519,
+    "cat": "new",
+    "name": "samsung a07",
+    "storage": "4/64",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "8650",
+    "originalPrice": "9500",
+    "description": "أعلنت شركة سامسونج عن هاتفها الاقتصادي الجديد الـ Samsung Galaxy A07 ليقدم أفضل اداء في الفئة الاقتصادية بمعالج من ميدياتيك Helio G99 وتحديثات لمدة 6 سنين مع تصميم بسيط وشاشة كبيرة 6.7 بوصة بتردد 90 هيرتز بالأضافة لكاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
+    "img": "images/products/p519_0_djmvy4.jpg",
+    "imgs": [
+      "images/products/p519_0_djmvy4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 518,
+    "cat": "new",
+    "name": "samsung a07",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "12900",
+    "originalPrice": "13500",
+    "description": "أعلنت شركة سامسونج عن هاتفها الاقتصادي الجديد الـ Samsung Galaxy A07 ليقدم أفضل اداء في الفئة الاقتصادية بمعالج من ميدياتيك Helio G99 وتحديثات لمدة 6 سنين مع تصميم بسيط وشاشة كبيرة 6.7 بوصة بتردد 90 هيرتز بالأضافة لكاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
+    "img": "images/products/p518_0_djmvy4.jpg",
+    "imgs": [
+      "images/products/p518_0_djmvy4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 517,
     "cat": "new",
