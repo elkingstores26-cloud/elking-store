@@ -1,6 +1,35 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:١٦:٣٢ م
+// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٢٥:٢٣ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 499,
+    "cat": "new",
+    "name": "samsung s26 ultra",
+    "storage": "256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "67000",
+    "originalPrice": "69000",
+    "description": "أقوى موبايل رائد من سامسونج وبالتأكيد ملك الذكاء الأصطناعي الـ Samsung Galaxy S26 Ultra الذي يأتي بشاشة لأول مرة في العالم Privacy Display والتي ستحافظ على خصوصيتك من المتطفلين مع الاهتمام بالأداء حيث يأتي بمعالج Snapdragon 8 Elite Gen 5 بالأضافة لبطارية 5000 مللي أمبير تدعم شحن أسرع بقوة 60 واط وشحن لاسلكي بقوة 25 واط مع نظام كاميرات مُحسن من ناحية التصوير الليلي ..",
+    "img": "images/products/p499_0_jyf24a.jpg",
+    "imgs": [
+      "images/products/p499_0_jyf24a.jpg"
+    ],
+    "featured": false,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#0A0A0A",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 498,
     "cat": "new",
