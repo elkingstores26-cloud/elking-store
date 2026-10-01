@@ -1,6 +1,48 @@
 // El King Store — shared product catalog
-// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٣٧:٢١ م
+// آخر تحديث: ١‏/١٠‏/٢٠٢٦، ١١:٣٩:٥٧ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 507,
+    "cat": "new",
+    "name": "samsung a37",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "22000",
+    "originalPrice": "23000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A37 لينافس في الفئة المتوسطة بشاشة أموليد 6.7 بوصة بدقة FHD+ تدعم 120Hz مع معالج من سامسونج وهو الـ Exynos 1480 يقدم اداء جيد في الاستخدامات اليومية وفي تجربة الكاميرات حيث يأتي الهاتف بكاميرا خلفية رئيسية 50 ميجا بيكسل وسيلفي 12 ميجا بكسل مع دعم صوت ستريو وبطارية 5000 مللي أمبير تدعم الشحن السريع بقوة 45 واط",
+    "img": "images/products/p507_0_v4eo1k.jpg",
+    "imgs": [
+      "images/products/p507_0_v4eo1k.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 506,
+    "cat": "new",
+    "name": "samsung a37",
+    "storage": "12/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "24400",
+    "originalPrice": "25000",
+    "description": "أعلنت شركة سامسونج عن هاتفها الجديد الـ Samsung Galaxy A37 لينافس في الفئة المتوسطة بشاشة أموليد 6.7 بوصة بدقة FHD+ تدعم 120Hz مع معالج من سامسونج وهو الـ Exynos 1480 يقدم اداء جيد في الاستخدامات اليومية وفي تجربة الكاميرات حيث يأتي الهاتف بكاميرا خلفية رئيسية 50 ميجا بيكسل وسيلفي 12 ميجا بكسل مع دعم صوت ستريو وبطارية 5000 مللي أمبير تدعم الشحن السريع بقوة 45 واط",
+    "img": "images/products/p506_0_v4eo1k.jpg",
+    "imgs": [
+      "images/products/p506_0_v4eo1k.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 505,
     "cat": "new",
