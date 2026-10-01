@@ -1,6 +1,27 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٣٠:٥٣ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٣٤:٥٢ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 528,
+    "cat": "new",
+    "name": "Redmi Note 15 5G",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Xiaomi",
+    "price": "17800",
+    "originalPrice": "18500",
+    "description": "أعلنت شاومي عن هاتفها الجديد الـ Xiaomi Redmi Note 15 5G لينافس في بداية الفئة المتوسطة بمعالج من كوالكم SD 6 Gen 3 داعم لشبكات الجيل الخامس ويقدم اداء جيد بالأضافة لشاشة منحنية بتردد 120 هيرتز مع كاميرا خلفية 108 ميجا بيكسل بمثبت بصري بالأضافة لصوت ستريو وبطارية 5520 مللي أمبير تدعم شحن سريع 45 واط",
+    "img": "images/products/p528_0_5d1kad.jpg",
+    "imgs": [
+      "images/products/p528_0_5d1kad.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 527,
     "cat": "new",
