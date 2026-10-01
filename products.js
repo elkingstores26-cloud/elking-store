@@ -1,6 +1,111 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٤٣:٥٢ ص
+// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١٢:٥٣:٤٢ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 534,
+    "cat": "new",
+    "name": "Redmi 15C",
+    "storage": "6/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "10950",
+    "originalPrice": "11500",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G",
+    "img": "images/products/p534_0_acu8qf.jpg",
+    "imgs": [
+      "images/products/p534_0_acu8qf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 533,
+    "cat": "new",
+    "name": "Redmi 15C",
+    "storage": "8/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "11500",
+    "originalPrice": "12000",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 15C 4G الذي يأتي بتصميم جديد بخامات راقية مع بطارية عملاقة 6000 مللي أمبير وشحن أسرع 33 واط مع نفس المعالج الاقتصادي G81 Ultra وكاميرا خلفية 50 ميجا بيكسل وشاشة كبيرة IPS بتردد 120 هيرتز .. فدعونا نتعرف على المواصفات الكاملة لهاتف Xiaomi Redmi 15C 4G",
+    "img": "images/products/p533_0_acu8qf.jpg",
+    "imgs": [
+      "images/products/p533_0_acu8qf.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 532,
+    "cat": "new",
+    "name": "Redmi 15 4G",
+    "storage": "6/128",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Xiaomi",
+    "price": "11100",
+    "originalPrice": "12000",
+    "description": "أعلنت شركة شاومي عن هاتفها الجديد الـ Xiaomi Redmi 15 4G في الفئة الاقتصادية والهاتف يركز على البطارية بشكل كبير حيث يأتي بأضخم بطارية في فئته 7000 مللي أمبير مع شحن سريع 33 واط وشحن سريع عكسي 18 واط بالأضافة لشاشة كبيرة 6.9 بوصة بتردد 144Hz ومعالج من نوع Snapdragon 685 .",
+    "img": "images/products/p532_0_sx6vv.jpg",
+    "imgs": [
+      "images/products/p532_0_sx6vv.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 531,
+    "cat": "new",
+    "name": "Redmi 15 4G",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Xiaomi",
+    "price": "13100",
+    "originalPrice": "14500",
+    "description": "أعلنت شركة شاومي عن هاتفها الجديد الـ Xiaomi Redmi 15 4G في الفئة الاقتصادية والهاتف يركز على البطارية بشكل كبير حيث يأتي بأضخم بطارية في فئته 7000 مللي أمبير مع شحن سريع 33 واط وشحن سريع عكسي 18 واط بالأضافة لشاشة كبيرة 6.9 بوصة بتردد 144Hz ومعالج من نوع Snapdragon 685",
+    "img": "images/products/p531_0_sx6vv.jpg",
+    "imgs": [
+      "images/products/p531_0_sx6vv.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
+  {
+    "id": 530,
+    "cat": "new",
+    "name": "Redmi 17 4G",
+    "storage": "6/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Xiaomi",
+    "price": "12000",
+    "originalPrice": "13500",
+    "description": "أعلنت شركة شاومي عن هاتفها الاقتصادي الجديد الـ Xiaomi Redmi 17 4G الذي يأتي ببطارية كبيرة 7500 مللي أمبير مع شحن سريع 45 واط بالأضافة لتصميم شيك مع شاشة كبيرة 6.9 بوصة من نوع IPS تدعم معدل التحديث الـ 120Hz بالأضافة لمعالج ميدياتيك الاقتصادي Helio G91 Ultra مع كاميرا خلفية 50 ميجا بيكسل وسيلفي 8 ميجا بيكسل",
+    "img": "images/products/p530_0_j77bd2.jpg",
+    "imgs": [
+      "images/products/p530_0_j77bd2.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 529,
     "cat": "new",
