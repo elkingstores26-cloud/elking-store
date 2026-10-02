@@ -1,6 +1,116 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٢٢:٤٩ ص
+// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٣٥:٣٥ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 561,
+    "cat": "used",
+    "name": "samsung a15 k",
+    "storage": "6/128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "9000",
+    "originalPrice": "10000",
+    "description": "",
+    "img": "images/products/p561_0_28inu3.jpg",
+    "imgs": [
+      "images/products/p561_0_28inu3.jpg",
+      "images/products/p561_1_ic5noq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "جيد"
+  },
+  {
+    "id": 560,
+    "cat": "used",
+    "name": "samsung a35",
+    "storage": "8/256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "13000",
+    "originalPrice": "14500",
+    "description": "",
+    "img": "images/products/p560_0_28inu3.jpg",
+    "imgs": [
+      "images/products/p560_0_28inu3.jpg",
+      "images/products/p560_1_ic5noq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 559,
+    "cat": "used",
+    "name": "samsung a56",
+    "storage": "8/256",
+    "color": "أبيض",
+    "colorHex": "#f5f5f5",
+    "brand": "Samsung",
+    "price": "21500",
+    "originalPrice": "23000",
+    "description": "",
+    "img": "images/products/p559_0_tlv2r6.jpg",
+    "imgs": [
+      "images/products/p559_0_tlv2r6.jpg",
+      "images/products/p559_1_mjpq9z.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 558,
+    "cat": "used",
+    "name": "samsung a56 k",
+    "storage": "12/256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Samsung",
+    "price": "23000",
+    "originalPrice": "25000",
+    "description": "",
+    "img": "images/products/p558_0_j0eg63.jpg",
+    "imgs": [
+      "images/products/p558_0_j0eg63.jpg",
+      "images/products/p558_1_swv7xu.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 557,
+    "cat": "used",
+    "name": "samsung s25 ultra k",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Samsung",
+    "price": "55000",
+    "originalPrice": "57000",
+    "description": "",
+    "img": "images/products/p557_0_m38vru.jpg",
+    "imgs": [
+      "images/products/p557_0_m38vru.jpg",
+      "images/products/p557_1_v5yyp0.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
   {
     "id": 556,
     "cat": "used",
