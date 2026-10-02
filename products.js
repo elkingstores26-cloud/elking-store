@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٣٥:٣٥ ص
+// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٣٦:١٣ ص
 window.ELKING_PRODUCTS = [
   {
     "id": 561,
@@ -26,7 +26,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 560,
     "cat": "used",
-    "name": "samsung a35",
+    "name": "samsung a35 k",
     "storage": "8/256",
     "color": "أسود",
     "colorHex": "#0a0a0a",
@@ -48,7 +48,7 @@ window.ELKING_PRODUCTS = [
   {
     "id": 559,
     "cat": "used",
-    "name": "samsung a56",
+    "name": "samsung a56 k",
     "storage": "8/256",
     "color": "أبيض",
     "colorHex": "#f5f5f5",
