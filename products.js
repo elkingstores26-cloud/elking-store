@@ -1,6 +1,94 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٠٥:٣٨ ص
+// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:١٧:١٥ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 556,
+    "cat": "used",
+    "name": "iphone16pro max 256 k",
+    "storage": "256",
+    "color": "Titanium",
+    "colorHex": "#8e8e93",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "67500",
+    "description": "",
+    "img": "images/products/p556_0_f9twkk.jpg",
+    "imgs": [
+      "images/products/p556_0_f9twkk.jpg",
+      "images/products/p556_1_cuijpm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "92",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 555,
+    "cat": "used",
+    "name": "iphone16pro max 256 k",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "59000",
+    "originalPrice": "62000",
+    "description": "",
+    "img": "images/products/p555_0_rnc0zx.jpg",
+    "imgs": [
+      "images/products/p555_0_rnc0zx.jpg",
+      "images/products/p555_1_i0b65s.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "88",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 554,
+    "cat": "used",
+    "name": "iphone16 max 256 k",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "62000",
+    "originalPrice": "65000",
+    "description": "",
+    "img": "images/products/p554_0_8al4r6.jpg",
+    "imgs": [
+      "images/products/p554_0_8al4r6.jpg",
+      "images/products/p554_1_9iqgp8.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "89",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 553,
+    "cat": "used",
+    "name": "iphone16pro max 256 k",
+    "storage": "256",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "66500",
+    "originalPrice": "67000",
+    "description": "",
+    "img": "images/products/p553_0_3vmqun.jpg",
+    "imgs": [
+      "images/products/p553_0_3vmqun.jpg",
+      "images/products/p553_1_pzari1.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "94",
+    "condition": "ممتاز"
+  },
   {
     "id": 552,
     "cat": "used",
