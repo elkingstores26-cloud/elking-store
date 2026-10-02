@@ -1,6 +1,208 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٢‏/١٠‏/٢٠٢٦، ١:١٨:٤٢ ص
+// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٠٥:٣٨ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 552,
+    "cat": "used",
+    "name": "iphone16pro max 256 k",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "69000",
+    "originalPrice": "73000",
+    "description": "",
+    "img": "images/products/p552_0_8s5q22.jpg",
+    "imgs": [
+      "images/products/p552_0_8s5q22.jpg",
+      "images/products/p552_1_k9jwa9.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "99%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 551,
+    "cat": "used",
+    "name": "iphone15 128 k",
+    "storage": "128",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "36500",
+    "originalPrice": "39000",
+    "description": "",
+    "img": "images/products/p551_0_767fd2.jpg",
+    "imgs": [
+      "images/products/p551_0_767fd2.jpg",
+      "images/products/p551_1_u7hnf8.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "85%",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 550,
+    "cat": "used",
+    "name": "iphone14promax 256 k",
+    "storage": "256",
+    "color": "Deep Purple",
+    "colorHex": "#5e548e",
+    "brand": "Apple",
+    "price": "43000",
+    "originalPrice": "45000",
+    "description": "",
+    "img": "images/products/p550_0_z110rf.jpg",
+    "imgs": [
+      "images/products/p550_0_z110rf.jpg",
+      "images/products/p550_1_io7eue.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "81%",
+    "condition": "جيد"
+  },
+  {
+    "id": 549,
+    "cat": "used",
+    "name": "iphone 12 promax 256 k",
+    "storage": "256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "27000",
+    "originalPrice": "30000",
+    "description": "battry 75%\nfull box",
+    "img": "images/products/p549_0_wr64p1.jpg",
+    "imgs": [
+      "images/products/p549_0_wr64p1.jpg",
+      "images/products/p549_1_2pa4nc.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "75%",
+    "condition": "جيد"
+  },
+  {
+    "id": 548,
+    "cat": "used",
+    "name": "iphone 17 promax 256 k",
+    "storage": "256",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "8100",
+    "originalPrice": "85000",
+    "description": "94% battry\nfull box\norange",
+    "img": "images/products/p548_0_pl9dml.jpg",
+    "imgs": [
+      "images/products/p548_0_pl9dml.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "94",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 547,
+    "cat": "used",
+    "name": "iphone15plus 128 k",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Apple",
+    "price": "35000",
+    "originalPrice": "37000",
+    "description": "بحالة الزيرو \nعدد شحنات 59 شحنه",
+    "img": "images/products/p547_0_vmxwsq.jpg",
+    "imgs": [
+      "images/products/p547_0_vmxwsq.jpg",
+      "images/products/p547_1_e0m2vw.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 546,
+    "cat": "used",
+    "name": "iphone15 128 k",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Apple",
+    "price": "39000",
+    "originalPrice": "42000",
+    "description": "حاله ممتازه لا يوجد اى خدوش كرتونه كامله",
+    "img": "images/products/p546_0_m2zjpe.jpg",
+    "imgs": [
+      "images/products/p546_0_m2zjpe.jpg",
+      "images/products/p546_1_3a3urq.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "93",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 545,
+    "cat": "used",
+    "name": "iphone 17 promax 512 k",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "93000",
+    "originalPrice": "95000",
+    "description": "battry 99%  \n512g\nfull box",
+    "img": "images/products/p545_0_8o2dp4.jpg",
+    "imgs": [
+      "images/products/p545_0_8o2dp4.jpg",
+      "images/products/p545_1_spj6th.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "99",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 544,
+    "cat": "new",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "#0a0a0a",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#c46464",
+        "price": "",
+        "originalPrice": "",
+        "imgs": []
+      }
+    ],
+    "inStock": true,
+    "battery": "",
+    "condition": ""
+  },
   {
     "id": 543,
     "cat": "new",
