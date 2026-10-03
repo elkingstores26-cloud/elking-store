@@ -1,6 +1,54 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١١:٥٨:٥٠ م
+// آخر تحديث: ٤‏/١٠‏/٢٠٢٦، ١٢:٠٥:٤١ ص
 window.ELKING_PRODUCTS = [
+  {
+    "id": 587,
+    "cat": "used",
+    "name": "iphone17promax256 apm 1",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#736626",
+    "brand": "Apple",
+    "price": "5122",
+    "originalPrice": "988492",
+    "description": "njnnnm",
+    "img": "images/products/p587_0_ke429v.jpg",
+    "imgs": [
+      "images/products/p587_0_ke429v.jpg"
+    ],
+    "featured": false,
+    "variants": [
+      {
+        "color": "",
+        "colorHex": "#cb3434",
+        "price": "",
+        "originalPrice": "",
+        "imgs": [
+          "images/products/p587_v0_0_3coftm.jpg"
+        ]
+      }
+    ],
+    "inStock": true,
+    "battery": "90",
+    "condition": "جيد"
+  },
+  {
+    "id": 586,
+    "cat": "used",
+    "name": "",
+    "storage": "",
+    "color": "",
+    "colorHex": "",
+    "brand": "",
+    "price": "",
+    "originalPrice": "",
+    "description": "",
+    "img": "",
+    "imgs": [],
+    "featured": false,
+    "variants": [],
+    "inStock": true
+  },
   {
     "id": 585,
     "cat": "used",
