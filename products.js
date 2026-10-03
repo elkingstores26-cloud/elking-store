@@ -1,6 +1,510 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١٢:٤٥:٠٨ ص
+// آخر تحديث: ٣‏/١٠‏/٢٠٢٦، ١١:٥٨:٠٥ م
 window.ELKING_PRODUCTS = [
+  {
+    "id": 585,
+    "cat": "used",
+    "name": "honor magic 5pro s",
+    "storage": "16/512",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "HONOR",
+    "price": "25500",
+    "originalPrice": "27000",
+    "description": "",
+    "img": "images/products/p585_0_3coftm.jpg",
+    "imgs": [
+      "images/products/p585_0_3coftm.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 584,
+    "cat": "used",
+    "name": "samsung a35 s",
+    "storage": "8/256",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Samsung",
+    "price": "15000",
+    "originalPrice": "16500",
+    "description": "",
+    "img": "images/products/p584_0_g7un5v.jpg",
+    "imgs": [
+      "images/products/p584_0_g7un5v.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 583,
+    "cat": "used",
+    "name": "oppo a6pro 4g s",
+    "storage": "8/256",
+    "color": "أحمر",
+    "colorHex": "#dc2626",
+    "brand": "oppo",
+    "price": "15500",
+    "originalPrice": "17000",
+    "description": "",
+    "img": "images/products/p583_0_ke429v.jpg",
+    "imgs": [
+      "images/products/p583_0_ke429v.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 582,
+    "cat": "used",
+    "name": "samsung a36 s",
+    "storage": "8/256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Samsung",
+    "price": "17500",
+    "originalPrice": "19000",
+    "description": "",
+    "img": "images/products/p582_0_7se60p.jpg",
+    "imgs": [
+      "images/products/p582_0_7se60p.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 581,
+    "cat": "used",
+    "name": "samsung a56 s",
+    "storage": "8/256",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "22500",
+    "originalPrice": "23500",
+    "description": "",
+    "img": "images/products/p581_0_q2t8q4.jpg",
+    "imgs": [
+      "images/products/p581_0_q2t8q4.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 580,
+    "cat": "used",
+    "name": "iphone17pro max 256 s",
+    "storage": "256",
+    "color": "فضي",
+    "colorHex": "#c0c0c0",
+    "brand": "Apple",
+    "price": "80000",
+    "originalPrice": "85000",
+    "description": "",
+    "img": "images/products/p580_0_7sh5uh.jpg",
+    "imgs": [
+      "images/products/p580_0_7sh5uh.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "99",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 579,
+    "cat": "used",
+    "name": "samsung s25 ultra s",
+    "storage": "256",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Samsung",
+    "price": "58000",
+    "originalPrice": "60000",
+    "description": "active",
+    "img": "images/products/p579_0_sk4pj3.jpg",
+    "imgs": [
+      "images/products/p579_0_sk4pj3.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 578,
+    "cat": "used",
+    "name": "iphone13 128 s",
+    "storage": "",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "28000",
+    "originalPrice": "29000",
+    "description": "",
+    "img": "images/products/p578_0_y99sib.jpg",
+    "imgs": [
+      "images/products/p578_0_y99sib.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "86",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 577,
+    "cat": "used",
+    "name": "iphone13 128  s",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "29000",
+    "originalPrice": "31000",
+    "description": "",
+    "img": "images/products/p577_0_y99sib.jpg",
+    "imgs": [
+      "images/products/p577_0_y99sib.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "88",
+    "condition": "جيد"
+  },
+  {
+    "id": 576,
+    "cat": "used",
+    "name": "iphone13 128 s",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "30000",
+    "originalPrice": "32000",
+    "description": "",
+    "img": "images/products/p576_0_y99sib.jpg",
+    "imgs": [
+      "images/products/p576_0_y99sib.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "92",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 575,
+    "cat": "used",
+    "name": "iphone13 128 s",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "27000",
+    "originalPrice": "28500",
+    "description": "",
+    "img": "images/products/p575_0_y99sib.jpg",
+    "imgs": [
+      "images/products/p575_0_y99sib.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 574,
+    "cat": "used",
+    "name": "iphone14 128 s",
+    "storage": "128",
+    "color": "أزرق",
+    "colorHex": "#1e40af",
+    "brand": "Apple",
+    "price": "29000",
+    "originalPrice": "31000",
+    "description": "",
+    "img": "images/products/p574_0_51l2or.jpg",
+    "imgs": [
+      "images/products/p574_0_51l2or.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "78",
+    "condition": "جيد"
+  },
+  {
+    "id": 573,
+    "cat": "used",
+    "name": "iphone14 128 s",
+    "storage": "128",
+    "color": "Iceblue",
+    "colorHex": "#a0cfec",
+    "brand": "Apple",
+    "price": "30000",
+    "originalPrice": "33000",
+    "description": "",
+    "img": "images/products/p573_0_5ysidh.jpg",
+    "imgs": [
+      "images/products/p573_0_5ysidh.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "85",
+    "condition": "جيد"
+  },
+  {
+    "id": 572,
+    "cat": "used",
+    "name": "iphone17 256 s",
+    "storage": "256",
+    "color": "أخضر",
+    "colorHex": "#16a34a",
+    "brand": "Apple",
+    "price": "65000",
+    "originalPrice": "67000",
+    "description": "عدد الشحنات 60",
+    "img": "images/products/p572_0_d5r38h.jpg",
+    "imgs": [
+      "images/products/p572_0_d5r38h.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 571,
+    "cat": "used",
+    "name": "iphone 15 128 s",
+    "storage": "128",
+    "color": "أسود",
+    "colorHex": "#0a0a0a",
+    "brand": "Apple",
+    "price": "34000",
+    "originalPrice": "36000",
+    "description": "",
+    "img": "images/products/p571_0_qb0226.jpg",
+    "imgs": [
+      "images/products/p571_0_qb0226.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "82",
+    "condition": "جيد"
+  },
+  {
+    "id": 570,
+    "cat": "used",
+    "name": "iphone 16 pro max 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "60000",
+    "originalPrice": "63000",
+    "description": "عدد الشحنات 574 شحنه",
+    "img": "images/products/p570_0_8h1nb5.jpg",
+    "imgs": [
+      "images/products/p570_0_8h1nb5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91",
+    "condition": "جيد"
+  },
+  {
+    "id": 569,
+    "cat": "used",
+    "name": "iphone 16 pro max 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "64000",
+    "originalPrice": "66000",
+    "description": "عدد الشحنات 513 شحنه",
+    "img": "images/products/p569_0_8h1nb5.jpg",
+    "imgs": [
+      "images/products/p569_0_8h1nb5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 568,
+    "cat": "used",
+    "name": "iphone 16 pro max 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "63000",
+    "originalPrice": "65000",
+    "description": "",
+    "img": "images/products/p568_0_8h1nb5.jpg",
+    "imgs": [
+      "images/products/p568_0_8h1nb5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "91",
+    "condition": "جيد"
+  },
+  {
+    "id": 567,
+    "cat": "used",
+    "name": "iphone 16 pro max 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "68000",
+    "originalPrice": "70000",
+    "description": "عدد الشحنات 184",
+    "img": "images/products/p567_0_8h1nb5.jpg",
+    "imgs": [
+      "images/products/p567_0_8h1nb5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "97",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 566,
+    "cat": "used",
+    "name": "iphone16promax 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "70000",
+    "originalPrice": "73000",
+    "description": "عدد الشحنات 79",
+    "img": "images/products/p566_0_o2f1l7.jpg",
+    "imgs": [
+      "images/products/p566_0_o2f1l7.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 565,
+    "cat": "used",
+    "name": "iphone17promax 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "86000",
+    "originalPrice": "89000",
+    "description": "عدد 22 شحنه",
+    "img": "images/products/p565_0_gs57gk.jpg",
+    "imgs": [
+      "images/products/p565_0_gs57gk.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 564,
+    "cat": "used",
+    "name": "iphone17promax 256 s",
+    "storage": "256",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "86000",
+    "originalPrice": "89000",
+    "description": "عدد 86 شحنه",
+    "img": "images/products/p564_0_c3rg2i.jpg",
+    "imgs": [
+      "images/products/p564_0_c3rg2i.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 563,
+    "cat": "used",
+    "name": "iphone17promax 256 s",
+    "storage": "98",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "80000",
+    "originalPrice": "84000",
+    "description": "",
+    "img": "images/products/p563_0_kmw557.jpg",
+    "imgs": [
+      "images/products/p563_0_kmw557.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "98",
+    "condition": "ممتاز"
+  },
+  {
+    "id": 562,
+    "cat": "used",
+    "name": "iphone17promax 512 s",
+    "storage": "512",
+    "color": "ذهبي",
+    "colorHex": "#d4af37",
+    "brand": "Apple",
+    "price": "95000",
+    "originalPrice": "97000",
+    "description": "عدد 5 شحنات",
+    "img": "images/products/p562_0_flqah5.jpg",
+    "imgs": [
+      "images/products/p562_0_flqah5.jpg"
+    ],
+    "featured": false,
+    "variants": [],
+    "inStock": true,
+    "battery": "100",
+    "condition": "ممتاز"
+  },
   {
     "id": 561,
     "cat": "used",
