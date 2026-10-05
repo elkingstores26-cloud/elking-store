@@ -1,5 +1,5 @@
 // El King Store — shared product catalog
-// آخر تحديث: ٤‏/١٠‏/٢٠٢٦، ١٢:٠٥:٤١ ص
+// آخر تحديث: ٥‏/١٠‏/٢٠٢٦، ٥:٠٦:٠٠ م
 window.ELKING_PRODUCTS = [
   {
     "id": 587,
@@ -446,27 +446,6 @@ window.ELKING_PRODUCTS = [
     "variants": [],
     "inStock": true,
     "battery": "97",
-    "condition": "ممتاز"
-  },
-  {
-    "id": 566,
-    "cat": "used",
-    "name": "iphone16promax 256 s",
-    "storage": "256",
-    "color": "ذهبي",
-    "colorHex": "#d4af37",
-    "brand": "Apple",
-    "price": "70000",
-    "originalPrice": "73000",
-    "description": "عدد الشحنات 79",
-    "img": "images/products/p566_0_o2f1l7.jpg",
-    "imgs": [
-      "images/products/p566_0_o2f1l7.jpg"
-    ],
-    "featured": false,
-    "variants": [],
-    "inStock": true,
-    "battery": "100",
     "condition": "ممتاز"
   },
   {
